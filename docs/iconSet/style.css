@@ -1,0 +1,31 @@
+i.ri {
+  position: relative;
+  width: 1em;
+  height: 1em;
+}
+
+[class^="ri ri-"]::before {
+  content: "";
+  position: absolute;
+  background-color: currentColor;
+  -webkit-mask-size: contain;
+          mask-size: contain;
+  -webkit-mask-repeat: no-repeat;
+          mask-repeat: no-repeat;
+  -webkit-mask-position: center;
+          mask-position: center;
+  width: 1em;
+  height: 1em;
+  left: 0;
+}
+
+.ri.ri-search::before {
+  -webkit-mask-image: url("./svg/search.svg");
+          mask-image: url("./svg/search.svg");
+}
+
+.ri.ri-home::before {
+  -webkit-mask-image: url("./svg/home.svg");
+          mask-image: url("./svg/home.svg");
+}
+/*# sourceMappingURL=style.css.map */

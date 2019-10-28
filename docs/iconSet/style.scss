@@ -1,0 +1,23 @@
+i.ri {
+  position: relative;
+  width: 1em;
+  height: 1em;
+}
+[class^="ri ri-"]::before {
+  content: "";
+  position: absolute;
+  background-color: currentColor;
+  mask-size: contain;
+  mask-repeat: no-repeat;
+  mask-position: center;
+  width: 1em;
+  height: 1em;
+  left: 0;
+}
+.ri.ri-search::before {
+  mask-image: url("./svg/search.svg");
+}
+
+.ri.ri-home::before {
+  mask-image: url("./svg/home.svg");
+}
