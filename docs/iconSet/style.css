@@ -19,13 +19,123 @@ i.ri {
   left: 0;
 }
 
+.ri.ri-dislike::before {
+  -webkit-mask-image: url("./svg/dislike.svg");
+          mask-image: url("./svg/dislike.svg");
+}
+
+.ri.ri-remove::before {
+  -webkit-mask-image: url("./svg/remove.svg");
+          mask-image: url("./svg/remove.svg");
+}
+
+.ri.ri-list::before {
+  -webkit-mask-image: url("./svg/list.svg");
+          mask-image: url("./svg/list.svg");
+}
+
+.ri.ri-feedback::before {
+  -webkit-mask-image: url("./svg/feedback.svg");
+          mask-image: url("./svg/feedback.svg");
+}
+
+.ri.ri-delete::before {
+  -webkit-mask-image: url("./svg/delete.svg");
+          mask-image: url("./svg/delete.svg");
+}
+
+.ri.ri-reply::before {
+  -webkit-mask-image: url("./svg/reply.svg");
+          mask-image: url("./svg/reply.svg");
+}
+
+.ri.ri-share::before {
+  -webkit-mask-image: url("./svg/share.svg");
+          mask-image: url("./svg/share.svg");
+}
+
+.ri.ri-questionmark::before {
+  -webkit-mask-image: url("./svg/questionmark.svg");
+          mask-image: url("./svg/questionmark.svg");
+}
+
+.ri.ri-logout::before {
+  -webkit-mask-image: url("./svg/logout.svg");
+          mask-image: url("./svg/logout.svg");
+}
+
+.ri.ri-login::before {
+  -webkit-mask-image: url("./svg/login.svg");
+          mask-image: url("./svg/login.svg");
+}
+
 .ri.ri-search::before {
   -webkit-mask-image: url("./svg/search.svg");
           mask-image: url("./svg/search.svg");
 }
 
+.ri.ri-like::before {
+  -webkit-mask-image: url("./svg/like.svg");
+          mask-image: url("./svg/like.svg");
+}
+
+.ri.ri-save::before {
+  -webkit-mask-image: url("./svg/save.svg");
+          mask-image: url("./svg/save.svg");
+}
+
+.ri.ri-add::before {
+  -webkit-mask-image: url("./svg/add.svg");
+          mask-image: url("./svg/add.svg");
+}
+
+.ri.ri-review::before {
+  -webkit-mask-image: url("./svg/review.svg");
+          mask-image: url("./svg/review.svg");
+}
+
 .ri.ri-home::before {
   -webkit-mask-image: url("./svg/home.svg");
           mask-image: url("./svg/home.svg");
+}
+
+.ri.ri-admin::before {
+  -webkit-mask-image: url("./svg/admin.svg");
+          mask-image: url("./svg/admin.svg");
+}
+
+.ri.ri-info::before {
+  -webkit-mask-image: url("./svg/info.svg");
+          mask-image: url("./svg/info.svg");
+}
+
+.ri.ri-error::before {
+  -webkit-mask-image: url("./svg/error.svg");
+          mask-image: url("./svg/error.svg");
+}
+
+.ri.ri-success::before {
+  -webkit-mask-image: url("./svg/success.svg");
+          mask-image: url("./svg/success.svg");
+}
+
+.ri.ri-arrow::before {
+  -webkit-mask-image: url("./svg/arrow.svg");
+          mask-image: url("./svg/arrow.svg");
+}
+
+.ri.ri-user::before {
+  -webkit-mask-image: url("./svg/user.svg");
+          mask-image: url("./svg/user.svg");
+}
+
+.ri.ri-user-active::before {
+  -webkit-mask-image: url("./svg/user-active.svg");
+          mask-image: url("./svg/user-active.svg");
+}
+
+.ri.ri-user-inactive::before {
+  -webkit-mask-image: url("./svg/user-ainctive.svg");
+          mask-image: url("./svg/user-ainctive.svg");
 }
 /*# sourceMappingURL=style.css.map */

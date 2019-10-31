@@ -1,0 +1,15 @@
+<svg xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" width="100" height="100" viewBox="0 0 100 100">
+  <defs>
+    <clipPath id="clip-delete">
+      <rect width="100" height="100"/>
+    </clipPath>
+  </defs>
+  <g id="delete" clip-path="url(#clip-delete)">
+    <path id="Pfad_11" data-name="Pfad 11" d="M205.558,646.735h44.461L255.576,572H200Z" transform="translate(-178.467 -550.491)" fill="rgba(0,0,0,0.5)" stroke="#000" stroke-linejoin="round" stroke-width="6"/>
+    <line id="Linie_1" data-name="Linie 1" x2="58.37" transform="translate(20 15)" fill="none" stroke="#000" stroke-linecap="round" stroke-width="5"/>
+    <path id="Rechteck_34" data-name="Rechteck 34" d="M6.794,0h0a6.794,6.794,0,0,1,6.794,6.794v0a0,0,0,0,1,0,0H0a0,0,0,0,1,0,0v0A6.794,6.794,0,0,1,6.794,0Z" transform="translate(43.206 3.756)" stroke="#000" stroke-linecap="round" stroke-width="2"/>
+    <line id="Linie_2" data-name="Linie 2" y2="53.382" transform="translate(49.433 32.185)" fill="none" stroke="#000" stroke-linecap="round" stroke-width="4"/>
+    <line id="Linie_3" data-name="Linie 3" x1="0.541" y2="53.315" transform="translate(62.5 32.185)" fill="none" stroke="#000" stroke-linecap="round" stroke-width="4"/>
+    <line id="Linie_4" data-name="Linie 4" x2="1.675" y2="53.315" transform="translate(35.825 32.185)" fill="none" stroke="#000" stroke-linecap="round" stroke-width="4"/>
+  </g>
+</svg>

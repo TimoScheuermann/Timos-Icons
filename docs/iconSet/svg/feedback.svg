@@ -1,0 +1,27 @@
+<svg xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" width="100" height="100" viewBox="0 0 100 100">
+  <defs>
+    <linearGradient id="linear-gradient" x1="0.5" x2="0.5" y2="1" gradientUnits="objectBoundingBox">
+      <stop offset="0"/>
+      <stop offset="0.179"/>
+      <stop offset="0.204" stop-opacity="0"/>
+      <stop offset="1" stop-opacity="0"/>
+    </linearGradient>
+    <clipPath id="clip-feedback">
+      <rect width="100" height="100"/>
+    </clipPath>
+  </defs>
+  <g id="feedback" clip-path="url(#clip-feedback)">
+    <g id="Gruppe_3" data-name="Gruppe 3" transform="matrix(-0.53, -0.848, 0.848, -0.53, 24.921, 118.601)">
+      <g id="Rechteck_35" data-name="Rechteck 35" transform="translate(35 23.6)" fill="rgba(0,0,0,0.5)" stroke="#000" stroke-width="3">
+        <path d="M1,0H15.63a1,1,0,0,1,1,1V81.369a4,4,0,0,1-4,4H4a4,4,0,0,1-4-4V1A1,1,0,0,1,1,0Z" stroke="none"/>
+        <path d="M2,1.5H14.63a.5.5,0,0,1,.5.5V81.369a2.5,2.5,0,0,1-2.5,2.5H4a2.5,2.5,0,0,1-2.5-2.5V2A.5.5,0,0,1,2,1.5Z" fill="none"/>
+      </g>
+      <line id="Linie_5" data-name="Linie 5" x2="15.522" transform="translate(35.554 98.436)" fill="none" stroke="#000" stroke-width="3"/>
+      <rect id="Rechteck_36" data-name="Rechteck 36" width="12" height="7" transform="translate(37.259 99.082)"/>
+      <path id="Polygon_1" data-name="Polygon 1" d="M7.066,2.453a1,1,0,0,1,1.869,0l6.549,17.191A1,1,0,0,1,14.549,21H1.451a1,1,0,0,1-.934-1.356Z" transform="translate(35.259 2.082)" fill="rgba(0,0,0,0.5)"/>
+      <path id="Polygon_2" data-name="Polygon 2" d="M8,0l8,21H0Z" transform="translate(35.259 2.082)" fill="url(#linear-gradient)"/>
+      <line id="Linie_6" data-name="Linie 6" y1="64" transform="translate(40.759 29.582)" fill="none" stroke="#000" stroke-linecap="round" stroke-width="1"/>
+      <line id="Linie_7" data-name="Linie 7" y1="64" transform="translate(45.759 29.582)" fill="none" stroke="#000" stroke-linecap="round" stroke-width="1"/>
+    </g>
+  </g>
+</svg>

@@ -33,34 +33,46 @@
       <h1>Icon Database</h1>
       <p>Click to copy embed code for fast and easy use in your own Website!</p>
 
-      <div class="icons">
-        <div class="icon">
-          <h3>Search</h3>
-          <i class="ri ri-search"></i>
-          <div class="copy">Click to copy</div>
-        </div>
-        <div class="icon">
-          <h3>Home</h3>
-          <div class="display">
-            <i class="ri ri-home"></i>
-          </div>
-          <div class="copy">Click to copy</div>
-        </div>
-        <div class="icon">
-          <h3>Search</h3>
-          <div class="display">
-            <i class="ri ri-search"></i>
-          </div>
-          <div class="copy">Click to copy</div>
-        </div>
-        <div class="icon">
-          <h3>Search</h3>
-          <div class="display">
-            <i class="ri ri-search"></i>
-          </div>
-          <div class="copy">Click to copy</div>
-        </div>
-      </div>
+      <div class="icons" id="icons"></div>
     </div>
   </body>
+
+  <script>
+    const icons = [
+      "add",
+      "arrow",
+      "admin",
+      "delete",
+      "dislike",
+      "error",
+      "feedback",
+      "home",
+      "info",
+      "like",
+      "list",
+      "login",
+      "logout",
+      "questionmark",
+      "remove",
+      "reply",
+      "review",
+      "save",
+      "search",
+      "share",
+      "success",
+      "user",
+      "user-active",
+      "user-inactive"
+    ];
+
+    const box = document.getElementById("icons");
+    for (let i of icons) {
+      box.innerHTML +=
+        "<div class='icon'><h3>" +
+        i.toUpperCase() +
+        "</h3><div class='display'><i class='ri ri-" +
+        i +
+        "'></i></div><div class='copy'>Click to copy</div></div>";
+    }
+  </script>
 </html>

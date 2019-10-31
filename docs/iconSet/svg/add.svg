@@ -1,0 +1,14 @@
+<svg xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" width="100" height="100" viewBox="0 0 100 100">
+  <defs>
+    <clipPath id="clip-add">
+      <rect width="100" height="100"/>
+    </clipPath>
+  </defs>
+  <g id="add" clip-path="url(#clip-add)">
+    <rect id="Rechteck_40" data-name="Rechteck 40" width="50" height="50" rx="5" transform="translate(12 38)" fill="rgba(0,0,0,0.33)"/>
+    <rect id="Rechteck_41" data-name="Rechteck 41" width="6" height="32" rx="3" transform="translate(34 47)"/>
+    <rect id="Rechteck_42" data-name="Rechteck 42" width="6" height="32" rx="3" transform="translate(53 60) rotate(90)"/>
+    <path id="Vereinigungsmenge_1" data-name="Vereinigungsmenge 1" d="M-130-141v-35h-35a5,5,0,0,1-5-5,5,5,0,0,1,5-5h40a5,5,0,0,1,5,5v40a5,5,0,0,1-5,5A5,5,0,0,1-130-141Z" transform="translate(195 211)" fill="rgba(0,0,0,0.66)"/>
+    <path id="Vereinigungsmenge_2" data-name="Vereinigungsmenge 2" d="M-130-141v-35h-35a5,5,0,0,1-5-5,5,5,0,0,1,5-5h40a5,5,0,0,1,5,5v40a5,5,0,0,1-5,5A5,5,0,0,1-130-141Z" transform="translate(208 198)"/>
+  </g>
+</svg>
