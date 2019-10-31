@@ -63,6 +63,7 @@ body {
   -o-transition: 0.2s ease;
   transition: 0.2s ease;
   cursor: pointer;
+  text-decoration: none;
 }
 
 .nav .items .item:hover {
@@ -133,6 +134,23 @@ body {
   margin-top: 10px;
 }
 
+.paragraph a {
+  color: #08f;
+  text-decoration: none;
+  -webkit-transition: 0.2s ease;
+  -o-transition: 0.2s ease;
+  transition: 0.2s ease;
+}
+
+.paragraph a:hover {
+  -webkit-box-shadow: 0px 1px #08f;
+          box-shadow: 0px 1px #08f;
+}
+
+.paragraph a i {
+  margin-right: 20px;
+}
+
 .icons {
   display: -webkit-box;
   display: -webkit-flex;
@@ -194,5 +212,20 @@ body {
   opacity: 0.7;
   font-weight: 500;
   margin: 5px 0px;
+}
+
+code {
+  background: rgba(0, 0, 0, 0.1);
+  padding: 5px 10px;
+  border-radius: 5px;
+}
+
+.splitter {
+  width: calc(100% - 200px);
+  padding: 0px 100px;
+  height: 1px;
+  background: #ccc;
+  margin: 10px 0px;
+  margin-top: 110px;
 }
 /*# sourceMappingURL=style.css.map */

@@ -1,0 +1,21 @@
+<svg xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" width="100" height="100" viewBox="0 0 100 100">
+  <defs>
+    <clipPath id="clip-logout">
+      <rect width="100" height="100"/>
+    </clipPath>
+  </defs>
+  <g id="logout" clip-path="url(#clip-logout)">
+    <g id="Box" transform="translate(102.5 -4) rotate(90)">
+      <path id="Rechteck_13" data-name="Rechteck 13" d="M2,0H8.262a2,2,0,0,1,2,2V40.476a0,0,0,0,1,0,0H0a0,0,0,0,1,0,0V2A2,2,0,0,1,2,0Z" transform="translate(19 40.262)" fill="rgba(0,0,0,0.5)"/>
+      <rect id="Rechteck_14" data-name="Rechteck 14" width="10.262" height="49.476" transform="translate(78.738 80.738) rotate(90)" fill="rgba(0,0,0,0.5)"/>
+      <path id="Rechteck_15" data-name="Rechteck 15" d="M2,0H8.262a2,2,0,0,1,2,2V40.476a0,0,0,0,1,0,0H0a0,0,0,0,1,0,0V2A2,2,0,0,1,2,0Z" transform="translate(78.738 40.262)" fill="rgba(0,0,0,0.5)"/>
+      <path id="Rechteck_18" data-name="Rechteck 18" d="M0,0H10.262a0,0,0,0,1,0,0V0A10.262,10.262,0,0,1,0,10.262H0a0,0,0,0,1,0,0V0A0,0,0,0,1,0,0Z" transform="translate(78.738 80.738)" fill="rgba(0,0,0,0.5)"/>
+      <path id="Rechteck_19" data-name="Rechteck 19" d="M0,0H10.262a0,0,0,0,1,0,0V0A10.262,10.262,0,0,1,0,10.262H0a0,0,0,0,1,0,0V0A0,0,0,0,1,0,0Z" transform="translate(29.262 80.738) rotate(90)" fill="rgba(0,0,0,0.5)"/>
+    </g>
+    <path id="Pfad_30" data-name="Pfad 30" d="M205,418h50l-15-14,15,14-15,14,15-14Z" transform="translate(-166.5 -368)" fill="none" stroke="#000" stroke-linecap="round" stroke-linejoin="round" stroke-width="10"/>
+	<animateMotion xlink:href="#Pfad_30" 
+		path="M-5,0 l10,0 l-10,0"
+		begin="0s" dur="1.5s" repeatCount="indefinite"
+	/>
+  </g>
+</svg>
