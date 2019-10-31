@@ -147,6 +147,12 @@ i.ti {
   mask-image: url("./svg/at.svg");
 }
 
+.ti.ti-hashtag::before {
+  mask-image: url("./svg/hashtag.svg");
+}
+
+// ==================================================================
+
 .ti.ti-facebook::before {
   mask-image: url("./svg/facebook.svg");
 }

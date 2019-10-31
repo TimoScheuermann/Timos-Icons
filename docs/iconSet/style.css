@@ -194,6 +194,11 @@ i.ti {
           mask-image: url("./svg/at.svg");
 }
 
+.ti.ti-hashtag::before {
+  -webkit-mask-image: url("./svg/hashtag.svg");
+          mask-image: url("./svg/hashtag.svg");
+}
+
 .ti.ti-facebook::before {
   -webkit-mask-image: url("./svg/facebook.svg");
           mask-image: url("./svg/facebook.svg");
