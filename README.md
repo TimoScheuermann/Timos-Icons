@@ -15,12 +15,6 @@
 
 ### ✨ [Demo](https://timoscheuermann.github.io/Timos-Icons/)
 
-## Install
-
-```sh
-npm install
-```
-
 ## Usage
 
 ```sh
@@ -45,6 +39,3 @@ Give a ⭐️ if this project helped you!
 
 Copyright © 2019 [Timo Scheuermann](https://github.com/timoscheuermann).<br />
 This project is [The Unlicense](https://choosealicense.com/licenses/unlicense/) licensed.
-
-***
-_This README was generated with ❤️ by [readme-md-generator](https://github.com/kefranabg/readme-md-generator)_
