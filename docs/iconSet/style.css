@@ -34,7 +34,7 @@ i.ti {
           mask-image: url("./svg/list.svg");
 }
 
-.ti.ti-list:hover::before {
+*:hover > .ti.ti-list::before {
   -webkit-mask-image: url("./svg/list_animated.svg");
           mask-image: url("./svg/list_animated.svg");
 }
@@ -59,7 +59,7 @@ i.ti {
           mask-image: url("./svg/share.svg");
 }
 
-.ti.ti-share:hover::before {
+*:hover > .ti.ti-share::before {
   -webkit-mask-image: url("./svg/share_animated.svg");
           mask-image: url("./svg/share_animated.svg");
 }
@@ -74,7 +74,7 @@ i.ti {
           mask-image: url("./svg/logout.svg");
 }
 
-.ti.ti-logout:hover::before {
+*:hover > .ti.ti-logout::before {
   -webkit-mask-image: url("./svg/logout_animated.svg");
           mask-image: url("./svg/logout_animated.svg");
 }
@@ -84,7 +84,7 @@ i.ti {
           mask-image: url("./svg/login.svg");
 }
 
-.ti.ti-login:hover::before {
+*:hover > .ti.ti-login::before {
   -webkit-mask-image: url("./svg/login_animated.svg");
           mask-image: url("./svg/login_animated.svg");
 }
@@ -94,7 +94,7 @@ i.ti {
           mask-image: url("./svg/search.svg");
 }
 
-.ti.ti-search:hover::before {
+*:hover > .ti.ti-search::before {
   -webkit-mask-image: url("./svg/search_animated.svg");
           mask-image: url("./svg/search_animated.svg");
 }
@@ -104,7 +104,7 @@ i.ti {
           mask-image: url("./svg/like.svg");
 }
 
-.ti.ti-like:hover::before {
+*:hover > .ti.ti-like::before {
   -webkit-mask-image: url("./svg/like_animated.svg");
           mask-image: url("./svg/like_animated.svg");
 }
@@ -119,7 +119,7 @@ i.ti {
           mask-image: url("./svg/add.svg");
 }
 
-.ti.ti-add:hover::before {
+*:hover > .ti.ti-add::before {
   -webkit-mask-image: url("./svg/add_animated.svg");
           mask-image: url("./svg/add_animated.svg");
 }
@@ -139,7 +139,7 @@ i.ti {
           mask-image: url("./svg/admin.svg");
 }
 
-.ti.ti-admin:hover::before {
+*:hover > .ti.ti-admin::before {
   -webkit-mask-image: url("./svg/admin_animated.svg");
           mask-image: url("./svg/admin_animated.svg");
 }
