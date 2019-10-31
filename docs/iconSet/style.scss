@@ -108,5 +108,49 @@ i.ri {
 }
 
 .ri.ri-user-inactive::before {
-  mask-image: url("./svg/user-ainctive.svg");
+  mask-image: url("./svg/user-inactive.svg");
+}
+
+.ri.ri-users::before {
+  mask-image: url("./svg/users.svg");
+}
+
+.ri.ri-book::before {
+  mask-image: url("./svg/book.svg");
+}
+
+.ri.ri-at::before {
+  mask-image: url("./svg/at.svg");
+}
+
+.ri.ri-facebook::before {
+  mask-image: url("./svg/facebook.svg");
+}
+
+.ri.ri-twitter::before {
+  mask-image: url("./svg/twitter.svg");
+}
+
+.ri.ri-instagram::before {
+  mask-image: url("./svg/instagram.svg");
+}
+
+.ri.ri-youtube::before {
+  mask-image: url("./svg/youtube.svg");
+}
+
+.ri.ri-telegram::before {
+  mask-image: url("./svg/telegram.svg");
+}
+
+.ri.ri-apple::before {
+  mask-image: url("./svg/apple.svg");
+}
+
+.ri.ri-google::before {
+  mask-image: url("./svg/google.svg");
+}
+
+.ri.ri-github::before {
+  mask-image: url("./svg/github.svg");
 }

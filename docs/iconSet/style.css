@@ -135,7 +135,62 @@ i.ri {
 }
 
 .ri.ri-user-inactive::before {
-  -webkit-mask-image: url("./svg/user-ainctive.svg");
-          mask-image: url("./svg/user-ainctive.svg");
+  -webkit-mask-image: url("./svg/user-inactive.svg");
+          mask-image: url("./svg/user-inactive.svg");
+}
+
+.ri.ri-users::before {
+  -webkit-mask-image: url("./svg/users.svg");
+          mask-image: url("./svg/users.svg");
+}
+
+.ri.ri-book::before {
+  -webkit-mask-image: url("./svg/book.svg");
+          mask-image: url("./svg/book.svg");
+}
+
+.ri.ri-at::before {
+  -webkit-mask-image: url("./svg/at.svg");
+          mask-image: url("./svg/at.svg");
+}
+
+.ri.ri-facebook::before {
+  -webkit-mask-image: url("./svg/facebook.svg");
+          mask-image: url("./svg/facebook.svg");
+}
+
+.ri.ri-twitter::before {
+  -webkit-mask-image: url("./svg/twitter.svg");
+          mask-image: url("./svg/twitter.svg");
+}
+
+.ri.ri-instagram::before {
+  -webkit-mask-image: url("./svg/instagram.svg");
+          mask-image: url("./svg/instagram.svg");
+}
+
+.ri.ri-youtube::before {
+  -webkit-mask-image: url("./svg/youtube.svg");
+          mask-image: url("./svg/youtube.svg");
+}
+
+.ri.ri-telegram::before {
+  -webkit-mask-image: url("./svg/telegram.svg");
+          mask-image: url("./svg/telegram.svg");
+}
+
+.ri.ri-apple::before {
+  -webkit-mask-image: url("./svg/apple.svg");
+          mask-image: url("./svg/apple.svg");
+}
+
+.ri.ri-google::before {
+  -webkit-mask-image: url("./svg/google.svg");
+          mask-image: url("./svg/google.svg");
+}
+
+.ri.ri-github::before {
+  -webkit-mask-image: url("./svg/github.svg");
+          mask-image: url("./svg/github.svg");
 }
 /*# sourceMappingURL=style.css.map */

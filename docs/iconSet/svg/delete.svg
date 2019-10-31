@@ -5,11 +5,11 @@
     </clipPath>
   </defs>
   <g id="delete" clip-path="url(#clip-delete)">
-    <path id="Pfad_11" data-name="Pfad 11" d="M205.558,646.735h44.461L255.576,572H200Z" transform="translate(-178.467 -550.491)" fill="rgba(0,0,0,0.5)" stroke="#000" stroke-linejoin="round" stroke-width="6"/>
-    <line id="Linie_1" data-name="Linie 1" x2="58.37" transform="translate(20 15)" fill="none" stroke="#000" stroke-linecap="round" stroke-width="5"/>
-    <path id="Rechteck_34" data-name="Rechteck 34" d="M6.794,0h0a6.794,6.794,0,0,1,6.794,6.794v0a0,0,0,0,1,0,0H0a0,0,0,0,1,0,0v0A6.794,6.794,0,0,1,6.794,0Z" transform="translate(43.206 3.756)" stroke="#000" stroke-linecap="round" stroke-width="2"/>
-    <line id="Linie_2" data-name="Linie 2" y2="53.382" transform="translate(49.433 32.185)" fill="none" stroke="#000" stroke-linecap="round" stroke-width="4"/>
-    <line id="Linie_3" data-name="Linie 3" x1="0.541" y2="53.315" transform="translate(62.5 32.185)" fill="none" stroke="#000" stroke-linecap="round" stroke-width="4"/>
-    <line id="Linie_4" data-name="Linie 4" x2="1.675" y2="53.315" transform="translate(35.825 32.185)" fill="none" stroke="#000" stroke-linecap="round" stroke-width="4"/>
+    <path id="base" d="M0,0H50a0,0,0,0,1,0,0V70a5,5,0,0,1-5,5H5a5,5,0,0,1-5-5V0A0,0,0,0,1,0,0Z" transform="translate(25 17)" fill="rgba(0,0,0,0.33)"/>
+    <line id="Linie_8" data-name="Linie 8" y1="50" transform="translate(50 27)" fill="none" stroke="#000" stroke-linecap="round" stroke-width="3"/>
+    <line id="Linie_9" data-name="Linie 9" y1="50" transform="translate(37 27)" fill="none" stroke="#000" stroke-linecap="round" stroke-width="3"/>
+    <line id="Linie_10" data-name="Linie 10" y1="50" transform="translate(63 27)" fill="none" stroke="#000" stroke-linecap="round" stroke-width="3"/>
+    <rect id="Rechteck_52" data-name="Rechteck 52" width="57" height="7" rx="2" transform="translate(21.5 10)"/>
+    <path id="Pfad_25" data-name="Pfad 25" d="M215,563.214h10s8.75,2.536,5,3.786-16.25,1.25-20,0S215,563.214,215,563.214Z" transform="translate(-170 -555)"/>
   </g>
 </svg>

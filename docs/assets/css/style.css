@@ -75,6 +75,10 @@ body {
   opacity: 1;
 }
 
+.nav .items .item i {
+  margin-left: 5px;
+}
+
 .nav .download {
   border-radius: 50px;
   font-weight: 500;

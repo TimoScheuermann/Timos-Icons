@@ -5,10 +5,8 @@
     </clipPath>
   </defs>
   <g id="add" clip-path="url(#clip-add)">
-    <rect id="Rechteck_40" data-name="Rechteck 40" width="50" height="50" rx="5" transform="translate(12 38)" fill="rgba(0,0,0,0.33)"/>
-    <rect id="Rechteck_41" data-name="Rechteck 41" width="6" height="32" rx="3" transform="translate(34 47)"/>
-    <rect id="Rechteck_42" data-name="Rechteck 42" width="6" height="32" rx="3" transform="translate(53 60) rotate(90)"/>
-    <path id="Vereinigungsmenge_1" data-name="Vereinigungsmenge 1" d="M-130-141v-35h-35a5,5,0,0,1-5-5,5,5,0,0,1,5-5h40a5,5,0,0,1,5,5v40a5,5,0,0,1-5,5A5,5,0,0,1-130-141Z" transform="translate(195 211)" fill="rgba(0,0,0,0.66)"/>
-    <path id="Vereinigungsmenge_2" data-name="Vereinigungsmenge 2" d="M-130-141v-35h-35a5,5,0,0,1-5-5,5,5,0,0,1,5-5h40a5,5,0,0,1,5,5v40a5,5,0,0,1-5,5A5,5,0,0,1-130-141Z" transform="translate(208 198)"/>
+    <path id="Differenzmenge_3" data-name="Differenzmenge 3" d="M-125-136h-40a5.006,5.006,0,0,1-5-5v-40a5.006,5.006,0,0,1,5-5h40a5.006,5.006,0,0,1,5,5v40A5.006,5.006,0,0,1-125-136Zm-33-28a3,3,0,0,0-3,3,3,3,0,0,0,3,3h10v10a3,3,0,0,0,3,3,3,3,0,0,0,3-3v-10h10a3,3,0,0,0,3-3,3,3,0,0,0-3-3h-10v-10a3,3,0,0,0-3-3,3,3,0,0,0-3,3v10Z" transform="translate(182 224)" fill="rgba(0,0,0,0.33)"/>
+    <path id="Vereinigungsmenge_7" data-name="Vereinigungsmenge 7" d="M-130-141v-35h-35a5,5,0,0,1-5-5,5,5,0,0,1,5-5h40a5,5,0,0,1,5,5v40a5,5,0,0,1-5,5A5,5,0,0,1-130-141Zm0-30.732A4.379,4.379,0,0,0-134.4-176h4.4v4.268Z" transform="translate(195 211)" fill="rgba(0,0,0,0.66)"/>
+    <path id="Vereinigungsmenge_6" data-name="Vereinigungsmenge 6" d="M-130-141v-35h-35a5,5,0,0,1-5-5,5,5,0,0,1,5-5h40a5,5,0,0,1,5,5v40a5,5,0,0,1-5,5A5,5,0,0,1-130-141Zm0-30.615A4.551,4.551,0,0,0-134.515-176H-130v4.385Z" transform="translate(208 198)"/>
   </g>
 </svg>
