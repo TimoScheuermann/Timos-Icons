@@ -1,0 +1,14 @@
+<svg xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" width="100" height="100" viewBox="0 0 100 100">
+  <defs>
+    <clipPath id="clip-rating">
+      <rect width="100" height="100"/>
+    </clipPath>
+  </defs>
+  <g id="rating" clip-path="url(#clip-rating)">
+    <path id="Pfad_33" data-name="Pfad 33" d="M900,194l-24,72,62-44H862l61.265,44Z" transform="translate(-850 -180)" stroke="#000" stroke-linecap="round" stroke-linejoin="round" stroke-width="4"/>
+    <path id="Pfad_36" data-name="Pfad 36" stroke="#000" d="M870,194l-5.053,15.158L878,199.895H862l12.9,9.263Z" transform="translate(-788 -137.158)" stroke-linecap="round" stroke-linejoin="round" stroke-width="2" opacity="0.66"/>
+    <path id="Pfad_37" data-name="Pfad 37" stroke="#000" d="M870,194l-5.053,15.158L878,199.895H862l12.9,9.263Z" transform="translate(-852 -137.158)" stroke-linecap="round" stroke-linejoin="round" stroke-width="2" opacity="0.66"/>
+    <path id="Pfad_38" data-name="Pfad 38" stroke="#000" d="M870,194l-5.053,15.158L878,199.895H862l12.9,9.263Z" transform="translate(-840 -177.158)" stroke-linecap="round" stroke-linejoin="round" stroke-width="2" opacity="0.66"/>
+    <path id="Pfad_39" data-name="Pfad 39" stroke="#000" d="M870,194l-5.053,15.158L878,199.895H862l12.9,9.263Z" transform="translate(-799 -177.158)" stroke-linecap="round" stroke-linejoin="round" stroke-width="2" opacity="0.66"/>
+  </g>
+</svg>

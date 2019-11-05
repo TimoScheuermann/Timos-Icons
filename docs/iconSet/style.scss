@@ -18,6 +18,9 @@ i.ti {
 .ti.ti-dislike::before {
   mask-image: url("./svg/dislike.svg");
 }
+*:hover > .ti.ti-dislike::before {
+  mask-image: url("./svg/dislike_animated.svg");
+}
 
 .ti.ti-remove::before {
   mask-image: url("./svg/remove.svg");
@@ -122,6 +125,9 @@ i.ti {
 .ti.ti-arrow::before {
   mask-image: url("./svg/arrow.svg");
 }
+*:hover > .ti.ti-arrow::before {
+  mask-image: url("./svg/arrow_animated.svg");
+}
 
 .ti.ti-user::before {
   mask-image: url("./svg/user.svg");
@@ -149,6 +155,10 @@ i.ti {
 
 .ti.ti-hashtag::before {
   mask-image: url("./svg/hashtag.svg");
+}
+
+.ti.ti-rating::before {
+  mask-image: url("./svg/rating.svg");
 }
 
 // ==================================================================

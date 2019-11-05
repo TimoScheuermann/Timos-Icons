@@ -24,6 +24,11 @@ i.ti {
           mask-image: url("./svg/dislike.svg");
 }
 
+*:hover > .ti.ti-dislike::before {
+  -webkit-mask-image: url("./svg/dislike_animated.svg");
+          mask-image: url("./svg/dislike_animated.svg");
+}
+
 .ti.ti-remove::before {
   -webkit-mask-image: url("./svg/remove.svg");
           mask-image: url("./svg/remove.svg");
@@ -164,6 +169,11 @@ i.ti {
           mask-image: url("./svg/arrow.svg");
 }
 
+*:hover > .ti.ti-arrow::before {
+  -webkit-mask-image: url("./svg/arrow_animated.svg");
+          mask-image: url("./svg/arrow_animated.svg");
+}
+
 .ti.ti-user::before {
   -webkit-mask-image: url("./svg/user.svg");
           mask-image: url("./svg/user.svg");
@@ -197,6 +207,11 @@ i.ti {
 .ti.ti-hashtag::before {
   -webkit-mask-image: url("./svg/hashtag.svg");
           mask-image: url("./svg/hashtag.svg");
+}
+
+.ti.ti-rating::before {
+  -webkit-mask-image: url("./svg/rating.svg");
+          mask-image: url("./svg/rating.svg");
 }
 
 .ti.ti-facebook::before {
