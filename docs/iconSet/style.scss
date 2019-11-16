@@ -161,6 +161,10 @@ i.ti {
   mask-image: url("./svg/rating.svg");
 }
 
+.ti.ti-nav-placeholder::before {
+  mask-image: url("./svg/nav-placeholder.svg");
+}
+
 // ==================================================================
 
 .ti.ti-facebook::before {

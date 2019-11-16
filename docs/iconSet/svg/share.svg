@@ -5,26 +5,26 @@
     </clipPath>
   </defs>
   <g id="share" clip-path="url(#clip-share)">
-    <g id="Box" transform="translate(-4 5)">
-      <rect id="Rechteck_13" data-name="Rechteck 13" width="10.262" height="49.476" transform="translate(19 31.262)" fill="rgba(0,0,0,0.5)"/>
-      <rect id="Rechteck_14" data-name="Rechteck 14" width="10.262" height="49.476" transform="translate(78.738 80.738) rotate(90)" fill="rgba(0,0,0,0.5)"/>
-      <rect id="Rechteck_15" data-name="Rechteck 15" width="10.262" height="49.476" transform="translate(78.738 31.262)" fill="rgba(0,0,0,0.5)"/>
-      <path id="Rechteck_16" data-name="Rechteck 16" d="M2,0H8.262a2,2,0,0,1,2,2V15.393a0,0,0,0,1,0,0H0a0,0,0,0,1,0,0V2A2,2,0,0,1,2,0Z" transform="translate(44.655 21) rotate(90)" fill="rgba(0,0,0,0.5)"/>
-      <path id="Rechteck_17" data-name="Rechteck 17" d="M0,0H10.262a0,0,0,0,1,0,0V13.393a2,2,0,0,1-2,2H2a2,2,0,0,1-2-2V0A0,0,0,0,1,0,0Z" transform="translate(78.738 21) rotate(90)" fill="rgba(0,0,0,0.5)"/>
-      <path id="Rechteck_18" data-name="Rechteck 18" d="M0,0H10.262a0,0,0,0,1,0,0V0A10.262,10.262,0,0,1,0,10.262H0a0,0,0,0,1,0,0V0A0,0,0,0,1,0,0Z" transform="translate(78.738 80.738)" fill="rgba(0,0,0,0.5)"/>
-      <path id="Rechteck_19" data-name="Rechteck 19" d="M0,0H10.262a0,0,0,0,1,0,0V0A10.262,10.262,0,0,1,0,10.262H0a0,0,0,0,1,0,0V0A0,0,0,0,1,0,0Z" transform="translate(29.262 80.738) rotate(90)" fill="rgba(0,0,0,0.5)"/>
-      <path id="Rechteck_20" data-name="Rechteck 20" d="M0,0H10.262a0,0,0,0,1,0,0V0A10.262,10.262,0,0,1,0,10.262H0a0,0,0,0,1,0,0V0A0,0,0,0,1,0,0Z" transform="translate(29.262 31.262) rotate(180)" fill="rgba(0,0,0,0.5)"/>
-      <path id="Rechteck_21" data-name="Rechteck 21" d="M0,0H10.262a0,0,0,0,1,0,0V0A10.262,10.262,0,0,1,0,10.262H0a0,0,0,0,1,0,0V0A0,0,0,0,1,0,0Z" transform="translate(78.738 31.262) rotate(-90)" fill="rgba(0,0,0,0.5)"/>
+    <g id="Box" transform="translate(12 23.913)">
+      <rect id="Rechteck_13" data-name="Rechteck 13" width="11.155" height="53.778" transform="translate(0 11.155)" fill="rgba(0,0,0,0.5)"/>
+      <rect id="Rechteck_14" data-name="Rechteck 14" width="11.155" height="53.778" transform="translate(64.932 64.932) rotate(90)" fill="rgba(0,0,0,0.5)"/>
+      <rect id="Rechteck_15" data-name="Rechteck 15" width="11.155" height="53.778" transform="translate(64.932 11.155)" fill="rgba(0,0,0,0.5)"/>
+      <path id="Rechteck_16" data-name="Rechteck 16" d="M2,0H9.155a2,2,0,0,1,2,2V16.732a0,0,0,0,1,0,0H0a0,0,0,0,1,0,0V2A2,2,0,0,1,2,0Z" transform="translate(27.886 0) rotate(90)" fill="rgba(0,0,0,0.5)"/>
+      <path id="Rechteck_17" data-name="Rechteck 17" d="M0,0H11.155a0,0,0,0,1,0,0V14.732a2,2,0,0,1-2,2H2a2,2,0,0,1-2-2V0A0,0,0,0,1,0,0Z" transform="translate(64.932 0) rotate(90)" fill="rgba(0,0,0,0.5)"/>
+      <path id="Rechteck_18" data-name="Rechteck 18" d="M0,0H11.155a0,0,0,0,1,0,0V0A11.155,11.155,0,0,1,0,11.155H0a0,0,0,0,1,0,0V0A0,0,0,0,1,0,0Z" transform="translate(64.932 64.932)" fill="rgba(0,0,0,0.5)"/>
+      <path id="Rechteck_19" data-name="Rechteck 19" d="M0,0H11.155a0,0,0,0,1,0,0V0A11.155,11.155,0,0,1,0,11.155H0a0,0,0,0,1,0,0V0A0,0,0,0,1,0,0Z" transform="translate(11.155 64.932) rotate(90)" fill="rgba(0,0,0,0.5)"/>
+      <path id="Rechteck_20" data-name="Rechteck 20" d="M0,0H11.155a0,0,0,0,1,0,0V0A11.155,11.155,0,0,1,0,11.155H0a0,0,0,0,1,0,0V0A0,0,0,0,1,0,0Z" transform="translate(11.155 11.155) rotate(180)" fill="rgba(0,0,0,0.5)"/>
+      <path id="Rechteck_21" data-name="Rechteck 21" d="M0,0H11.155a0,0,0,0,1,0,0V0A11.155,11.155,0,0,1,0,11.155H0a0,0,0,0,1,0,0V0A0,0,0,0,1,0,0Z" transform="translate(64.932 11.155) rotate(-90)" fill="rgba(0,0,0,0.5)"/>
     </g>
-    <g id="Arrow" transform="translate(-0.38 -8)">
-      <rect id="arrow-2" data-name="arrow" width="8.931" height="45.646" rx="4.465" transform="translate(45.931 12)"/>
-      <g id="Ar_L" data-name="Ar L" transform="translate(37 12.896)">
-        <circle id="Ellipse_6" data-name="Ellipse 6" cx="4.465" cy="4.465" r="4.465" transform="translate(0 8.035)"/>
-        <path id="Pfad_1" data-name="Pfad 1" d="M38.791,570.5l8.935-8.943,2.257-.659L47.228,573.26l-2.876,2.888Z" transform="translate(-37.014 -560.902)" stroke="#000" stroke-width="1"/>
+    <g id="Arrow" transform="translate(35.5)">
+      <rect id="arrow-2" data-name="arrow" width="9.707" height="49.615" rx="4.854" transform="translate(9.707 0)"/>
+      <g id="Ar_L" data-name="Ar L" transform="translate(0 0.973)">
+        <circle id="Ellipse_6" data-name="Ellipse 6" cx="4.854" cy="4.854" r="4.854" transform="translate(0 8.734)"/>
+        <path id="Pfad_1" data-name="Pfad 1" d="M38.791,571.34l9.712-9.721,2.454-.716-2.995,13.432-3.126,3.14Z" transform="translate(-36.859 -560.902)" stroke="#000" stroke-width="1"/>
       </g>
-      <g id="Ar_R" data-name="Ar R" transform="translate(50.793 12.893)">
-        <circle id="Ellipse_6-2" data-name="Ellipse 6" cx="4.465" cy="4.465" r="4.465" transform="translate(4.039 8.038)"/>
-        <path id="Pfad_1-2" data-name="Pfad 1" d="M49.983,570.506l-8.935-8.945-2.257-.659,2.755,12.36,2.876,2.889Z" transform="translate(-38.791 -560.902)" stroke="#000" stroke-width="1"/>
+      <g id="Ar_R" data-name="Ar R" transform="translate(14.992 0.971)">
+        <circle id="Ellipse_6-2" data-name="Ellipse 6" cx="4.854" cy="4.854" r="4.854" transform="translate(4.39 8.737)"/>
+        <path id="Pfad_1-2" data-name="Pfad 1" d="M50.956,571.341l-9.712-9.722-2.454-.717,2.995,13.434,3.126,3.14Z" transform="translate(-38.791 -560.902)" stroke="#000" stroke-width="1"/>
       </g>
     </g>
   </g>

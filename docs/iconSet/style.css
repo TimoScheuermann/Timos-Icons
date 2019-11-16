@@ -214,6 +214,11 @@ i.ti {
           mask-image: url("./svg/rating.svg");
 }
 
+.ti.ti-nav-placeholder::before {
+  -webkit-mask-image: url("./svg/nav-placeholder.svg");
+          mask-image: url("./svg/nav-placeholder.svg");
+}
+
 .ti.ti-facebook::before {
   -webkit-mask-image: url("./svg/facebook.svg");
           mask-image: url("./svg/facebook.svg");

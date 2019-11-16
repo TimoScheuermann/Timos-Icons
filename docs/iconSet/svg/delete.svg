@@ -5,11 +5,11 @@
     </clipPath>
   </defs>
   <g id="delete" clip-path="url(#clip-delete)">
-    <path id="base" d="M0,0H50a0,0,0,0,1,0,0V70a5,5,0,0,1-5,5H5a5,5,0,0,1-5-5V0A0,0,0,0,1,0,0Z" transform="translate(25 17)" fill="rgba(0,0,0,0.33)"/>
-    <line id="Linie_8" data-name="Linie 8" y1="50" transform="translate(50 27)" fill="none" stroke="#000" stroke-linecap="round" stroke-width="3"/>
-    <line id="Linie_9" data-name="Linie 9" y1="50" transform="translate(37 27)" fill="none" stroke="#000" stroke-linecap="round" stroke-width="3"/>
-    <line id="Linie_10" data-name="Linie 10" y1="50" transform="translate(63 27)" fill="none" stroke="#000" stroke-linecap="round" stroke-width="3"/>
-    <rect id="Rechteck_52" data-name="Rechteck 52" width="57" height="7" rx="2" transform="translate(21.5 10)"/>
-    <path id="Pfad_25" data-name="Pfad 25" d="M215,563.214h10s8.75,2.536,5,3.786-16.25,1.25-20,0S215,563.214,215,563.214Z" transform="translate(-170 -555)"/>
+    <path id="base" d="M0,0H59.676a0,0,0,0,1,0,0V84.514a5,5,0,0,1-5,5H5a5,5,0,0,1-5-5V0A0,0,0,0,1,0,0Z" transform="translate(20.177 10.486)" fill="rgba(0,0,0,0.33)"/>
+    <line id="Linie_8" data-name="Linie 8" y1="59.676" transform="translate(50.015 22.421)" fill="none" stroke="#000" stroke-linecap="round" stroke-width="3"/>
+    <line id="Linie_9" data-name="Linie 9" y1="59.676" transform="translate(34.5 22.421)" fill="none" stroke="#000" stroke-linecap="round" stroke-width="3"/>
+    <line id="Linie_10" data-name="Linie 10" y1="59.676" transform="translate(65.531 22.421)" fill="none" stroke="#000" stroke-linecap="round" stroke-width="3"/>
+    <rect id="Rechteck_52" data-name="Rechteck 52" width="68.031" height="8.355" rx="2" transform="translate(16 2.131)"/>
+    <path id="Pfad_25" data-name="Pfad 25" d="M216.148,563.214h11.935s10.443,3.026,5.968,4.518-19.395,1.492-23.87,0S216.148,563.214,216.148,563.214Z" transform="translate(-172.101 -563.214)"/>
   </g>
 </svg>

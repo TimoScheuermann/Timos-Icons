@@ -1,27 +1,18 @@
 <svg xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" width="100" height="100" viewBox="0 0 100 100">
   <defs>
-    <linearGradient id="linear-gradient" x1="0.5" x2="0.5" y2="1" gradientUnits="objectBoundingBox">
-      <stop offset="0"/>
-      <stop offset="0.304"/>
-      <stop offset="0.349" stop-opacity="0"/>
-      <stop offset="1" stop-opacity="0"/>
-    </linearGradient>
     <clipPath id="clip-feedback">
       <rect width="100" height="100"/>
     </clipPath>
   </defs>
   <g id="feedback" clip-path="url(#clip-feedback)">
-    <g id="Gruppe_3" data-name="Gruppe 3" transform="matrix(-0.53, -0.848, 0.848, -0.53, 24.921, 118.601)">
-      <g id="Rechteck_35" data-name="Rechteck 35" transform="translate(35 23.6)" fill="rgba(0,0,0,0.5)" stroke="#000" stroke-width="3">
-        <path d="M2,0H14.63a2,2,0,0,1,2,2V81.369a4,4,0,0,1-4,4H4a4,4,0,0,1-4-4V2A2,2,0,0,1,2,0Z" stroke="none"/>
-        <path d="M2,1.5H14.63a.5.5,0,0,1,.5.5V81.369a2.5,2.5,0,0,1-2.5,2.5H4a2.5,2.5,0,0,1-2.5-2.5V2A.5.5,0,0,1,2,1.5Z" fill="none"/>
-      </g>
-      <line id="Linie_5" data-name="Linie 5" x2="15.522" transform="translate(35.554 98.436)" fill="none" stroke="#000" stroke-width="3"/>
-      <rect id="Rechteck_36" data-name="Rechteck 36" width="12" height="7" transform="translate(37.259 99.082)"/>
-      <path id="Polygon_1" data-name="Polygon 1" d="M7.066,2.453a1,1,0,0,1,1.869,0l6.549,17.191A1,1,0,0,1,14.549,21H1.451a1,1,0,0,1-.934-1.356Z" transform="translate(35.259 2.082)" fill="rgba(0,0,0,0.5)"/>
-      <path id="Polygon_2" data-name="Polygon 2" d="M8,0l8,21H0Z" transform="translate(35.259 2.082)" fill="url(#linear-gradient)"/>
-      <line id="Linie_6" data-name="Linie 6" y1="64" transform="translate(40.759 29.582)" fill="none" stroke="#000" stroke-linecap="round" stroke-width="1"/>
-      <line id="Linie_7" data-name="Linie 7" y1="64" transform="translate(45.759 29.582)" fill="none" stroke="#000" stroke-linecap="round" stroke-width="1"/>
+    <g id="Gruppe_8" data-name="Gruppe 8" transform="matrix(0.891, -0.454, 0.454, 0.891, -48.598, 9.389)">
+      <path id="Pfad_45" data-name="Pfad 45" d="M1.343,0H18.8a1.343,1.343,0,0,1,1.343,1.343V8.057a6.714,6.714,0,0,1-6.714,6.714H6.714A6.714,6.714,0,0,1,0,8.057V1.343A1.343,1.343,0,0,1,1.343,0Z" transform="translate(107.811 91.141) rotate(-90)"/>
+      <path id="Pfad_46" data-name="Pfad 46" d="M69.824,20.141H0V0H69.824a1.344,1.344,0,0,1,1.343,1.343V18.8A1.344,1.344,0,0,1,69.824,20.141ZM16.735,4.428a1.964,1.964,0,1,0,0,3.928H65.174a1.964,1.964,0,1,0,0-3.928Z" transform="translate(32.616 71)"/>
+      <path id="Pfad_47" data-name="Pfad 47" d="M9.4,0l9.4,6.714H0Z" transform="translate(29.26 90.47) rotate(-90)"/>
+      <path id="Pfad_48" data-name="Pfad 48" d="M5.3,1.75a1.343,1.343,0,0,1,2.348,0L12.08,9.727a1.343,1.343,0,0,1-1.174,1.995H2.043A1.343,1.343,0,0,1,.869,9.727Z" transform="translate(28.828 79.42)"/>
+      <path id="Pfad_49" data-name="Pfad 49" d="M4.6.691a1.343,1.343,0,0,1,2.348,0l4.432,7.977a1.343,1.343,0,0,1-1.174,1.995H1.345A1.343,1.343,0,0,1,.171,8.668Z" transform="translate(41.079 81.663) rotate(180)"/>
+      <path id="Pfad_43" data-name="Pfad 43" d="M370.718,641.782l-16.187-9.054,16.166-9.019,5.947,8.953Z" transform="translate(-340 -551.657)" fill="none" stroke="#000" stroke-linecap="round" stroke-linejoin="round" stroke-width="2"/>
+      <path id="Pfad_44" data-name="Pfad 44" d="M361.714,627.5v8.194L355,631.564Z" transform="translate(-339.839 -550.458)"/>
     </g>
   </g>
 </svg>
