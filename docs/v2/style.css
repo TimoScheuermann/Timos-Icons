@@ -1,10 +1,10 @@
 @font-face {
   font-family: 'Timos-Icons';
-  src:  url('fonts/Timos-Icons.eot?pdhaf8');
-  src:  url('fonts/Timos-Icons.eot?pdhaf8#iefix') format('embedded-opentype'),
-    url('fonts/Timos-Icons.ttf?pdhaf8') format('truetype'),
-    url('fonts/Timos-Icons.woff?pdhaf8') format('woff'),
-    url('fonts/Timos-Icons.svg?pdhaf8#Timos-Icons') format('svg');
+  src:  url('fonts/Timos-Icons.eot?jwf472');
+  src:  url('fonts/Timos-Icons.eot?jwf472#iefix') format('embedded-opentype'),
+    url('fonts/Timos-Icons.ttf?jwf472') format('truetype'),
+    url('fonts/Timos-Icons.woff?jwf472') format('woff'),
+    url('fonts/Timos-Icons.svg?jwf472#Timos-Icons') format('svg');
   font-weight: normal;
   font-style: normal;
   font-display: block;
@@ -25,303 +25,358 @@ i {
   -moz-osx-font-smoothing: grayscale;
 }
 
-.ti-add .path1:before {
+.ti-search .path1:before {
   content: "\e900";
-  color: rgba(0, 0, 0, 0.33);
+  color: rgba(0, 0, 0, 0.5);
 }
-.ti-add .path2:before {
+.ti-search .path2:before {
   content: "\e901";
   margin-left: -1em;
-  color: rgba(0, 0, 0, 0.66);
+  color: rgb(0, 0, 0);
 }
-.ti-add .path3:before {
+.ti-add .path1:before {
   content: "\e902";
+  color: rgba(0, 0, 0, 0.5);
+}
+.ti-add .path2:before {
+  content: "\e903";
   margin-left: -1em;
   color: rgb(0, 0, 0);
 }
 .ti-admin .path1:before {
-  content: "\e903";
+  content: "\e904";
   color: rgb(0, 0, 0);
 }
 .ti-admin .path2:before {
-  content: "\e904";
+  content: "\e905";
   margin-left: -1em;
   color: rgba(0, 0, 0, 0.66);
 }
 .ti-admin .path3:before {
-  content: "\e905";
+  content: "\e906";
   margin-left: -1em;
   color: rgba(0, 0, 0, 0.33);
 }
 .ti-arrow:before {
-  content: "\e906";
-}
-.ti-at:before {
   content: "\e907";
 }
-.ti-book .path1:before {
+.ti-at:before {
   content: "\e908";
+}
+.ti-book .path1:before {
+  content: "\e909";
   color: rgba(0, 0, 0, 0.33);
 }
 .ti-book .path2:before {
-  content: "\e909";
+  content: "\e90a";
   margin-left: -1em;
   color: rgb(0, 0, 0);
 }
 .ti-delete .path1:before {
-  content: "\e90a";
+  content: "\e90b";
   color: rgba(0, 0, 0, 0.33);
 }
 .ti-delete .path2:before {
-  content: "\e90b";
-  margin-left: -1em;
-  color: rgb(0, 0, 0);
-}
-.ti-delete .path3:before {
   content: "\e90c";
   margin-left: -1em;
   color: rgb(0, 0, 0);
 }
-.ti-dislike:before {
+.ti-delete .path3:before {
   content: "\e90d";
+  margin-left: -1em;
+  color: rgb(0, 0, 0);
+}
+.ti-dislike:before {
+  content: "\e90e";
 }
 .ti-error .path1:before {
-  content: "\e90e";
-  color: rgba(0, 0, 0, 0.33);
+  content: "\e90f";
+  color: rgb(0, 0, 0);
 }
 .ti-error .path2:before {
-  content: "\e90f";
-  margin-left: -1em;
-  color: none;
-}
-.ti-error .path3:before {
   content: "\e910";
   margin-left: -1em;
   color: rgb(0, 0, 0);
 }
-.ti-error .path4:before {
+.ti-error .path3:before {
   content: "\e911";
+  margin-left: -1em;
+  color: rgba(0, 0, 0, 0.33);
+}
+.ti-error .path4:before {
+  content: "\e912";
   margin-left: -1em;
   color: rgb(0, 0, 0);
 }
 .ti-feedback:before {
-  content: "\e912";
-}
-.ti-hashtag:before {
   content: "\e913";
 }
-.ti-home .path1:before {
+.ti-hashtag:before {
   content: "\e914";
+}
+.ti-home .path1:before {
+  content: "\e915";
   color: rgba(0, 0, 0, 0.5);
   opacity: 0.6;
 }
 .ti-home .path2:before {
-  content: "\e915";
+  content: "\e916";
   margin-left: -1em;
   color: rgb(0, 0, 0);
 }
 .ti-info .path1:before {
-  content: "\e916";
-  color: rgba(0, 0, 0, 0.33);
+  content: "\e917";
+  color: rgb(0, 0, 0);
 }
 .ti-info .path2:before {
-  content: "\e917";
-  margin-left: -1em;
-  color: none;
-}
-.ti-info .path3:before {
   content: "\e918";
   margin-left: -1em;
   color: rgb(0, 0, 0);
 }
-.ti-info .path4:before {
+.ti-info .path3:before {
   content: "\e919";
   margin-left: -1em;
   color: rgb(0, 0, 0);
 }
-.ti-info .path5:before {
+.ti-info .path4:before {
   content: "\e91a";
   margin-left: -1em;
   color: rgb(0, 0, 0);
 }
-.ti-info .path6:before {
+.ti-info .path5:before {
   content: "\e91b";
+  margin-left: -1em;
+  color: rgba(0, 0, 0, 0.33);
+}
+.ti-info .path6:before {
+  content: "\e91c";
   margin-left: -1em;
   color: rgb(0, 0, 0);
 }
 .ti-like:before {
-  content: "\e91c";
+  content: "\e91d";
 }
 .ti-list .path1:before {
-  content: "\e91d";
+  content: "\e91e";
   color: rgb(0, 0, 0);
 }
 .ti-list .path2:before {
-  content: "\e91e";
+  content: "\e91f";
   margin-left: -1em;
   color: rgba(0, 0, 0, 0.5);
 }
 .ti-list .path3:before {
-  content: "\e91f";
+  content: "\e920";
   margin-left: -1em;
   color: rgb(0, 0, 0);
 }
 .ti-list .path4:before {
-  content: "\e920";
+  content: "\e921";
   margin-left: -1em;
   color: rgba(0, 0, 0, 0.5);
 }
 .ti-list .path5:before {
-  content: "\e921";
+  content: "\e922";
   margin-left: -1em;
   color: rgb(0, 0, 0);
 }
 .ti-list .path6:before {
-  content: "\e922";
+  content: "\e923";
   margin-left: -1em;
   color: rgba(0, 0, 0, 0.5);
 }
-.ti-login:before {
-  content: "\e923";
-  color: rgba(0, 0, 0, 0.5);
-}
-.ti-logout:before {
+.ti-login .path1:before {
   content: "\e924";
   color: rgba(0, 0, 0, 0.5);
 }
-.ti-questionmark:before {
+.ti-login .path2:before {
   content: "\e925";
+  margin-left: -1em;
+  color: rgb(0, 0, 0);
+}
+.ti-logout .path1:before {
+  content: "\e926";
+  color: rgba(0, 0, 0, 0.5);
+}
+.ti-logout .path2:before {
+  content: "\e927";
+  margin-left: -1em;
+  color: rgb(0, 0, 0);
+}
+.ti-nav-placeholder .path1:before {
+  content: "\e928";
+  color: rgb(255, 255, 255);
+}
+.ti-nav-placeholder .path2:before {
+  content: "\e929";
+  margin-left: -1em;
+  color: rgba(192, 0, 0, 0.6);
+}
+.ti-nav-placeholder .path3:before {
+  content: "\e92a";
+  margin-left: -1em;
+  color: rgba(235, 28, 61, 0.6);
+}
+.ti-nav-placeholder .path4:before {
+  content: "\e92b";
+  margin-left: -1em;
+  color: rgba(251, 119, 51, 0.6);
+}
+.ti-nav-placeholder .path5:before {
+  content: "\e92c";
+  margin-left: -1em;
+  color: rgba(251, 224, 51, 0.6);
+}
+.ti-nav-placeholder .path6:before {
+  content: "\e92d";
+  margin-left: -1em;
+  color: rgba(60, 167, 74, 0.6);
+}
+.ti-nav-placeholder .path7:before {
+  content: "\e92e";
+  margin-left: -1em;
+  color: rgba(54, 133, 21, 0.6);
+}
+.ti-nav-placeholder .path8:before {
+  content: "\e92f";
+  margin-left: -1em;
+  color: rgba(51, 131, 251, 0.6);
+}
+.ti-nav-placeholder .path9:before {
+  content: "\e930";
+  margin-left: -1em;
+  color: rgba(80, 2, 157, 0.6);
+}
+.ti-questionmark:before {
+  content: "\e931";
 }
 .ti-rating .path1:before {
-  content: "\e926";
+  content: "\e932";
   color: rgb(0, 0, 0);
 }
 .ti-rating .path2:before {
-  content: "\e927";
+  content: "\e933";
   margin-left: -1em;
   color: rgb(0, 0, 0);
   opacity: 0.66;
 }
 .ti-rating .path3:before {
-  content: "\e928";
+  content: "\e934";
   margin-left: -1em;
   color: rgb(0, 0, 0);
   opacity: 0.66;
 }
 .ti-rating .path4:before {
-  content: "\e929";
+  content: "\e935";
   margin-left: -1em;
   color: rgb(0, 0, 0);
   opacity: 0.66;
 }
 .ti-rating .path5:before {
-  content: "\e92a";
+  content: "\e936";
   margin-left: -1em;
   color: rgb(0, 0, 0);
   opacity: 0.66;
 }
 .ti-remove:before {
-  content: "\e92b";
+  content: "\e937";
 }
 .ti-reply:before {
-  content: "\e92c";
+  content: "\e938";
 }
 .ti-review .path1:before {
-  content: "\e92d";
+  content: "\e939";
   color: rgb(0, 0, 0);
 }
 .ti-review .path2:before {
-  content: "\e92e";
+  content: "\e93a";
   margin-left: -1em;
   color: rgba(0, 0, 0, 0.5);
 }
 .ti-save .path1:before {
-  content: "\e92f";
+  content: "\e93b";
   color: rgb(0, 0, 0);
 }
 .ti-save .path2:before {
-  content: "\e930";
+  content: "\e93c";
   margin-left: -1em;
   color: rgb(0, 0, 0);
 }
 .ti-save .path3:before {
-  content: "\e931";
+  content: "\e93d";
   margin-left: -1em;
   color: rgba(0, 0, 0, 0.33);
 }
-.ti-search:before {
-  content: "\e932";
-}
 .ti-share .path1:before {
-  content: "\e933";
+  content: "\e93e";
   color: rgba(0, 0, 0, 0.5);
 }
 .ti-share .path2:before {
-  content: "\e934";
+  content: "\e93f";
   margin-left: -1em;
   color: rgb(0, 0, 0);
 }
 .ti-success .path1:before {
-  content: "\e935";
-  color: rgb(0, 0, 0);
+  content: "\e940";
+  color: rgba(0, 0, 0, 0.33);
 }
 .ti-success .path2:before {
-  content: "\e936";
+  content: "\e941";
   margin-left: -1em;
   color: rgb(0, 0, 0);
 }
 .ti-success .path3:before {
-  content: "\e937";
+  content: "\e942";
   margin-left: -1em;
-  color: rgba(0, 0, 0, 0.33);
+  color: rgb(0, 0, 0);
 }
 .ti-success .path4:before {
-  content: "\e938";
+  content: "\e943";
   margin-left: -1em;
-  color: rgba(0, 0, 0, 0.33);
+  color: rgb(0, 0, 0);
 }
 .ti-user:before {
-  content: "\e939";
+  content: "\e944";
 }
 .ti-user-active .path1:before {
-  content: "\e93a";
+  content: "\e945";
   color: rgb(0, 0, 0);
 }
 .ti-user-active .path2:before {
-  content: "\e93b";
+  content: "\e946";
   margin-left: -1em;
   color: rgba(0, 0, 0, 0.66);
 }
 .ti-user-card .path1:before {
-  content: "\e93c";
+  content: "\e947";
   color: rgba(0, 0, 0, 0.66);
 }
 .ti-user-card .path2:before {
-  content: "\e93d";
+  content: "\e948";
   margin-left: -1em;
   color: rgb(0, 0, 0);
 }
 .ti-user-inactive .path1:before {
-  content: "\e93e";
+  content: "\e949";
   color: rgb(0, 0, 0);
 }
 .ti-user-inactive .path2:before {
-  content: "\e93f";
+  content: "\e94a";
   margin-left: -1em;
   color: rgba(0, 0, 0, 0.66);
 }
 .ti-users .path1:before {
-  content: "\e940";
+  content: "\e94b";
   color: rgb(0, 0, 0);
 }
 .ti-users .path2:before {
-  content: "\e941";
+  content: "\e94c";
   margin-left: -1em;
   color: rgb(0, 0, 0);
   opacity: 0.33;
 }
 .ti-users .path3:before {
-  content: "\e942";
+  content: "\e94d";
   margin-left: -1em;
   color: rgb(0, 0, 0);
   opacity: 0.33;

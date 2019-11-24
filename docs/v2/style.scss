@@ -2,11 +2,11 @@
 
 @font-face {
   font-family: '#{$icomoon-font-family}';
-  src:  url('#{$icomoon-font-path}/#{$icomoon-font-family}.eot?pdhaf8');
-  src:  url('#{$icomoon-font-path}/#{$icomoon-font-family}.eot?pdhaf8#iefix') format('embedded-opentype'),
-    url('#{$icomoon-font-path}/#{$icomoon-font-family}.ttf?pdhaf8') format('truetype'),
-    url('#{$icomoon-font-path}/#{$icomoon-font-family}.woff?pdhaf8') format('woff'),
-    url('#{$icomoon-font-path}/#{$icomoon-font-family}.svg?pdhaf8##{$icomoon-font-family}') format('svg');
+  src:  url('#{$icomoon-font-path}/#{$icomoon-font-family}.eot?jwf472');
+  src:  url('#{$icomoon-font-path}/#{$icomoon-font-family}.eot?jwf472#iefix') format('embedded-opentype'),
+    url('#{$icomoon-font-path}/#{$icomoon-font-family}.ttf?jwf472') format('truetype'),
+    url('#{$icomoon-font-path}/#{$icomoon-font-family}.woff?jwf472') format('woff'),
+    url('#{$icomoon-font-path}/#{$icomoon-font-family}.svg?jwf472##{$icomoon-font-family}') format('svg');
   font-weight: normal;
   font-style: normal;
   font-display: block;
@@ -27,22 +27,28 @@ i {
   -moz-osx-font-smoothing: grayscale;
 }
 
+.ti-search .path1 {
+  &:before {
+    content: $ti-search-path1;  
+    color: rgba(0, 0, 0, 0.5);
+  }
+}
+.ti-search .path2 {
+  &:before {
+    content: $ti-search-path2;  
+    margin-left: -1em;  
+    color: rgb(0, 0, 0);
+  }
+}
 .ti-add .path1 {
   &:before {
     content: $ti-add-path1;  
-    color: rgba(0, 0, 0, 0.33);
+    color: rgba(0, 0, 0, 0.5);
   }
 }
 .ti-add .path2 {
   &:before {
     content: $ti-add-path2;  
-    margin-left: -1em;  
-    color: rgba(0, 0, 0, 0.66);
-  }
-}
-.ti-add .path3 {
-  &:before {
-    content: $ti-add-path3;  
     margin-left: -1em;  
     color: rgb(0, 0, 0);
   }
@@ -118,21 +124,21 @@ i {
 .ti-error .path1 {
   &:before {
     content: $ti-error-path1;  
-    color: rgba(0, 0, 0, 0.33);
+    color: rgb(0, 0, 0);
   }
 }
 .ti-error .path2 {
   &:before {
     content: $ti-error-path2;  
     margin-left: -1em;  
-    color: none;
+    color: rgb(0, 0, 0);
   }
 }
 .ti-error .path3 {
   &:before {
     content: $ti-error-path3;  
     margin-left: -1em;  
-    color: rgb(0, 0, 0);
+    color: rgba(0, 0, 0, 0.33);
   }
 }
 .ti-error .path4 {
@@ -169,14 +175,14 @@ i {
 .ti-info .path1 {
   &:before {
     content: $ti-info-path1;  
-    color: rgba(0, 0, 0, 0.33);
+    color: rgb(0, 0, 0);
   }
 }
 .ti-info .path2 {
   &:before {
     content: $ti-info-path2;  
     margin-left: -1em;  
-    color: none;
+    color: rgb(0, 0, 0);
   }
 }
 .ti-info .path3 {
@@ -197,7 +203,7 @@ i {
   &:before {
     content: $ti-info-path5;  
     margin-left: -1em;  
-    color: rgb(0, 0, 0);
+    color: rgba(0, 0, 0, 0.33);
   }
 }
 .ti-info .path6 {
@@ -253,16 +259,92 @@ i {
     color: rgba(0, 0, 0, 0.5);
   }
 }
-.ti-login {
+.ti-login .path1 {
   &:before {
-    content: $ti-login;     
+    content: $ti-login-path1;  
     color: rgba(0, 0, 0, 0.5);
   }
 }
-.ti-logout {
+.ti-login .path2 {
   &:before {
-    content: $ti-logout;     
+    content: $ti-login-path2;  
+    margin-left: -1em;  
+    color: rgb(0, 0, 0);
+  }
+}
+.ti-logout .path1 {
+  &:before {
+    content: $ti-logout-path1;  
     color: rgba(0, 0, 0, 0.5);
+  }
+}
+.ti-logout .path2 {
+  &:before {
+    content: $ti-logout-path2;  
+    margin-left: -1em;  
+    color: rgb(0, 0, 0);
+  }
+}
+.ti-nav-placeholder .path1 {
+  &:before {
+    content: $ti-nav-placeholder-path1;  
+    color: rgb(255, 255, 255);
+  }
+}
+.ti-nav-placeholder .path2 {
+  &:before {
+    content: $ti-nav-placeholder-path2;  
+    margin-left: -1em;  
+    color: rgba(192, 0, 0, 0.6);
+  }
+}
+.ti-nav-placeholder .path3 {
+  &:before {
+    content: $ti-nav-placeholder-path3;  
+    margin-left: -1em;  
+    color: rgba(235, 28, 61, 0.6);
+  }
+}
+.ti-nav-placeholder .path4 {
+  &:before {
+    content: $ti-nav-placeholder-path4;  
+    margin-left: -1em;  
+    color: rgba(251, 119, 51, 0.6);
+  }
+}
+.ti-nav-placeholder .path5 {
+  &:before {
+    content: $ti-nav-placeholder-path5;  
+    margin-left: -1em;  
+    color: rgba(251, 224, 51, 0.6);
+  }
+}
+.ti-nav-placeholder .path6 {
+  &:before {
+    content: $ti-nav-placeholder-path6;  
+    margin-left: -1em;  
+    color: rgba(60, 167, 74, 0.6);
+  }
+}
+.ti-nav-placeholder .path7 {
+  &:before {
+    content: $ti-nav-placeholder-path7;  
+    margin-left: -1em;  
+    color: rgba(54, 133, 21, 0.6);
+  }
+}
+.ti-nav-placeholder .path8 {
+  &:before {
+    content: $ti-nav-placeholder-path8;  
+    margin-left: -1em;  
+    color: rgba(51, 131, 251, 0.6);
+  }
+}
+.ti-nav-placeholder .path9 {
+  &:before {
+    content: $ti-nav-placeholder-path9;  
+    margin-left: -1em;  
+    color: rgba(80, 2, 157, 0.6);
   }
 }
 .ti-questionmark {
@@ -351,11 +433,6 @@ i {
     color: rgba(0, 0, 0, 0.33);
   }
 }
-.ti-search {
-  &:before {
-    content: $ti-search; 
-  }
-}
 .ti-share .path1 {
   &:before {
     content: $ti-share-path1;  
@@ -372,7 +449,7 @@ i {
 .ti-success .path1 {
   &:before {
     content: $ti-success-path1;  
-    color: rgb(0, 0, 0);
+    color: rgba(0, 0, 0, 0.33);
   }
 }
 .ti-success .path2 {
@@ -386,14 +463,14 @@ i {
   &:before {
     content: $ti-success-path3;  
     margin-left: -1em;  
-    color: rgba(0, 0, 0, 0.33);
+    color: rgb(0, 0, 0);
   }
 }
 .ti-success .path4 {
   &:before {
     content: $ti-success-path4;  
     margin-left: -1em;  
-    color: rgba(0, 0, 0, 0.33);
+    color: rgb(0, 0, 0);
   }
 }
 .ti-user {
