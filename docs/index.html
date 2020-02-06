@@ -39,47 +39,47 @@
 
   <script>
     const icons = [
-      "add",
-      "arrow",
-      "admin",
-      "delete",
-      "dislike",
-      "error",
-      "feedback",
-      "home",
-      "info",
-      "like",
-      "list",
-      "login",
-      "logout",
-      "questionmark",
-      "remove",
-      "reply",
-      "review",
-      "save",
-      "search",
-      "share",
-      "success",
-      "user",
-      "user-active",
-      "user-inactive",
-      "users",
-      "book",
-      "at",
-      "hashtag",
-      "rating",
-      "nav-placeholder",
-      "facebook",
-      "twitter",
-      "instagram",
-      "youtube",
-      "telegram",
-      "apple",
-      "google",
-      "github"
+      'add',
+      'arrow',
+      'admin',
+      'delete',
+      'dislike',
+      'error',
+      'feedback',
+      'home',
+      'info',
+      'like',
+      'list',
+      'login',
+      'logout',
+      'questionmark',
+      'remove',
+      'reply',
+      'review',
+      'save',
+      'search',
+      'share',
+      'success',
+      'user',
+      'user-active',
+      'user-inactive',
+      'users',
+      'book',
+      'at',
+      'hashtag',
+      'rating',
+      'nav-placeholder',
+      'facebook',
+      'twitter',
+      'instagram',
+      'youtube',
+      'telegram',
+      'apple',
+      'google',
+      'github'
     ];
 
-    const box = document.getElementById("icons");
+    const box = document.getElementById('icons');
     for (let i of icons) {
       box.innerHTML +=
         "<div class='icon'><h3>" +
@@ -87,6 +87,12 @@
         "</h3><div class='display'><i class='ti ti-" +
         i +
         "'></i></div><div class='copy'>Click to copy</div></div>";
+    }
+
+    const hr = window.location.href;
+    if (!hr.endsWith('?dev')) {
+      window.location.href =
+        'https://timoscheuermann.netlify.com/projects/Timos-Icons/';
     }
   </script>
 </html>
