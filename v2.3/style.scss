@@ -1,0 +1,653 @@
+@import 'variables';
+
+@font-face {
+  font-family: '#{$icomoon-font-family}';
+  src: url('#{$icomoon-font-path}/#{$icomoon-font-family}.eot?en0buu');
+  src: url('#{$icomoon-font-path}/#{$icomoon-font-family}.eot?en0buu#iefix')
+      format('embedded-opentype'),
+    url('#{$icomoon-font-path}/#{$icomoon-font-family}.ttf?en0buu')
+      format('truetype'),
+    url('#{$icomoon-font-path}/#{$icomoon-font-family}.woff?en0buu')
+      format('woff'),
+    url('#{$icomoon-font-path}/#{$icomoon-font-family}.svg?en0buu##{$icomoon-font-family}')
+      format('svg');
+  font-weight: normal;
+  font-style: normal;
+  font-display: block;
+}
+
+i {
+  /* use !important to prevent issues with browser extensions that change fonts */
+  font-family: '#{$icomoon-font-family}' !important;
+  speak: none;
+  font-style: normal;
+  font-weight: normal;
+  font-variant: normal;
+  text-transform: none;
+  line-height: 1;
+
+  /* Better Font Rendering =========== */
+  -webkit-font-smoothing: antialiased;
+  -moz-osx-font-smoothing: grayscale;
+}
+
+.ti-modal {
+  &:before {
+    content: $ti-modal-path1;
+    opacity: 0.33;
+  }
+}
+.ti-modal {
+  &::after {
+    content: $ti-modal-path2;
+    margin-left: -1em;
+  }
+}
+.ti-phone {
+  &:before {
+    content: $ti-phone-path1;
+  }
+}
+.ti-phone {
+  &::after {
+    content: $ti-phone-path2;
+    margin-left: -1em;
+    opacity: 0.33;
+  }
+}
+.ti-tabbar {
+  &:before {
+    content: $ti-tabbar-path1;
+    opacity: 0.33;
+  }
+}
+.ti-tabbar {
+  &::after {
+    content: $ti-tabbar-path2;
+    margin-left: -1em;
+  }
+}
+.ti-table {
+  &:before {
+    content: $ti-table-path1;
+    opacity: 0.1;
+  }
+}
+.ti-table {
+  &::after {
+    content: $ti-table-path2;
+    margin-left: -1em;
+    opacity: 0.5;
+  }
+}
+.ti-add {
+  &:before {
+    content: $ti-add-path1;
+    opacity: 0.5;
+  }
+}
+.ti-add {
+  &::after {
+    content: $ti-add-path2;
+    margin-left: -1em;
+  }
+}
+.ti-amspro {
+  &:before {
+    content: $ti-amspro-path1;
+    opacity: 0.5;
+  }
+}
+.ti-amspro {
+  &::after {
+    content: $ti-amspro-path2;
+    margin-left: -1em;
+  }
+}
+.ti-arrow-down {
+  &:before {
+    content: $ti-arrow-down;
+  }
+}
+.ti-arrow-down-left {
+  &:before {
+    content: $ti-arrow-down-left;
+  }
+}
+.ti-arrow-down-right {
+  &:before {
+    content: $ti-arrow-down-right;
+  }
+}
+.ti-arrow-left {
+  &:before {
+    content: $ti-arrow-left;
+  }
+}
+.ti-arrow-right {
+  &:before {
+    content: $ti-arrow-right;
+  }
+}
+.ti-arrow-up {
+  &:before {
+    content: $ti-arrow-up;
+  }
+}
+.ti-arrow-up-left {
+  &:before {
+    content: $ti-arrow-up-left;
+  }
+}
+.ti-arrow-up-right {
+  &:before {
+    content: $ti-arrow-up-right;
+  }
+}
+.ti-at {
+  &:before {
+    content: $ti-at;
+  }
+}
+.ti-book {
+  &:before {
+    content: $ti-book-path1;
+    opacity: 0.33;
+  }
+}
+.ti-book {
+  &::after {
+    content: $ti-book-path2;
+    margin-left: -1em;
+  }
+}
+.ti-book-p {
+  &:before {
+    content: $ti-book-p-path1;
+    opacity: 0.33;
+  }
+}
+.ti-book-p {
+  &::after {
+    content: $ti-book-p-path2;
+    margin-left: -1em;
+  }
+}
+.ti-book-q {
+  &:before {
+    content: $ti-book-q-path1;
+    opacity: 0.33;
+  }
+}
+.ti-book-q {
+  &::after {
+    content: $ti-book-q-path2;
+    margin-left: -1em;
+  }
+}
+.ti-button {
+  &:before {
+    content: $ti-button-path1;
+    opacity: 0.33;
+  }
+}
+.ti-button {
+  &::after {
+    content: $ti-button-path2;
+    margin-left: -1em;
+  }
+}
+.ti-card {
+  &:before {
+    content: $ti-card-path1;
+  }
+}
+.ti-card {
+  &::after {
+    content: $ti-card-path2;
+    margin-left: -1em;
+    opacity: 0.5;
+  }
+}
+.ti-checkbox {
+  &:before {
+    content: $ti-checkbox-path1;
+    opacity: 0.5;
+  }
+}
+.ti-checkbox {
+  &::after {
+    content: $ti-checkbox-path2;
+    margin-left: -1em;
+  }
+}
+.ti-checkmark {
+  &:before {
+    content: $ti-checkmark;
+  }
+}
+.ti-checkmark-circle {
+  &:before {
+    content: $ti-checkmark-circle-path1;
+    opacity: 0.33;
+  }
+}
+.ti-checkmark-circle {
+  &::after {
+    content: $ti-checkmark-circle-path2;
+    margin-left: -1em;
+  }
+}
+.ti-checkmarks {
+  &:before {
+    content: $ti-checkmarks-path1;
+  }
+}
+.ti-checkmarks {
+  &::after {
+    content: $ti-checkmarks-path2;
+    margin-left: -1em;
+    opacity: 0.5;
+  }
+}
+.ti-code {
+  &:before {
+    content: $ti-code;
+  }
+}
+.ti-components {
+  &:before {
+    content: $ti-components;
+  }
+}
+.ti-cross {
+  &:before {
+    content: $ti-cross;
+  }
+}
+.ti-cross-circle {
+  &:before {
+    content: $ti-cross-circle-path1;
+    opacity: 0.33;
+  }
+}
+.ti-cross-circle {
+  &::after {
+    content: $ti-cross-circle-path2;
+    margin-left: -1em;
+  }
+}
+.ti-divider {
+  &:before {
+    content: $ti-divider-path1;
+    opacity: 0.5;
+  }
+}
+.ti-divider {
+  &::after {
+    content: $ti-divider-path2;
+    margin-left: -1em;
+  }
+}
+.ti-dot {
+  &:before {
+    content: $ti-dot;
+  }
+}
+.ti-dots {
+  &:before {
+    content: $ti-dots;
+  }
+}
+.ti-double-arrow-down {
+  &:before {
+    content: $ti-double-arrow-down;
+  }
+}
+.ti-double-arrow-left {
+  &:before {
+    content: $ti-double-arrow-left;
+  }
+}
+.ti-double-arrow-right {
+  &:before {
+    content: $ti-double-arrow-right;
+  }
+}
+.ti-double-arrow-up {
+  &:before {
+    content: $ti-double-arrow-up;
+  }
+}
+.ti-download {
+  &:before {
+    content: $ti-download-path1;
+    opacity: 0.5;
+  }
+}
+.ti-download {
+  &::after {
+    content: $ti-download-path2;
+    margin-left: -1em;
+  }
+}
+.ti-farm {
+  &:before {
+    content: $ti-farm;
+  }
+}
+.ti-gears {
+  &:before {
+    content: $ti-gears-path1;
+  }
+}
+.ti-gears {
+  &::after {
+    content: $ti-gears-path2;
+    margin-left: -1em;
+    opacity: 0.5;
+  }
+}
+.ti-github {
+  &:before {
+    content: $ti-github;
+  }
+}
+.ti-hashtag {
+  &:before {
+    content: $ti-hashtag;
+  }
+}
+.ti-heart {
+  &:before {
+    content: $ti-heart;
+  }
+}
+.ti-hockey-stick {
+  &:before {
+    content: $ti-hockey-stick;
+  }
+}
+.ti-hockey-sticks {
+  &:before {
+    content: $ti-hockey-sticks-path1;
+  }
+}
+.ti-hockey-sticks {
+  &::after {
+    content: $ti-hockey-sticks-path2;
+    margin-left: -1em;
+    opacity: 0.5;
+  }
+}
+.ti-house {
+  &:before {
+    content: $ti-house-path1;
+    opacity: 0.5;
+  }
+}
+.ti-house {
+  &::after {
+    content: $ti-house-path2;
+    margin-left: -1em;
+  }
+}
+.ti-i-circle {
+  &:before {
+    content: $ti-i-circle-path1;
+  }
+}
+.ti-i-circle {
+  &::after {
+    content: $ti-i-circle-path2;
+    margin-left: -1em;
+    opacity: 0.33;
+  }
+}
+.ti-input {
+  &:before {
+    content: $ti-input-path1;
+  }
+}
+.ti-input {
+  &::after {
+    content: $ti-input-path2;
+    margin-left: -1em;
+    opacity: 0.5;
+  }
+}
+.ti-lens {
+  &:before {
+    content: $ti-lens-path1;
+    opacity: 0.5;
+  }
+}
+.ti-lens {
+  &::after {
+    content: $ti-lens-path2;
+    margin-left: -1em;
+  }
+}
+.ti-list {
+  &:before {
+    content: $ti-list;
+  }
+}
+.ti-list-bullet {
+  &:before {
+    content: $ti-list-bullet-path1;
+  }
+}
+.ti-list-bullet {
+  &::after {
+    content: $ti-list-bullet-path2;
+    margin-left: -1em;
+    opacity: 0.5;
+  }
+}
+.ti-list-check {
+  &:before {
+    content: $ti-list-check;
+  }
+}
+.ti-login {
+  &:before {
+    content: $ti-login-path1;
+    opacity: 0.5;
+  }
+}
+.ti-login {
+  &::after {
+    content: $ti-login-path2;
+    margin-left: -1em;
+  }
+}
+.ti-logout {
+  &:before {
+    content: $ti-logout-path1;
+    opacity: 0.5;
+  }
+}
+.ti-logout {
+  &::after {
+    content: $ti-logout-path2;
+    margin-left: -1em;
+  }
+}
+.ti-moped-license-plate {
+  &:before {
+    content: $ti-moped-license-plate;
+  }
+}
+.ti-offer {
+  &:before {
+    content: $ti-offer;
+  }
+}
+.ti-painting {
+  &:before {
+    content: $ti-painting-path1;
+  }
+}
+.ti-painting {
+  &::after {
+    content: $ti-painting-path2;
+    margin-left: -1em;
+    opacity: 0.33;
+  }
+}
+.ti-pencil {
+  &:before {
+    content: $ti-pencil;
+  }
+}
+.ti-questionmark {
+  &:before {
+    content: $ti-questionmark-path1;
+  }
+}
+.ti-questionmark {
+  &::after {
+    content: $ti-questionmark-path2;
+    margin-left: -1em;
+    opacity: 0.5;
+  }
+}
+.ti-reply {
+  &:before {
+    content: $ti-reply;
+  }
+}
+.ti-save {
+  &:before {
+    content: $ti-save-path1;
+    opacity: 0.5;
+  }
+}
+.ti-save {
+  &::after {
+    content: $ti-save-path2;
+    margin-left: -1em;
+  }
+}
+.ti-server {
+  &:before {
+    content: $ti-server;
+  }
+}
+.ti-share {
+  &:before {
+    content: $ti-share-path1;
+    opacity: 0.5;
+  }
+}
+.ti-share {
+  &::after {
+    content: $ti-share-path2;
+    margin-left: -1em;
+  }
+}
+.ti-sidebar {
+  &:before {
+    content: $ti-sidebar-path1;
+  }
+}
+.ti-sidebar {
+  &::after {
+    content: $ti-sidebar-path2;
+    margin-left: -1em;
+    opacity: 0.5;
+  }
+}
+.ti-stars {
+  &:before {
+    content: $ti-stars-path1;
+  }
+}
+.ti-stars {
+  &::after {
+    content: $ti-stars-path2;
+    margin-left: -1em;
+    opacity: 0.5;
+  }
+}
+.ti-thunder {
+  &:before {
+    content: $ti-thunder;
+  }
+}
+.ti-todo {
+  &:before {
+    content: $ti-todo;
+  }
+}
+.ti-tools {
+  &:before {
+    content: $ti-tools;
+  }
+}
+.ti-trashcan {
+  &:before {
+    content: $ti-trashcan-path1;
+    opacity: 0.33;
+  }
+}
+.ti-trashcan {
+  &::after {
+    content: $ti-trashcan-path2;
+    margin-left: -1em;
+  }
+}
+.ti-user {
+  &:before {
+    content: $ti-user;
+  }
+}
+.ti-user-active {
+  &:before {
+    content: $ti-user-active-path1;
+  }
+}
+.ti-user-active {
+  &::after {
+    content: $ti-user-active-path2;
+    margin-left: -1em;
+    opacity: 0.5;
+  }
+}
+.ti-user-card {
+  &:before {
+    content: $ti-user-card-path1;
+    opacity: 0.66;
+  }
+}
+.ti-user-card {
+  &::after {
+    content: $ti-user-card-path2;
+    margin-left: -1em;
+  }
+}
+.ti-user-inactive {
+  &:before {
+    content: $ti-user-inactive-path1;
+  }
+}
+.ti-user-inactive {
+  &::after {
+    content: $ti-user-inactive-path2;
+    margin-left: -1em;
+    opacity: 0.5;
+  }
+}
+.ti-users {
+  &:before {
+    content: $ti-users-path1;
+  }
+}
+.ti-users {
+  &::after {
+    content: $ti-users-path2;
+    margin-left: -1em;
+    opacity: 0.5;
+  }
+}
