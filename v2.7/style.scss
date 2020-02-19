@@ -34,7 +34,6 @@ i {
 .ti-camera {
   &:before {
     content: $ti-camera-path1;
-
     opacity: 0.5;
   }
 }
@@ -47,12 +46,11 @@ i {
 .ti-chart-donut {
   &:before {
     content: $ti-chart-donut-path1;
-
     opacity: 0.5;
   }
 }
 .ti-chart-donut {
-  &:bafter {
+  &:after {
     content: $ti-chart-donut-path2;
     margin-left: -1em;
   }
@@ -63,22 +61,20 @@ i {
   }
 }
 .ti-chart-pie {
-  &:bafter {
+  &:after {
     content: $ti-chart-pie-path2;
     margin-left: -1em;
-
     opacity: 0.5;
   }
 }
 .ti-chart-radial {
   &:before {
     content: $ti-chart-radial-path1;
-
     opacity: 0.33;
   }
 }
 .ti-chart-radial {
-  &:bafter {
+  &:after {
     content: $ti-chart-radial-path2;
     margin-left: -1em;
   }
@@ -86,12 +82,11 @@ i {
 .ti-computer {
   &:before {
     content: $ti-computer-path1;
-
     opacity: 0.5;
   }
 }
 .ti-computer {
-  &:bafter {
+  &:after {
     content: $ti-computer-path2;
     margin-left: -1em;
   }
@@ -107,22 +102,20 @@ i {
   }
 }
 .ti-hockey-sticks {
-  &:bafter {
+  &:after {
     content: $ti-hockey-sticks-path2;
     margin-left: -1em;
-
     opacity: 0.5;
   }
 }
 .ti-modal {
   &:before {
     content: $ti-modal-path1;
-
     opacity: 0.33;
   }
 }
 .ti-modal {
-  &aftere {
+  &:after {
     content: $ti-modal-path2;
     margin-left: -1em;
   }
@@ -133,10 +126,9 @@ i {
   }
 }
 .ti-phone {
-  &aftere {
+  &:after {
     content: $ti-phone-path2;
     margin-left: -1em;
-
     opacity: 0.33;
   }
 }
@@ -148,7 +140,6 @@ i {
 .ti-tabbar {
   &:before {
     content: $ti-tabbar-path1;
-
     opacity: 0.33;
   }
 }
@@ -167,7 +158,6 @@ i {
   &:after {
     content: $ti-toggle-path2;
     margin-left: -1em;
-
     opacity: 0.5;
   }
 }
@@ -177,17 +167,15 @@ i {
   }
 }
 .ti-windows {
-  &:bafter {
+  &:after {
     content: $ti-windows-path2;
     margin-left: -1em;
-
     opacity: 0.5;
   }
 }
 .ti-amspro {
   &:before {
     content: $ti-amspro-path1;
-
     opacity: 0.5;
   }
 }
@@ -200,7 +188,6 @@ i {
 .ti-button {
   &:before {
     content: $ti-button-path1;
-
     opacity: 0.33;
   }
 }
@@ -216,22 +203,20 @@ i {
   }
 }
 .ti-card {
-  afterre {
+  &:after {
     content: $ti-card-path2;
     margin-left: -1em;
-
     opacity: 0.5;
   }
 }
 .ti-chart-bar {
   &:before {
     content: $ti-chart-bar-path1;
-
     opacity: 0.33;
   }
 }
 .ti-chart-bar {
-  &:bafter {
+  &:after {
     content: $ti-chart-bar-path2;
     margin-left: -1em;
   }
@@ -249,12 +234,11 @@ i {
 .ti-checkbox {
   &:before {
     content: $ti-checkbox-path1;
-
     opacity: 0.5;
   }
 }
 .ti-checkbox {
-  &:bafter {
+  &:after {
     content: $ti-checkbox-path2;
     margin-left: -1em;
   }
@@ -272,12 +256,11 @@ i {
 .ti-divider {
   &:before {
     content: $ti-divider-path1;
-
     opacity: 0.5;
   }
 }
 .ti-divider {
-  &:bafter {
+  &:after {
     content: $ti-divider-path2;
     margin-left: -1em;
   }
@@ -285,12 +268,11 @@ i {
 .ti-download {
   &:before {
     content: $ti-download-path1;
-
     opacity: 0.5;
   }
 }
 .ti-download {
-  &:bafter {
+  &:after {
     content: $ti-download-path2;
     margin-left: -1em;
   }
@@ -306,10 +288,9 @@ i {
   }
 }
 .ti-input {
-  &aftere {
+  &:after {
     content: $ti-input-path2;
     margin-left: -1em;
-
     opacity: 0.5;
   }
 }
@@ -319,25 +300,22 @@ i {
   }
 }
 .ti-painting {
-  &:bafter {
+  &:after {
     content: $ti-painting-path2;
     margin-left: -1em;
-
     opacity: 0.33;
   }
 }
 .ti-table {
   &:before {
     content: $ti-table-path1;
-
     opacity: 0.1;
   }
 }
 .ti-table {
-  &aftere {
+  &:after {
     content: $ti-table-path2;
     margin-left: -1em;
-
     opacity: 0.5;
   }
 }
@@ -354,12 +332,11 @@ i {
 .ti-book {
   &:before {
     content: $ti-book-path1;
-
     opacity: 0.33;
   }
 }
 .ti-book {
-  afterre {
+  &:after {
     content: $ti-book-path2;
     margin-left: -1em;
   }
@@ -367,7 +344,6 @@ i {
 .ti-book-p {
   &:before {
     content: $ti-book-p-path1;
-
     opacity: 0.33;
   }
 }
@@ -380,7 +356,6 @@ i {
 .ti-book-q {
   &:before {
     content: $ti-book-q-path1;
-
     opacity: 0.33;
   }
 }
@@ -393,12 +368,11 @@ i {
 .ti-chart-line {
   &:before {
     content: $ti-chart-line-path1;
-
     opacity: 0.5;
   }
 }
 .ti-chart-line {
-  &:bafter {
+  &:after {
     content: $ti-chart-line-path2;
     margin-left: -1em;
   }
@@ -434,10 +408,9 @@ i {
   }
 }
 .ti-scale {
-  &aftere {
+  &:after {
     content: $ti-scale-path2;
     margin-left: -1em;
-
     opacity: 0.5;
   }
 }
@@ -447,10 +420,9 @@ i {
   }
 }
 .ti-sidebar {
-  &:bafter {
+  &:after {
     content: $ti-sidebar-path2;
     margin-left: -1em;
-
     opacity: 0.5;
   }
 }
@@ -470,10 +442,9 @@ i {
   }
 }
 .ti-user-active {
-  &:bafter {
+  &:after {
     content: $ti-user-active-path2;
     margin-left: -1em;
-
     opacity: 0.5;
   }
 }
@@ -483,10 +454,9 @@ i {
   }
 }
 .ti-user-inactive {
-  &:bafter {
+  &:after {
     content: $ti-user-inactive-path2;
     margin-left: -1em;
-
     opacity: 0.5;
   }
 }
@@ -496,10 +466,9 @@ i {
   }
 }
 .ti-users {
-  &aftere {
+  &:after {
     content: $ti-users-path2;
     margin-left: -1em;
-
     opacity: 0.5;
   }
 }
@@ -537,7 +506,6 @@ i {
   &:after {
     content: $ti-bucket-path2;
     margin-left: -1em;
-
     opacity: 0.5;
   }
 }
@@ -557,10 +525,9 @@ i {
   }
 }
 .ti-farm {
-  afterre {
+  &:after {
     content: $ti-farm-path2;
     margin-left: -1em;
-
     opacity: 0.5;
   }
 }
@@ -570,10 +537,9 @@ i {
   }
 }
 .ti-list {
-  afterre {
+  &:after {
     content: $ti-list-path2;
     margin-left: -1em;
-
     opacity: 0.5;
   }
 }
@@ -583,10 +549,9 @@ i {
   }
 }
 .ti-list-check {
-  &:bafter {
+  &:after {
     content: $ti-list-check-path2;
     margin-left: -1em;
-
     opacity: 0.5;
   }
 }
@@ -603,12 +568,11 @@ i {
 .ti-scale-in {
   &:before {
     content: $ti-scale-in-path1;
-
     opacity: 0.5;
   }
 }
 .ti-scale-in {
-  &:bafter {
+  &:after {
     content: $ti-scale-in-path2;
     margin-left: -1em;
   }
@@ -616,12 +580,11 @@ i {
 .ti-scale-out {
   &:before {
     content: $ti-scale-out-path1;
-
     opacity: 0.5;
   }
 }
 .ti-scale-out {
-  &:bafter {
+  &:after {
     content: $ti-scale-out-path2;
     margin-left: -1em;
   }
@@ -654,12 +617,11 @@ i {
 .ti-lens {
   &:before {
     content: $ti-lens-path1;
-
     opacity: 0.5;
   }
 }
 .ti-lens {
-  afterre {
+  &:after {
     content: $ti-lens-path2;
     margin-left: -1em;
   }
@@ -670,22 +632,20 @@ i {
   }
 }
 .ti-list-bullet {
-  &:bafter {
+  &:after {
     content: $ti-list-bullet-path2;
     margin-left: -1em;
-
     opacity: 0.5;
   }
 }
 .ti-login {
   &:before {
     content: $ti-login-path1;
-
     opacity: 0.5;
   }
 }
 .ti-login {
-  &aftere {
+  &:after {
     content: $ti-login-path2;
     margin-left: -1em;
   }
@@ -693,7 +653,6 @@ i {
 .ti-logout {
   &:before {
     content: $ti-logout-path1;
-
     opacity: 0.5;
   }
 }
@@ -714,10 +673,9 @@ i {
   }
 }
 .ti-questionmark {
-  &:bafter {
+  &:after {
     content: $ti-questionmark-path2;
     margin-left: -1em;
-
     opacity: 0.5;
   }
 }
@@ -734,12 +692,11 @@ i {
 .ti-share {
   &:before {
     content: $ti-share-path1;
-
     opacity: 0.5;
   }
 }
 .ti-share {
-  &aftere {
+  &:after {
     content: $ti-share-path2;
     margin-left: -1em;
   }
@@ -752,12 +709,11 @@ i {
 .ti-trashcan {
   &:before {
     content: $ti-trashcan-path1;
-
     opacity: 0.33;
   }
 }
 .ti-trashcan {
-  &:bafter {
+  &:after {
     content: $ti-trashcan-path2;
     margin-left: -1em;
   }
@@ -765,12 +721,11 @@ i {
 .ti-user-card {
   &:before {
     content: $ti-user-card-path1;
-
     opacity: 0.5;
   }
 }
 .ti-user-card {
-  &:bafter {
+  &:after {
     content: $ti-user-card-path2;
     margin-left: -1em;
   }
@@ -778,12 +733,11 @@ i {
 .ti-add {
   &:before {
     content: $ti-add-path1;
-
     opacity: 0.5;
   }
 }
 .ti-add {
-  afterore {
+  &:after {
     content: $ti-add-path2;
     margin-left: -1em;
   }
@@ -791,12 +745,11 @@ i {
 .ti-checkmark-circle {
   &:before {
     content: $ti-checkmark-circle-path1;
-
     opacity: 0.33;
   }
 }
 .ti-checkmark-circle {
-  &:bafter {
+  &:after {
     content: $ti-checkmark-circle-path2;
     margin-left: -1em;
   }
@@ -807,22 +760,20 @@ i {
   }
 }
 .ti-checkmarks {
-  &:bafter {
+  &:after {
     content: $ti-checkmarks-path2;
     margin-left: -1em;
-
     opacity: 0.5;
   }
 }
 .ti-cross-circle {
   &:before {
     content: $ti-cross-circle-path1;
-
     opacity: 0.33;
   }
 }
 .ti-cross-circle {
-  &:bafter {
+  &:after {
     content: $ti-cross-circle-path2;
     margin-left: -1em;
   }
@@ -833,10 +784,9 @@ i {
   }
 }
 .ti-gears {
-  &aftere {
+  &:after {
     content: $ti-gears-path2;
     margin-left: -1em;
-
     opacity: 0.5;
   }
 }
@@ -848,12 +798,11 @@ i {
 .ti-house {
   &:before {
     content: $ti-house-path1;
-
     opacity: 0.5;
   }
 }
 .ti-house {
-  &aftere {
+  &:after {
     content: $ti-house-path2;
     margin-left: -1em;
   }
@@ -864,22 +813,20 @@ i {
   }
 }
 .ti-i-circle {
-  &:bafter {
+  &:after {
     content: $ti-i-circle-path2;
     margin-left: -1em;
-
     opacity: 0.33;
   }
 }
 .ti-save {
   &:before {
     content: $ti-save-path1;
-
     opacity: 0.5;
   }
 }
 .ti-save {
-  afterre {
+  &:after {
     content: $ti-save-path2;
     margin-left: -1em;
   }
@@ -890,10 +837,9 @@ i {
   }
 }
 .ti-stars {
-  &aftere {
+  &:after {
     content: $ti-stars-path2;
     margin-left: -1em;
-
     opacity: 0.5;
   }
 }
