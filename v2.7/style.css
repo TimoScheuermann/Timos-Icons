@@ -37,7 +37,7 @@ i {
   opacity: 0.5;
 }
 
-.ti-chart-donut:bafter {
+.ti-chart-donut:after {
   content: "";
   margin-left: -1em;
 }
@@ -46,7 +46,7 @@ i {
   content: "";
 }
 
-.ti-chart-pie:bafter {
+.ti-chart-pie:after {
   content: "";
   margin-left: -1em;
   opacity: 0.5;
@@ -57,7 +57,7 @@ i {
   opacity: 0.33;
 }
 
-.ti-chart-radial:bafter {
+.ti-chart-radial:after {
   content: "";
   margin-left: -1em;
 }
@@ -67,7 +67,7 @@ i {
   opacity: 0.5;
 }
 
-.ti-computer:bafter {
+.ti-computer:after {
   content: "";
   margin-left: -1em;
 }
@@ -80,7 +80,7 @@ i {
   content: "";
 }
 
-.ti-hockey-sticks:bafter {
+.ti-hockey-sticks:after {
   content: "";
   margin-left: -1em;
   opacity: 0.5;
@@ -91,7 +91,7 @@ i {
   opacity: 0.33;
 }
 
-.ti-modalaftere {
+.ti-modal:after {
   content: "";
   margin-left: -1em;
 }
@@ -100,7 +100,7 @@ i {
   content: "";
 }
 
-.ti-phoneaftere {
+.ti-phone:after {
   content: "";
   margin-left: -1em;
   opacity: 0.33;
@@ -134,7 +134,7 @@ i {
   content: "";
 }
 
-.ti-windows:bafter {
+.ti-windows:after {
   content: "";
   margin-left: -1em;
   opacity: 0.5;
@@ -164,7 +164,7 @@ i {
   content: "";
 }
 
-.ti-card afterre {
+.ti-card:after {
   content: "";
   margin-left: -1em;
   opacity: 0.5;
@@ -175,7 +175,7 @@ i {
   opacity: 0.33;
 }
 
-.ti-chart-bar:bafter {
+.ti-chart-bar:after {
   content: "";
   margin-left: -1em;
 }
@@ -193,7 +193,7 @@ i {
   opacity: 0.5;
 }
 
-.ti-checkbox:bafter {
+.ti-checkbox:after {
   content: "";
   margin-left: -1em;
 }
@@ -211,7 +211,7 @@ i {
   opacity: 0.5;
 }
 
-.ti-divider:bafter {
+.ti-divider:after {
   content: "";
   margin-left: -1em;
 }
@@ -221,7 +221,7 @@ i {
   opacity: 0.5;
 }
 
-.ti-download:bafter {
+.ti-download:after {
   content: "";
   margin-left: -1em;
 }
@@ -234,7 +234,7 @@ i {
   content: "";
 }
 
-.ti-inputaftere {
+.ti-input:after {
   content: "";
   margin-left: -1em;
   opacity: 0.5;
@@ -244,7 +244,7 @@ i {
   content: "";
 }
 
-.ti-painting:bafter {
+.ti-painting:after {
   content: "";
   margin-left: -1em;
   opacity: 0.33;
@@ -255,7 +255,7 @@ i {
   opacity: 0.1;
 }
 
-.ti-tableaftere {
+.ti-table:after {
   content: "";
   margin-left: -1em;
   opacity: 0.5;
@@ -274,7 +274,7 @@ i {
   opacity: 0.33;
 }
 
-.ti-book afterre {
+.ti-book:after {
   content: "";
   margin-left: -1em;
 }
@@ -304,7 +304,7 @@ i {
   opacity: 0.5;
 }
 
-.ti-chart-line:bafter {
+.ti-chart-line:after {
   content: "";
   margin-left: -1em;
 }
@@ -333,7 +333,7 @@ i {
   content: "";
 }
 
-.ti-scaleaftere {
+.ti-scale:after {
   content: "";
   margin-left: -1em;
   opacity: 0.5;
@@ -343,7 +343,7 @@ i {
   content: "";
 }
 
-.ti-sidebar:bafter {
+.ti-sidebar:after {
   content: "";
   margin-left: -1em;
   opacity: 0.5;
@@ -361,7 +361,7 @@ i {
   content: "";
 }
 
-.ti-user-active:bafter {
+.ti-user-active:after {
   content: "";
   margin-left: -1em;
   opacity: 0.5;
@@ -371,7 +371,7 @@ i {
   content: "";
 }
 
-.ti-user-inactive:bafter {
+.ti-user-inactive:after {
   content: "";
   margin-left: -1em;
   opacity: 0.5;
@@ -381,7 +381,7 @@ i {
   content: "";
 }
 
-.ti-usersaftere {
+.ti-users:after {
   content: "";
   margin-left: -1em;
   opacity: 0.5;
@@ -429,7 +429,7 @@ i {
   content: "";
 }
 
-.ti-farm afterre {
+.ti-farm:after {
   content: "";
   margin-left: -1em;
   opacity: 0.5;
@@ -439,7 +439,7 @@ i {
   content: "";
 }
 
-.ti-list afterre {
+.ti-list:after {
   content: "";
   margin-left: -1em;
   opacity: 0.5;
@@ -449,7 +449,7 @@ i {
   content: "";
 }
 
-.ti-list-check:bafter {
+.ti-list-check:after {
   content: "";
   margin-left: -1em;
   opacity: 0.5;
@@ -468,7 +468,7 @@ i {
   opacity: 0.5;
 }
 
-.ti-scale-in:bafter {
+.ti-scale-in:after {
   content: "";
   margin-left: -1em;
 }
@@ -478,7 +478,7 @@ i {
   opacity: 0.5;
 }
 
-.ti-scale-out:bafter {
+.ti-scale-out:after {
   content: "";
   margin-left: -1em;
 }
@@ -508,7 +508,7 @@ i {
   opacity: 0.5;
 }
 
-.ti-lens afterre {
+.ti-lens:after {
   content: "";
   margin-left: -1em;
 }
@@ -517,7 +517,7 @@ i {
   content: "";
 }
 
-.ti-list-bullet:bafter {
+.ti-list-bullet:after {
   content: "";
   margin-left: -1em;
   opacity: 0.5;
@@ -528,7 +528,7 @@ i {
   opacity: 0.5;
 }
 
-.ti-loginaftere {
+.ti-login:after {
   content: "";
   margin-left: -1em;
 }
@@ -551,7 +551,7 @@ i {
   content: "";
 }
 
-.ti-questionmark:bafter {
+.ti-questionmark:after {
   content: "";
   margin-left: -1em;
   opacity: 0.5;
@@ -570,7 +570,7 @@ i {
   opacity: 0.5;
 }
 
-.ti-shareaftere {
+.ti-share:after {
   content: "";
   margin-left: -1em;
 }
@@ -584,7 +584,7 @@ i {
   opacity: 0.33;
 }
 
-.ti-trashcan:bafter {
+.ti-trashcan:after {
   content: "";
   margin-left: -1em;
 }
@@ -594,7 +594,7 @@ i {
   opacity: 0.5;
 }
 
-.ti-user-card:bafter {
+.ti-user-card:after {
   content: "";
   margin-left: -1em;
 }
@@ -604,7 +604,7 @@ i {
   opacity: 0.5;
 }
 
-.ti-add afterore {
+.ti-add:after {
   content: "";
   margin-left: -1em;
 }
@@ -614,7 +614,7 @@ i {
   opacity: 0.33;
 }
 
-.ti-checkmark-circle:bafter {
+.ti-checkmark-circle:after {
   content: "";
   margin-left: -1em;
 }
@@ -623,7 +623,7 @@ i {
   content: "";
 }
 
-.ti-checkmarks:bafter {
+.ti-checkmarks:after {
   content: "";
   margin-left: -1em;
   opacity: 0.5;
@@ -634,7 +634,7 @@ i {
   opacity: 0.33;
 }
 
-.ti-cross-circle:bafter {
+.ti-cross-circle:after {
   content: "";
   margin-left: -1em;
 }
@@ -643,7 +643,7 @@ i {
   content: "";
 }
 
-.ti-gearsaftere {
+.ti-gears:after {
   content: "";
   margin-left: -1em;
   opacity: 0.5;
@@ -658,7 +658,7 @@ i {
   opacity: 0.5;
 }
 
-.ti-houseaftere {
+.ti-house:after {
   content: "";
   margin-left: -1em;
 }
@@ -667,7 +667,7 @@ i {
   content: "";
 }
 
-.ti-i-circle:bafter {
+.ti-i-circle:after {
   content: "";
   margin-left: -1em;
   opacity: 0.33;
@@ -678,7 +678,7 @@ i {
   opacity: 0.5;
 }
 
-.ti-save afterre {
+.ti-save:after {
   content: "";
   margin-left: -1em;
 }
@@ -687,7 +687,7 @@ i {
   content: "";
 }
 
-.ti-starsaftere {
+.ti-stars:after {
   content: "";
   margin-left: -1em;
   opacity: 0.5;
