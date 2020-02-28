@@ -174,7 +174,7 @@ i {
   }
 }
 .ti-sun {
-  afterore {
+  &:after {
     content: $ti-sun-path2;
     margin-left: -1em;
 
@@ -189,7 +189,7 @@ i {
   }
 }
 .ti-swap {
-  afterre {
+  &:after {
     content: $ti-swap-path2;
     margin-left: -1em;
   }
@@ -449,7 +449,7 @@ i {
   }
 }
 .ti-card {
-  afterre {
+  &:after {
     content: $ti-card-path2;
     margin-left: -1em;
 
@@ -592,7 +592,7 @@ i {
   }
 }
 .ti-book {
-  afterre {
+  &:after {
     content: $ti-book-path2;
     margin-left: -1em;
   }
@@ -790,7 +790,7 @@ i {
   }
 }
 .ti-farm {
-  afterre {
+  &:after {
     content: $ti-farm-path2;
     margin-left: -1em;
 
@@ -803,7 +803,7 @@ i {
   }
 }
 .ti-list {
-  afterre {
+  &:after {
     content: $ti-list-path2;
     margin-left: -1em;
 
@@ -892,7 +892,7 @@ i {
   }
 }
 .ti-lens {
-  afterre {
+  &:after {
     content: $ti-lens-path2;
     margin-left: -1em;
   }
@@ -1016,7 +1016,7 @@ i {
   }
 }
 .ti-add {
-  afterore {
+  &:after {
     content: $ti-add-path2;
     margin-left: -1em;
   }
@@ -1112,7 +1112,7 @@ i {
   }
 }
 .ti-save {
-  afterre {
+  &:after {
     content: $ti-save-path2;
     margin-left: -1em;
   }

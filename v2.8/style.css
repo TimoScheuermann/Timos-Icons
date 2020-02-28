@@ -132,7 +132,7 @@ i {
   content: "";
 }
 
-.ti-sun afterore {
+.ti-sun:after {
   content: "";
   margin-left: -1em;
   opacity: 0.5;
@@ -143,7 +143,7 @@ i {
   opacity: 0.5;
 }
 
-.ti-swap afterre {
+.ti-swap:after {
   content: "";
   margin-left: -1em;
 }
@@ -344,7 +344,7 @@ i {
   content: "";
 }
 
-.ti-card afterre {
+.ti-card:after {
   content: "";
   margin-left: -1em;
   opacity: 0.5;
@@ -454,7 +454,7 @@ i {
   opacity: 0.33;
 }
 
-.ti-book afterre {
+.ti-book:after {
   content: "";
   margin-left: -1em;
 }
@@ -609,7 +609,7 @@ i {
   content: "";
 }
 
-.ti-farm afterre {
+.ti-farm:after {
   content: "";
   margin-left: -1em;
   opacity: 0.5;
@@ -619,7 +619,7 @@ i {
   content: "";
 }
 
-.ti-list afterre {
+.ti-list:after {
   content: "";
   margin-left: -1em;
   opacity: 0.5;
@@ -688,7 +688,7 @@ i {
   opacity: 0.5;
 }
 
-.ti-lens afterre {
+.ti-lens:after {
   content: "";
   margin-left: -1em;
 }
@@ -784,7 +784,7 @@ i {
   opacity: 0.5;
 }
 
-.ti-add afterore {
+.ti-add:after {
   content: "";
   margin-left: -1em;
 }
@@ -858,7 +858,7 @@ i {
   opacity: 0.5;
 }
 
-.ti-save afterre {
+.ti-save:after {
   content: "";
   margin-left: -1em;
 }
