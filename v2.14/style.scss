@@ -197,14 +197,7 @@ i {
   &::after {
     content: $ti-star-add-path2;
     margin-left: -1em;
-
     opacity: 0.5;
-  }
-}
-.ti-star-add .path3 {
-  &:before {
-    content: $ti-star-add-path3;
-    margin-left: -1em;
   }
 }
 .ti-ticket {
