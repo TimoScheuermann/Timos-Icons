@@ -1,0 +1,204 @@
+
+.ti-calendar-alt .path1 {
+  &:before {
+    content: $ti-calendar-alt-path1;
+    color: rgb(0, 0, 0);
+  }
+}
+.ti-calendar-alt .path2 {
+  &:before {
+    content: $ti-calendar-alt-path2;
+    margin-left: -1em;
+    color: rgb(0, 0, 0);
+    opacity: 0.5;
+  }
+}
+.ti-image .path1 {
+  &:before {
+    content: $ti-image-path1;
+    color: rgb(0, 0, 0);
+  }
+}
+.ti-image .path2 {
+  &:before {
+    content: $ti-image-path2;
+    margin-left: -1em;
+    color: rgb(0, 0, 0);
+    opacity: 0.5;
+  }
+}
+.ti-mail {
+  &:before {
+    content: $ti-mail;
+  }
+}
+.ti-mail-unread .path1 {
+  &:before {
+    content: $ti-mail-unread-path1;
+    color: rgb(0, 0, 0);
+  }
+}
+.ti-mail-unread .path2 {
+  &:before {
+    content: $ti-mail-unread-path2;
+    margin-left: -1em;
+    color: rgb(0, 0, 0);
+    opacity: 0.5;
+  }
+}
+.ti-music {
+  &:before {
+    content: $ti-music;
+  }
+}
+.ti-notification-disabled .path1 {
+  &:before {
+    content: $ti-notification-disabled-path1;
+    color: rgb(0, 0, 0);
+  }
+}
+.ti-notification-disabled .path2 {
+  &:before {
+    content: $ti-notification-disabled-path2;
+    margin-left: -1em;
+    color: rgb(0, 0, 0);
+    opacity: 0.5;
+  }
+}
+.ti-wrench {
+  &:before {
+    content: $ti-wrench;
+  }
+}
+.ti-anchor {
+  &:before {
+    content: $ti-anchor;
+  }
+}
+.ti-calendar .path1 {
+  &:before {
+    content: $ti-calendar-path1;
+    color: rgb(0, 0, 0);
+    opacity: 0.5;
+  }
+}
+.ti-calendar .path2 {
+  &:before {
+    content: $ti-calendar-path2;
+    margin-left: -1em;
+    color: rgb(0, 0, 0);
+  }
+}
+.ti-map {
+  &:before {
+    content: $ti-map;
+  }
+}
+.ti-microscope .path1 {
+  &:before {
+    content: $ti-microscope-path1;
+    color: rgb(0, 0, 0);
+  }
+}
+.ti-microscope .path2 {
+  &:before {
+    content: $ti-microscope-path2;
+    margin-left: -1em;
+    color: rgb(0, 0, 0);
+    opacity: 0.33;
+  }
+}
+.ti-notification .path1 {
+  &:before {
+    content: $ti-notification-path1;
+    color: rgb(0, 0, 0);
+  }
+}
+.ti-notification .path2 {
+  &:before {
+    content: $ti-notification-path2;
+    margin-left: -1em;
+    color: rgb(0, 0, 0);
+    opacity: 0.5;
+  }
+}
+.ti-phone-alt {
+  &:before {
+    content: $ti-phone-alt;
+  }
+}
+.ti-photos .path1 {
+  &:before {
+    content: $ti-photos-path1;
+    color: rgb(0, 0, 0);
+  }
+}
+.ti-photos .path2 {
+  &:before {
+    content: $ti-photos-path2;
+    margin-left: -1em;
+    color: rgb(0, 0, 0);
+    opacity: 0.33;
+  }
+}
+.ti-present .path1 {
+  &:before {
+    content: $ti-present-path1;
+    color: rgb(0, 0, 0);
+  }
+}
+.ti-present .path2 {
+  &:before {
+    content: $ti-present-path2;
+    margin-left: -1em;
+    color: rgb(0, 0, 0);
+    opacity: 0.55;
+  }
+}
+.ti-settings .path1 {
+  &:before {
+    content: $ti-settings-path1;
+    color: rgb(0, 0, 0);
+    opacity: 0.5;
+  }
+}
+.ti-settings .path2 {
+  &:before {
+    content: $ti-settings-path2;
+    margin-left: -1em;
+    color: rgb(0, 0, 0);
+  }
+}
+.ti-star-add .path1 {
+  &:before {
+    content: $ti-star-add-path1;
+    color: rgb(0, 0, 0);
+    opacity: 0.5;
+  }
+}
+.ti-star-add .path2 {
+  &:before {
+    content: $ti-star-add-path2;
+    margin-left: -1em;
+    color: rgb(0, 0, 0);
+  }
+}
+.ti-ticket .path1 {
+  &:before {
+    content: $ti-ticket-path1;
+    color: rgb(0, 0, 0);
+  }
+}
+.ti-ticket .path2 {
+  &:before {
+    content: $ti-ticket-path2;
+    margin-left: -1em;
+    color: rgb(0, 0, 0);
+    opacity: 0.5;
+  }
+}
+.ti-umbrella {
+  &:before {
+    content: $ti-umbrella;
+  }
+}

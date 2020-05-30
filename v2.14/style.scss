@@ -1,13 +1,16 @@
-@import "variables";
+@import 'variables';
 
 @font-face {
   font-family: '#{$icomoon-font-family}';
-  src:  url('#{$icomoon-font-path}/#{$icomoon-font-family}.eot?3y459n');
-  src:  url('#{$icomoon-font-path}/#{$icomoon-font-family}.eot?3y459n#iefix') format('embedded-opentype'),
-    url('#{$icomoon-font-path}/#{$icomoon-font-family}.ttf?3y459n') format('truetype'),
-    url('#{$icomoon-font-path}/#{$icomoon-font-family}.woff?3y459n') format('woff'),
-    url('#{$icomoon-font-path}/#{$icomoon-font-family}.svg?3y459n##{$icomoon-font-family}') format('svg');
-
+  src: url('#{$icomoon-font-path}/#{$icomoon-font-family}.eot?ujcwjq');
+  src: url('#{$icomoon-font-path}/#{$icomoon-font-family}.eot?ujcwjq#iefix')
+      format('embedded-opentype'),
+    url('#{$icomoon-font-path}/#{$icomoon-font-family}.ttf?ujcwjq')
+      format('truetype'),
+    url('#{$icomoon-font-path}/#{$icomoon-font-family}.woff?ujcwjq')
+      format('woff'),
+    url('#{$icomoon-font-path}/#{$icomoon-font-family}.svg?ujcwjq##{$icomoon-font-family}')
+      format('svg');
   font-weight: normal;
   font-style: normal;
   font-display: block;
@@ -15,7 +18,8 @@
 
 i {
   /* use !important to prevent issues with browser extensions that change fonts */
-  font-family: "#{$icomoon-font-family}" !important;
+  font-family: '#{$icomoon-font-family}' !important;
+  speak: none;
   font-style: normal;
   font-weight: normal;
   font-variant: normal;
@@ -198,7 +202,6 @@ i {
   &::after {
     content: $ti-star-add-path2;
     margin-left: -1em;
-    opacity: 0.5;
   }
 }
 .ti-ticket {
