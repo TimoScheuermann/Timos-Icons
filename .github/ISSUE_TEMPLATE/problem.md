@@ -8,7 +8,7 @@ assignees: ''
 
 ---
 
-### Icon thats causes the problem
+### Icon that causes the problem
 
 **enter name of the icon here**
 
