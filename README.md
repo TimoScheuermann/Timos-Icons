@@ -1,13 +1,4 @@
-<h1 align="center">Welcome to Timos-Icons 👋</h1>
-<p>
-  <img alt="Version" src="https://img.shields.io/badge/version-0.0.1-blue.svg?cacheSeconds=2592000" />
-  <a href="https://github.com/timoscheuermann/Timos-Icons" target="_blank">
-    <img alt="Documentation" src="https://img.shields.io/badge/documentation-yes-brightgreen.svg" />
-  </a>
-  <a href="https://choosealicense.com/licenses/unlicense/" target="_blank">
-    <img alt="License: The Unlicense" src="https://img.shields.io/badge/License-The Unlicense-yellow.svg" />
-  </a>
-</p>
+<img width="100%" src="https://raw.githubusercontent.com/TimoScheuermann/github-assets/master/Timos-Icons/TimosIcons-Banner.svg" />
 
 > Custom svg icons with easy use for every website
 
