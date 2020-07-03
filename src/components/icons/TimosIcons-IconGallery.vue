@@ -22,7 +22,9 @@ export default class TimosIconsIconGallery extends Vue {
   @Prop({ default: [] }) queries!: string[];
 
   get icons(): Icon[] {
-    return this.$store.getters.icons;
+    return this.$store.getters.icons.sort((a: Icon, b: Icon) =>
+      a.name.localeCompare(b.name)
+    );
   }
 
   get filteredIcons(): Icon[] {
