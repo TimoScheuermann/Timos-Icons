@@ -1,32 +1,24 @@
-<img width="100%" src="https://raw.githubusercontent.com/TimoScheuermann/github-assets/master/Timos-Icons/TimosIcons-Banner.svg" />
+# timosicons
 
-> Custom svg icons with easy use for every website
-
-### 🏠 [Homepage](https://timoscheuermann.github.io/Timos-Icons/)
-
-### ✨ [Demo](https://timoscheuermann.github.io/Timos-Icons/)
-
-## Usage
-
-```sh
-https://timoscheuermann.github.io/Timos-Icons/usage
+## Project setup
+```
+yarn install
 ```
 
-## Author
+### Compiles and hot-reloads for development
+```
+yarn serve
+```
 
-👤 **Timo Scheuermann**
+### Compiles and minifies for production
+```
+yarn build
+```
 
-* Github: [@timoscheuermann](https://github.com/timoscheuermann)
+### Lints and fixes files
+```
+yarn lint
+```
 
-## 🤝 Contributing
-
-Contributions, issues and feature requests are welcome!<br />Feel free to check [issues page](https://github.com/TimoScheuermann/Timos-Icons/issues).
-
-## Show your support
-
-Give a ⭐️ if this project helped you!
-
-## 📝 License
-
-Copyright © 2019 [Timo Scheuermann](https://github.com/timoscheuermann).<br />
-This project is [The Unlicense](https://choosealicense.com/licenses/unlicense/) licensed.
+### Customize configuration
+See [Configuration Reference](https://cli.vuejs.org/config/).

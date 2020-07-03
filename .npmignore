@@ -1,6 +1,7 @@
 .DS_Store
 node_modules
-
+src
+public
 .gitignore
 .babel.config.js
 .tsconfig.json
@@ -9,7 +10,6 @@ vue.*
 *.lock
 _defaultComp
 dist
-_old
 
 # local env files
 .env.local
