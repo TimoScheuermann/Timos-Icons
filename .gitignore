@@ -1,12 +1,10 @@
 .DS_Store
 node_modules
-
 .gitignore
 .babel.config.js
 .tsconfig.json
 updateComponents.*
 vue.*
-*.lock
 _defaultComp
 dist
 _old
