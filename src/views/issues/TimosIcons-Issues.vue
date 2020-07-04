@@ -1,8 +1,8 @@
 <template>
   <div class="timosicons-issues">
     <tc-hero>
-      <img slot="background" src="assets/hero.png" />
-      <img src="assets/icon-request-concept.svg" />
+      <img alt="" slot="background" src="assets/hero.jpg" />
+      <img alt="" src="assets/icon-request-concept.svg" />
       <h1>The Icon Leaderboard</h1>
       <p>
         Find the most requested icon, the icons I am working on and much more
@@ -48,7 +48,9 @@
             :key="issue.id"
             @click="open(issue.number)"
           >
-            <td class="img"><img :src="issue.user.avatar_url" /></td>
+            <td class="img">
+              <img :src="issue.user.avatar_url" alt="user avatar" />
+            </td>
             <td class="type" :style="{ color: '#' + issue.labels[0].color }">
               <span>{{ issue.labels[0].name }}</span>
             </td>

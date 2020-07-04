@@ -1,7 +1,7 @@
 <template>
   <div class="timosicns-icons">
     <tc-hero height="150">
-      <img src="assets/hero.png" slot="background" />
+      <img alt="" src="assets/hero.jpg" slot="background" />
       <tc-input
         v-model="query"
         :frosted="true"

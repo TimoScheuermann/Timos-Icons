@@ -1,7 +1,7 @@
 <template>
   <div class="timosicons-issues--detail">
     <tc-hero>
-      <img slot="background" src="assets/hero.png" />
+      <img alt="" slot="background" src="assets/hero.jpg" />
       <transition-group tag="div" class="hero-content" name="swap">
         <div class="error" v-if="error" :key="0">Error</div>
         <div class="loaded" v-else-if="loaded" :key="1">

@@ -14,7 +14,8 @@ const router = new VueRouter({
     {
       path: '/',
       name: 'home',
-      component: () => import('@/views/TimosIcons-Home.vue'),
+      component: () =>
+        import(/* webpackPrefetch: true */ '@/views/TimosIcons-Home.vue'),
       meta: {
         title: prefix + 'Home'
       }
@@ -50,7 +51,10 @@ const router = new VueRouter({
         {
           path: '',
           name: 'icons',
-          component: () => import('@/views/icons/TimosIcons-Icons.vue'),
+          component: () =>
+            import(
+              /* webpackPrefetch: true */ '@/views/icons/TimosIcons-Icons.vue'
+            ),
           meta: {
             title: prefix + 'Icons',
             back: {

@@ -6,7 +6,7 @@
     :backTo="hasBack && { name: $route.meta.back.route }"
   >
     <router-link tag="div" :to="{ name: 'home' }" class="logo">
-      <img src="assets/logo.svg" />
+      <img src="assets/logo.svg" alt="" />
     </router-link>
   </tc-header>
 </template>

@@ -1,7 +1,7 @@
 <template>
   <div class="timosicons-howto">
     <tc-hero>
-      <img src="assets/hero.png" slot="background" />
+      <img src="assets/hero.jpg" alt="" slot="background" />
       <h1>Getting started</h1>
     </tc-hero>
     <div content>

@@ -1,8 +1,7 @@
 <template>
   <div class="timosicons-home">
     <tc-hero height="400">
-      <img id="bg" slot="background" src="assets/hero.png" />
-      <!-- src="https://images.unsplash.com/photo-1544198365-f5d60b6d8190?ixlib=rb-1.2.1&ixid=eyJhcHBfaWQiOjEyMDd9&auto=format&fit=crop&w=2250&q=80" -->
+      <img id="bg" slot="background" src="assets/hero.jpg" alt="" />
       <div class="tc-hero--content">
         <div class="title">Timo's Icons</div>
         <div class="subtitle">
@@ -20,7 +19,6 @@
           />
         </form>
       </div>
-      <!-- <img class="tc-hero-title--image" src="assets/hero_inner.png" /> -->
     </tc-hero>
     <div content>
       <tl-grid>

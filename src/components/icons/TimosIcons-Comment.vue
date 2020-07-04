@@ -1,7 +1,7 @@
 <template>
   <tc-card rounded="true" :dark="isFromTimo(comment)">
     <div class="head">
-      <img class="avatar" :src="comment.user.avatar_url" />
+      <img class="avatar" :src="comment.user.avatar_url" alt="profile pic" />
       <div class="info">
         <div class="author">{{ comment.user.login }}</div>
         <div class="time">

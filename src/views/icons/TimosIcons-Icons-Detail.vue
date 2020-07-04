@@ -1,7 +1,7 @@
 <template>
   <div class="timosicons-icons-detail">
     <tc-hero>
-      <img src="assets/hero.png" slot="background" />
+      <img src="assets/hero.jpg" alt="" slot="background" />
       <div v-if="!!icon" class="hero-title">
         <h1>{{ icon.name }}</h1>
         <i :class="iconclass" />

@@ -1,7 +1,7 @@
 <template>
   <tc-navbar :dark="true">
     <div slot="logo" class="logo">
-      <img src="assets/logo.svg" />
+      <img src="assets/logo.svg" alt="" />
       <b>Timo's Icons</b>
     </div>
 
