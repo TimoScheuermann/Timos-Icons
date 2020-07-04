@@ -1,5 +1,5 @@
 <template>
-  <tc-navbar :dark="true">
+  <tc-navbar :autoBackground="true">
     <div slot="logo" class="logo">
       <img src="assets/logo.svg" alt="" />
       <b>Timo's Icons</b>
@@ -26,6 +26,14 @@ export default class TimosIconsNavbar extends Vue {
 </script>
 
 <style lang="scss" scoped>
+img {
+  transition: 0.2s ease-in-out;
+}
+.tc-navbar__light {
+  img {
+    filter: brightness(0%);
+  }
+}
 .tc-navbar {
   @media #{$isMobile} {
     display: none !important;

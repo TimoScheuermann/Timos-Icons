@@ -56,7 +56,7 @@ export default class TimosIconsIconGallery extends Vue {
   margin-top: 20px;
   display: grid;
   grid-template-columns: repeat(auto-fill, minmax(150px, 1fr));
-  grid-gap: 20px;
+  grid-gap: 30px;
 }
 
 .icon-preview {
@@ -73,7 +73,7 @@ export default class TimosIconsIconGallery extends Vue {
   overflow: hidden;
   .watermark {
     position: absolute;
-    opacity: 0.05;
+    opacity: 0.03;
     top: 50%;
     left: 50%;
     transform: translate(-50%, -50%) scale(10);

@@ -1,6 +1,6 @@
 <template>
   <tc-header
-    :dark="true"
+    :autoBackground="true"
     :title="title"
     :backName="hasBack && $route.meta.back.title"
     :backTo="hasBack && { name: $route.meta.back.route }"
@@ -31,6 +31,14 @@ export default class TimosIconsHeader extends Vue {
 </script>
 
 <style lang="scss" scoped>
+img {
+  transition: 0.2s ease-in-out;
+}
+.tc-header__light {
+  img {
+    filter: brightness(0%);
+  }
+}
 .tc-header {
   @media #{$isDesktop} {
     display: none !important;

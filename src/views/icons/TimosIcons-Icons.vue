@@ -1,6 +1,6 @@
 <template>
   <div class="timosicns-icons">
-    <tc-hero height="150">
+    <tc-hero tc-dark-container height="150">
       <img alt="" src="assets/hero.jpg" slot="background" />
       <tc-input
         v-model="query"

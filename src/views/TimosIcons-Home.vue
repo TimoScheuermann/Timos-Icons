@@ -1,6 +1,6 @@
 <template>
   <div class="timosicons-home">
-    <tc-hero height="400">
+    <tc-hero tc-dark-container height="400">
       <img id="bg" slot="background" src="assets/hero.jpg" alt="" />
       <div class="tc-hero--content">
         <div class="title">Timo's Icons</div>
@@ -23,7 +23,7 @@
     <div content>
       <tl-grid>
         <tc-card :dark="true">
-          <img tcl slot="media" src="assets/logo.svg" />
+          <img tcl src="assets/logo.svg" />
           <h3>Adobe XD Plugin</h3>
           <p>
             Coming soon!
@@ -37,7 +37,7 @@
           />
         </tc-card>
         <tc-card>
-          <tl-grid slot="media" class="latestIcons" minWidth="20">
+          <tl-grid class="latestIcons" minWidth="20">
             <i
               v-for="i in getIconsOfVersion(versions[0])"
               :key="i"
@@ -111,6 +111,7 @@ export default class TimosIconsHome extends Vue {
 }
 [tcl] {
   max-height: 100px;
+  margin: 20px 0;
 }
 .tc-card {
   h3 {
@@ -126,7 +127,7 @@ export default class TimosIconsHome extends Vue {
     color: $primary;
   }
   .latestIcons {
-    margin: 0 40px;
+    margin: 20px;
     max-height: 200px;
     i {
       font-size: 40px;

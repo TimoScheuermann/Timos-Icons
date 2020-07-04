@@ -1,6 +1,6 @@
 <template>
   <div class="timosicons-issues">
-    <tc-hero>
+    <tc-hero tc-dark-container>
       <img alt="" slot="background" src="assets/hero.jpg" />
       <img alt="" src="assets/icon-request-concept.svg" />
       <h1>The Icon Leaderboard</h1>
@@ -29,7 +29,7 @@
           <img src="assets/request.png" alt="" />
         </div>
       </tl-grid>
-      <tc-card>
+      <tc-card rounded="true">
         <tc-headline icon="ticket" title="Issues">
           <tc-checkbox v-model="filter.request" title="Requests" />
           <tc-checkbox v-model="filter.problem" title="Problems" />
@@ -147,7 +147,9 @@ export default class TimosIconsIssues extends Vue {
     max-width: 400px;
   }
 }
-
+[content] {
+  padding-top: 30px;
+}
 [grid-item] {
   display: flex;
   flex-direction: column;

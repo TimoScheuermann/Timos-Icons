@@ -1,6 +1,6 @@
 <template>
   <div class="timosicons-issues--detail">
-    <tc-hero>
+    <tc-hero tc-dark-container>
       <img alt="" slot="background" src="assets/hero.jpg" />
       <transition-group tag="div" class="hero-content" name="swap">
         <div class="error" v-if="error" :key="0">Error</div>

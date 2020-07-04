@@ -1,6 +1,6 @@
 <template>
   <div class="timosicons-icons-detail">
-    <tc-hero>
+    <tc-hero tc-dark-container>
       <img src="assets/hero.jpg" alt="" slot="background" />
       <div v-if="!!icon" class="hero-title">
         <h1>{{ icon.name }}</h1>
