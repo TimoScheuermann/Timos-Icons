@@ -1,6 +1,6 @@
 import EmptyRouter from '@/views/EmptyRouter.vue';
 import Vue from 'vue';
-import VueRouter from 'vue-router';
+import VueRouter, { Route } from 'vue-router';
 
 Vue.use(VueRouter);
 const prefix = "Timo's Icons | ";
@@ -10,6 +10,7 @@ const router = new VueRouter({
     return { x: 0, y: 0 };
   },
   mode: 'history',
+
   routes: [
     {
       path: '/',
@@ -117,12 +118,12 @@ const router = new VueRouter({
 
 export default router;
 
-export function getTitle(): string {
-  let name: string = router.currentRoute.meta.title;
+export function getTitle(route: Route = router.currentRoute): string {
+  let name: string = route.meta.title;
   if (!name) return "Timo's Icons";
   if (name.includes('%icon%'))
-    name = name.split('%icon%').join(router.currentRoute.params.icon);
+    name = name.split('%icon%').join(route.params.icon);
   if (name.includes('%issue%'))
-    name = name.split('%issue%').join(router.currentRoute.params.issue);
+    name = name.split('%issue%').join(route.params.issue);
   return name;
 }

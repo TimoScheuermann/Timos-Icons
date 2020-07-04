@@ -9,11 +9,10 @@
 </template>
 
 <script lang="ts">
-import { Vue, Component, Watch } from 'vue-property-decorator';
+import { Vue, Component } from 'vue-property-decorator';
 import TimosIconsNavbar from '@/components/shared/TimosIcons-Navbar.vue';
 import TimosIconsTabbar from '@/components/shared/TimosIcons-Tabbar.vue';
 import TimosIconsHeader from '@/components/shared/TimosIcons-Header.vue';
-import { getTitle } from '@/router';
 
 @Component({
   components: {
@@ -23,18 +22,9 @@ import { getTitle } from '@/router';
   }
 })
 export default class App extends Vue {
-  @Watch('$route', { deep: true, immediate: true })
-  routeChanged(): void {
-    document.title = getTitle();
-  }
-
   mounted() {
     const xhr = new XMLHttpRequest(); // a new request
-    xhr.open(
-      'GET',
-      'https://raw.githubusercontent.com/TimoScheuermann/Timos-Icons/2.15.2/icons.json',
-      true
-    );
+    xhr.open('GET', 'https://icons.timos.design/resources/icons.json', true);
     xhr.send(null);
     xhr.onload = () => {
       if (xhr.readyState === 4 && xhr.status === 200) {
