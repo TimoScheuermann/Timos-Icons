@@ -1,7 +1,9 @@
 module.exports = {
   pwa: {
     manifestOptions: {
-      display: 'fullscreen'
+      display: 'fullscreen',
+      // eslint-disable-next-line @typescript-eslint/camelcase
+      start_url: '.'
     },
     name: "Timo's Icons",
     themeColor: '#000',
