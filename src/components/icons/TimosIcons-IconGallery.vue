@@ -56,18 +56,20 @@ export default class TimosIconsIconGallery extends Vue {
   margin-top: 20px;
   display: grid;
   grid-template-columns: repeat(auto-fill, minmax(150px, 1fr));
-  grid-gap: 30px;
+  grid-gap: 10px;
 }
 
 .icon-preview {
+  color: $color;
+  background: $paragraph;
+
   display: flex;
   flex-direction: column;
   justify-content: space-between;
   height: 70px;
   align-items: center;
-  color: $color;
-  padding: 20px;
-  border-radius: $border-radius;
+  padding: 30px;
+  // border-radius: $border-radius;
   transition: 0.2s ease-in-out;
   position: relative;
   overflow: hidden;
@@ -82,6 +84,9 @@ export default class TimosIconsIconGallery extends Vue {
     font-size: 2em;
     transition: 0.2s ease-in-out;
   }
+  span {
+    // display: none;
+  }
   div {
     transition: 0.4s ease-in-out;
 
@@ -89,11 +94,11 @@ export default class TimosIconsIconGallery extends Vue {
     text-align: center;
     overflow: hidden;
   }
-  background: $paragraph;
+
   &:hover {
     .icon {
       font-size: 4em;
-      color: $primary;
+      // color: $primary;
     }
     div {
       opacity: 0;

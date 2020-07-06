@@ -102,7 +102,7 @@ export default class TimosIconsIcons extends Vue {
 
 .tc-scroll-up {
   @media #{$isMobile} {
-    bottom: 60px;
+    bottom: calc(60px + env(safe-area-inset-bottom));
   }
 }
 

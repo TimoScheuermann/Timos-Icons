@@ -28,36 +28,39 @@
             </tc-card>
           </tl-grid>
           <tl-grid>
-            <tc-card :shadow="false" rounded="true" details>
-              <i :class="iconclass" class="watermark"></i>
-              <h2 slot="header">{{ icon.name }}</h2>
-              <div class="version" slot="header" @click="goTo('versions')">
-                Added in v{{ icon.version || '1.0' }}
-              </div>
-              <tl-grid minWidth="120">
-                <tc-button
-                  :icon="icon.name"
-                  color="error"
-                  :name="coppied ? 'Copied!' : 'Copy HTML'"
-                  variant="opaque"
-                  @click="copy('html')"
-                />
-                <tc-button
-                  :icon="icon.name"
-                  color="success"
-                  :name="coppied ? 'Copied!' : 'Copy SVG'"
-                  variant="opaque"
-                  @click="copy('svg')"
-                />
+            <tc-card :shadow="false" rounded="true">
+              <tl-grid details minWidth="230">
+                <div class="details">
+                  <h2>{{ icon.name }}</h2>
+                  <div class="version" @click="goTo('versions')">
+                    Added in v{{ icon.version || '1.0' }}
+                  </div>
+                  <i :class="iconclass" class="indic" />
+                </div>
+                <div class="details">
+                  <tc-button
+                    :icon="icon.name"
+                    color="error"
+                    :name="coppied === 1 ? 'Copied!' : 'Copy HTML'"
+                    variant="filled"
+                    @click="copy('html')"
+                  />
+                  <tc-button
+                    :icon="icon.name"
+                    color="success"
+                    :name="coppied === 0 ? 'Copied!' : 'Copy SVG'"
+                    variant="filled"
+                    @click="copy('svg')"
+                  />
+                  <tc-button
+                    huge
+                    variant="filled"
+                    icon="reply"
+                    name="Start using Timo's Icons"
+                    :to="{ name: 'howto' }"
+                  />
+                </div>
               </tl-grid>
-
-              <tc-button
-                huge
-                variant="filled"
-                icon="reply"
-                name="Start using Timo's Icons"
-                :to="{ name: 'howto' }"
-              />
             </tc-card>
           </tl-grid>
         </tl-grid>
@@ -112,7 +115,7 @@ import { copyToClipboard } from '@/utils';
 export default class TimosIconsIconsDetail extends Vue {
   public html = '';
   public svg = '';
-  public coppied = false;
+  public coppied = -1;
   public timeout = 0;
 
   get icon(): Icon {
@@ -148,9 +151,9 @@ export default class TimosIconsIconsDetail extends Vue {
     }
     copyToClipboard(text);
     clearTimeout(this.timeout);
-    this.coppied = true;
+    this.coppied = type === 'svg' ? 0 : 1;
     this.timeout = setTimeout(() => {
-      this.coppied = false;
+      this.coppied = -1;
     }, 1000);
   }
 
@@ -196,13 +199,14 @@ export default class TimosIconsIconsDetail extends Vue {
   }
 }
 [details] {
-  .watermark {
-    position: absolute;
-    top: 50%;
-    left: 50%;
-    transform: translate(-50%, -50%) scale(20);
-    opacity: 0.1;
-    z-index: -1;
+  .details {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+  }
+  .indic {
+    font-size: 12em;
   }
   h2 {
     margin-bottom: 5px;
@@ -210,6 +214,7 @@ export default class TimosIconsIconsDetail extends Vue {
   .version {
     font-weight: 500;
     opacity: 0.8;
+    margin-bottom: 20px;
   }
   .tl-grid {
     margin-bottom: 10px;
@@ -219,7 +224,10 @@ export default class TimosIconsIconsDetail extends Vue {
   .tc-button {
     display: block;
     padding: 10px;
+    margin: 5px 0;
+    width: calc(100% - 28px);
     &[huge] {
+      width: calc(100% - 38px);
       padding: 15px;
     }
   }

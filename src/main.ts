@@ -25,6 +25,9 @@ router.beforeEach((to: Route, from: Route, next) => {
   const title = getTitle(to);
   document.title = title;
 
+  const gt = document.querySelector('meta[name="title"]');
+  if (gt) gt.setAttribute('content', title);
+
   const twitter = document.querySelector('meta[property="twitter:title"]');
   if (twitter) twitter.setAttribute('content', title);
 
