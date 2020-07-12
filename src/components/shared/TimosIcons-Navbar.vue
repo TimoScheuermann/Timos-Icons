@@ -1,9 +1,9 @@
 <template>
   <tc-navbar :autoBackground="true">
-    <div slot="logo" class="logo">
+    <router-link :to="{ name: 'home' }" slot="logo" class="logo">
       <img src="assets/logo.svg" alt="" />
       <b>Timo's Icons</b>
-    </div>
+    </router-link>
 
     <tc-navbar-item
       v-for="r in routes"
@@ -43,6 +43,7 @@ img {
     display: flex;
     justify-content: center;
     align-items: center;
+    color: inherit;
 
     img {
       height: 30px;

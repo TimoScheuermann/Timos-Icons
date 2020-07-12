@@ -21,63 +21,82 @@
       </div>
     </tc-hero>
     <div content>
+      <big-heading
+        title="Get started now"
+        :subtitle="'Use over ' + iconAmount + ' Icons for free'"
+      />
+
       <tl-grid>
-        <tc-card :dark="true">
-          <img tcl src="assets/logo.svg" />
-          <h3>Adobe XD Plugin</h3>
-          <p>
-            Coming soon!
-          </p>
-
+        <tc-card
+          rounded="true"
+          title="How to"
+          subtitle="Read the guide to learn how to use Timo's Icons in Your next project"
+        >
           <tc-button
-            name="Download"
-            icon="download"
-            color="error"
-            :disabled="true"
-          />
-        </tc-card>
-        <tc-card>
-          <tl-grid class="latestIcons" minWidth="20">
-            <i
-              v-for="i in getIconsOfVersion(versions[0])"
-              :key="i"
-              :class="'ti-' + i"
-            />
-          </tl-grid>
-          <h3>Introducing Version {{ versions[0] }}</h3>
-          <p>
-            <b>Featuring</b>
-            {{
-              getIconsOfVersion(versions[0])
-                .join(', ')
-                .split('-')
-                .join(' ')
-            }}
-          </p>
-
-          <tc-button
-            name="Versions"
+            name="How to"
+            icon="question-circle"
             variant="filled"
-            icon="chevron-right"
-            iconPosition="right"
-            color="paragraph"
-            :to="{ name: 'versions' }"
+            :to="{ name: 'howto' }"
           />
         </tc-card>
-        <tc-card>
-          <div slot="media" class="bigNumber">{{ iconAmount }}</div>
-          <h3>Just wow!</h3>
-          <p>The amount of icons has grown to over {{ iconAmount }} icons!</p>
-
+        <tc-card
+          rounded="true"
+          title="Overview"
+          :subtitle="
+            'Find the right icon for your project from a list of over ' +
+              iconAmount +
+              ' icons'
+          "
+        >
           <tc-button
             name="Icons"
+            icon="heart"
             variant="filled"
-            icon="chevron-right"
-            iconPosition="right"
-            color="paragraph"
             :to="{ name: 'icons' }"
           />
         </tc-card>
+      </tl-grid>
+
+      <big-heading
+        :title="'Introducing v' + versions[0]"
+        :subtitle="'Featuring ' + latestIcons.length + ' new Icons'"
+      />
+
+      <tl-grid minWidth="200">
+        <router-link
+          v-for="i in latestIcons"
+          :key="i"
+          :to="{ name: 'iconsdetails', params: { icon: i } }"
+        >
+          <tc-card :title="i" rounded="true" hover="true">
+            <i :class="'ti-' + i" class="big" />
+          </tc-card>
+        </router-link>
+      </tl-grid>
+
+      <big-heading
+        title="Timo's Icons in the wild"
+        subtitle="Websites featuring Timo's Icons"
+      />
+
+      <tl-grid>
+        <a href="https://components.timos.design" target="_blank">
+          <tc-card>
+            <img src="https://components.timos.design/assets/banner.svg" />
+          </tc-card>
+        </a>
+        <a href="https://wip-investing-collectors.netlify.app" target="_blank">
+          <tc-card>
+            <img
+              src="https://wip-investing-collectors.netlify.app/assets/logo.png"
+            />
+          </tc-card>
+        </a>
+        <a href="https://portfolio.timos.design" target="_blank">
+          <tc-card>
+            <img src="assets/portfolio.svg" />
+          </tc-card>
+        </a>
       </tl-grid>
     </div>
   </div>
@@ -86,7 +105,13 @@
 <script lang="ts">
 import { Vue, Component } from 'vue-property-decorator';
 import { getIconVersions, getIconsOfVersion } from '@/utils';
-@Component
+import BigHeading from '@/components/BigHeading.vue';
+
+@Component({
+  components: {
+    'big-heading': BigHeading
+  }
+})
 export default class TimosIconsHome extends Vue {
   public query = '';
 
@@ -99,8 +124,8 @@ export default class TimosIconsHome extends Vue {
   get versions(): string[] {
     return getIconVersions();
   }
-  getIconsOfVersion(v: string): string[] {
-    return getIconsOfVersion(v);
+  get latestIcons(): string[] {
+    return getIconsOfVersion(this.versions[0]);
   }
 }
 </script>
@@ -109,31 +134,22 @@ export default class TimosIconsHome extends Vue {
 [content] {
   padding-top: 5vw;
 }
-[tcl] {
-  max-height: 100px;
-  margin: 20px 0;
+.tl-grid {
+  margin: {
+    top: 40px;
+    bottom: 150px;
+  }
 }
-.tc-card {
-  h3 {
-    margin-top: 0;
+i.big {
+  font-size: 2em;
+}
+a .tc-card {
+  height: 100%;
+  img {
+    max-height: 100px;
   }
-  p {
-    margin-top: 0;
-  }
+}
 
-  .bigNumber {
-    font-weight: 900;
-    font-size: 10em;
-    color: $primary;
-  }
-  .latestIcons {
-    margin: 20px;
-    max-height: 200px;
-    i {
-      font-size: 40px;
-    }
-  }
-}
 .tc-hero {
   transition: height 1s ease-in-out;
   .tc-hero--content {
