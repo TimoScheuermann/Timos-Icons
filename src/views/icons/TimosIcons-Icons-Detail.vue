@@ -65,7 +65,7 @@
           </tl-grid>
         </tl-grid>
         <tl-grid footer>
-          <router-link :to="{ name: 'howot' }">
+          <router-link :to="{ name: 'howto' }">
             <tc-card :shadow="false" rounded="true" title="Need help?">
               You found the right icon, but have no idea how to use it on your
               website? Take a look at the getting started page.
