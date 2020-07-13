@@ -1,8 +1,10 @@
 @charset "UTF-8";
 @font-face {
   font-family: "Timos-Icons";
-  src: url("fonts/Timos-Icons.eot?mv7ahw");
-  src: url("fonts/Timos-Icons.eot?mv7ahw#iefix") format("embedded-opentype"), url("fonts/Timos-Icons.ttf?mv7ahw") format("truetype"), url("fonts/Timos-Icons.woff?mv7ahw") format("woff"), url("fonts/Timos-Icons.svg?mv7ahw#Timos-Icons") format("svg");
+  src: url("fonts/Timos-Icons.eot?e3k7d1");
+  src: url("fonts/Timos-Icons.eot?e3k7d1#iefix") format("embedded-opentype"),
+    url("fonts/Timos-Icons.ttf?e3k7d1") format("truetype"), url("fonts/Timos-Icons.woff?e3k7d1") format("woff"),
+    url("fonts/Timos-Icons.svg?e3k7d1#Timos-Icons") format("svg");
   font-weight: normal;
   font-style: normal;
   font-display: block;
@@ -20,6 +22,188 @@ i {
   /* Better Font Rendering =========== */
   -webkit-font-smoothing: antialiased;
   -moz-osx-font-smoothing: grayscale;
+}
+
+.ti-sort-alphabetical-ascending:before {
+  content: "";
+}
+
+.ti-sort-alphabetical-ascending:after {
+  content: "";
+  margin-left: -1em;
+  opacity: 0.5;
+}
+
+.ti-sort-alphabetical-descending:before {
+  content: "";
+}
+
+.ti-sort-alphabetical-descending:after {
+  content: "";
+  margin-left: -1em;
+  opacity: 0.5;
+}
+
+.ti-sort-numeric-ascending:before {
+  content: "";
+}
+
+.ti-sort-numeric-ascending:after {
+  content: "";
+  margin-left: -1em;
+  opacity: 0.5;
+}
+
+.ti-sort-numeric-descending:before {
+  content: "";
+}
+
+.ti-sort-numeric-descending:after {
+  content: "";
+  margin-left: -1em;
+  opacity: 0.5;
+}
+
+.ti-tiles-minus:before {
+  content: "";
+}
+
+.ti-tiles-plus:before {
+  content: "";
+}
+
+.ti-sort-alphabetical:before {
+  content: "";
+  opacity: 0.5;
+}
+
+.ti-sort-alphabetical:after {
+  content: "";
+  margin-left: -1em;
+}
+
+.ti-sort-numeric:before {
+  content: "";
+  opacity: 0.5;
+}
+
+.ti-sort-numeric:after {
+  content: "";
+  margin-left: -1em;
+}
+
+.ti-tiles-four:before {
+  content: "";
+}
+
+.ti-tiles-nine:before {
+  content: "";
+}
+
+.ti-tiles-sixteen:before {
+  content: "";
+}
+
+.ti-volume-0:before {
+  content: "";
+}
+
+.ti-volume-cross:before {
+  content: "";
+}
+
+.ti-volume-cross:after {
+  content: "";
+  margin-left: -1em;
+  opacity: 0.5;
+}
+
+.ti-volume-off:before {
+  content: "";
+}
+
+.ti-volume-off:after {
+  content: "";
+  margin-left: -1em;
+  opacity: 0.5;
+}
+
+.ti-eye:before {
+  content: "";
+}
+
+.ti-eye:after {
+  content: "";
+  margin-left: -1em;
+  opacity: 0.5;
+}
+
+.ti-eye-slash:before {
+  content: "";
+}
+
+.ti-eye-slash:after {
+  content: "";
+  margin-left: -1em;
+  opacity: 0.5;
+}
+
+.ti-volume-1:before {
+  content: "";
+}
+
+.ti-volume-1:after {
+  content: "";
+  margin-left: -1em;
+  opacity: 0.5;
+}
+
+.ti-volume-2:before {
+  content: "";
+}
+
+.ti-volume-2:after {
+  content: "";
+  margin-left: -1em;
+  opacity: 0.5;
+}
+
+.ti-volume-3:before {
+  content: "";
+}
+
+.ti-volume-3:after {
+  content: "";
+  margin-left: -1em;
+  opacity: 0.5;
+}
+
+.ti-volume-minus:before {
+  content: "";
+}
+
+.ti-volume-minus:after {
+  content: "";
+  margin-left: -1em;
+  opacity: 0.5;
+}
+
+.ti-volume-plus:before {
+  content: "";
+}
+
+.ti-volume-plus:after {
+  content: "";
+  margin-left: -1em;
+  opacity: 0.5;
+}
+
+.ti-cross-inverted:before {
+  content: "";
+}
+
+.ti-sidebar-alt:before {
+  content: "";
 }
 
 .ti-biohazard:before {
