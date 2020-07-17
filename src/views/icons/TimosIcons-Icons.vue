@@ -1,11 +1,11 @@
 <template>
   <div class="timosicns-icons">
-    <tc-hero tc-dark-container height="150">
+    <tc-hero tc-dark-container height="400" :class="{ anim: $route.query.q }">
       <img alt="" src="assets/hero.jpg" slot="background" />
       <tc-input
         v-model="query"
         :frosted="true"
-        :dark="!false"
+        :dark="true"
         icon="lens"
         placeholder="Find Your next icon"
       />
@@ -51,11 +51,11 @@ export default class TimosIconsIcons extends Vue {
   }
 
   get queries(): string[] {
-    return this.query.split(';').filter(x => x.length > 0);
+    return this.query.split(',').filter(x => x.length > 0);
   }
 
   public removeQuery(index: number) {
-    this.query = this.queries.filter((x, i) => i !== index).join(';');
+    this.query = this.queries.filter((x, i) => i !== index).join(',');
   }
 
   get icons(): Icon[] {
@@ -65,6 +65,22 @@ export default class TimosIconsIcons extends Vue {
 </script>
 
 <style lang="scss" scoped>
+.tc-hero {
+  &:not(.anim) {
+    height: 200px !important;
+  }
+  &.anim {
+    animation: shrink 0.8s ease-in-out both;
+  }
+}
+@keyframes shrink {
+  from {
+    height: 400px;
+  }
+  to {
+    height: 200px;
+  }
+}
 .tc-header {
   .query {
     background: $paragraph;

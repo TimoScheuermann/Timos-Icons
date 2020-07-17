@@ -20,6 +20,7 @@
         </form>
       </div>
     </tc-hero>
+    <timosicons-icon-scroller />
     <div content>
       <big-heading
         title="Get started now"
@@ -106,10 +107,12 @@
 import { Vue, Component } from 'vue-property-decorator';
 import { getIconVersions, getIconsOfVersion } from '@/utils';
 import BigHeading from '@/components/BigHeading.vue';
+import TimosIconsIconScroller from '@/components/icons/TimosIcons-IconScroller.vue';
 
 @Component({
   components: {
-    'big-heading': BigHeading
+    'big-heading': BigHeading,
+    'timosicons-icon-scroller': TimosIconsIconScroller
   }
 })
 export default class TimosIconsHome extends Vue {

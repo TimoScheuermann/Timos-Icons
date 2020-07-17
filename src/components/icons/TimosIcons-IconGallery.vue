@@ -1,16 +1,17 @@
 <template>
   <transition-group name="icon-trans" tag="div" class="tl-grid">
-    <router-link
+    <tc-tooltip
       v-for="i in filteredIcons"
       :key="i.name"
-      :to="{ name: 'iconsdetails', params: { icon: i.name } }"
+      :tooltip="i.name + ' [v' + (i.version || '1.0') + ']'"
     >
-      <div class="icon-preview">
-        <i class="watermark" :class="'ti-' + i.name" />
-        <i class="icon" :class="'ti-' + i.name" />
-        <div>{{ i.name.split('-').join(' ') }}</div>
-      </div>
-    </router-link>
+      <router-link :to="{ name: 'iconsdetails', params: { icon: i.name } }">
+        <div class="icon-preview">
+          <i class="icon" :class="'ti-' + i.name" />
+          <div>{{ i.name.split('-').join(' ') }}</div>
+        </div>
+      </router-link>
+    </tc-tooltip>
   </transition-group>
 </template>
 
@@ -56,7 +57,7 @@ export default class TimosIconsIconGallery extends Vue {
   margin-top: 20px;
   display: grid;
   grid-template-columns: repeat(auto-fill, minmax(150px, 1fr));
-  grid-gap: 10px;
+  grid-gap: 30px;
 }
 
 .icon-preview {
@@ -69,38 +70,32 @@ export default class TimosIconsIconGallery extends Vue {
   height: 70px;
   align-items: center;
   padding: 30px;
-  // border-radius: $border-radius;
+  border-radius: $border-radius;
+  box-shadow: $shadow-light;
+  &:hover {
+    box-shadow: $shadow;
+  }
   transition: 0.2s ease-in-out;
   position: relative;
   overflow: hidden;
-  .watermark {
-    position: absolute;
-    opacity: 0.03;
-    top: 50%;
-    left: 50%;
-    transform: translate(-50%, -50%) scale(10);
-  }
   .icon {
-    font-size: 2em;
-    transition: 0.2s ease-in-out;
-  }
-  span {
-    // display: none;
+    font-size: 2.5em;
+    transition: font-size 0.2s ease-in-out;
   }
   div {
     transition: 0.4s ease-in-out;
-
     font-weight: 500;
     text-align: center;
-    overflow: hidden;
   }
 
   &:hover {
+    background: $primary;
+    color: $color_dark;
     .icon {
       font-size: 4em;
-      // color: $primary;
     }
     div {
+      overflow: hidden;
       opacity: 0;
     }
   }

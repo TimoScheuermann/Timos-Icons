@@ -6,7 +6,7 @@
   >
     <i
       v-for="icon in icons"
-      :key="icon.name"
+      :key="'scroller' + icon.name"
       :class="'ti-' + icon.name"
       @click="goTo(icon)"
     />
@@ -17,7 +17,7 @@ import { Vue, Component } from 'vue-property-decorator';
 import { Icon } from '@/models/Icon.model';
 @Component
 export default class TimosIconsIconScroller extends Vue {
-  public icons: Icon[] = this.$store.getters.icons;
+  public icons: Icon[] = [...this.$store.getters.icons];
   private timeout!: number;
   mounted(): void {
     this.move();
