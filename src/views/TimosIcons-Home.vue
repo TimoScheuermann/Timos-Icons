@@ -154,6 +154,9 @@ a .tc-card {
 }
 
 .tc-hero {
+  img {
+    // filter: brightness(80%);
+  }
   transition: height 1s ease-in-out;
   .tc-hero--content {
     display: flex;
