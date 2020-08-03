@@ -96,6 +96,19 @@
           </a>
         </tl-grid>
       </div>
+      <div notfound v-else>
+        <h1>Icon not found</h1>
+        <p>
+          The icon you are looking for does not exist, had its name changed or
+          is currently unavailable
+        </p>
+        <tc-button
+          name="Icon overview"
+          icon="chevron-left"
+          iconPosition="left"
+          :to="{ name: 'icons' }"
+        />
+      </div>
     </div>
   </div>
 </template>
@@ -190,12 +203,12 @@ export default class TimosIconsIconsDetail extends Vue {
   }
   i {
     z-index: -1;
-    color: $color;
-    opacity: 0.4;
+    opacity: 0.15;
     position: absolute;
     top: 50%;
     left: 50%;
     transform: translate(-50%, -50%) scale(10);
+    color: #fff;
   }
 }
 [details] {
@@ -315,6 +328,19 @@ export default class TimosIconsIconsDetail extends Vue {
     display: flex;
     justify-content: center;
     align-items: center;
+  }
+}
+[notfound] {
+  text-align: center;
+  h1,
+  p {
+    text-align: center;
+    width: 300px;
+    max-width: 90vw;
+    left: 50%;
+    position: relative;
+    transform: translateX(-50%);
+    display: block;
   }
 }
 </style>
