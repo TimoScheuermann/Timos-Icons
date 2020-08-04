@@ -1,15 +1,17 @@
 @import "variables";
+
 @font-face {
   font-family: "#{$icomoon-font-family}";
-  src: url("#{$icomoon-font-path}/#{$icomoon-font-family}.eot?e3k7d1");
-  src: url("#{$icomoon-font-path}/#{$icomoon-font-family}.eot?e3k7d1#iefix") format("embedded-opentype"),
-    url("#{$icomoon-font-path}/#{$icomoon-font-family}.ttf?e3k7d1") format("truetype"),
-    url("#{$icomoon-font-path}/#{$icomoon-font-family}.woff?e3k7d1") format("woff"),
-    url("#{$icomoon-font-path}/#{$icomoon-font-family}.svg?e3k7d1##{$icomoon-font-family}") format("svg");
+  src: url("#{$icomoon-font-path}/#{$icomoon-font-family}.eot?njyixa");
+  src: url("#{$icomoon-font-path}/#{$icomoon-font-family}.eot?njyixa#iefix") format("embedded-opentype"),
+    url("#{$icomoon-font-path}/#{$icomoon-font-family}.ttf?njyixa") format("truetype"),
+    url("#{$icomoon-font-path}/#{$icomoon-font-family}.woff?njyixa") format("woff"),
+    url("#{$icomoon-font-path}/#{$icomoon-font-family}.svg?njyixa##{$icomoon-font-family}") format("svg");
   font-weight: normal;
   font-style: normal;
   font-display: block;
 }
+
 i {
   /* use !important to prevent issues with browser extensions that change fonts */
   font-family: "#{$icomoon-font-family}" !important;
@@ -18,2140 +20,2278 @@ i {
   font-weight: normal;
   font-variant: normal;
   text-transform: none;
-  line-height: 1; /* Better Font Rendering =========== */
+  line-height: 1;
+
+  /* Better Font Rendering =========== */
   -webkit-font-smoothing: antialiased;
   -moz-osx-font-smoothing: grayscale;
 }
+
+.ti-tccomponents-tc {
+  &::before {
+    content: $ti-tccomponents-tc;
+  }
+}
+.ti-behance {
+  &::before {
+    content: $ti-behance;
+  }
+}
+.ti-javascript {
+  &::before {
+    content: $ti-javascript;
+  }
+}
+.ti-tccomponents {
+  &::before {
+    content: $ti-tccomponents-path1;
+    opacity: 0.6;
+  }
+}
+.ti-tccomponents {
+  &::after {
+    content: $ti-tccomponents-path2;
+    margin-left: -1em;
+    opacity: 0.4;
+  }
+}
+.ti-youtube {
+  &::before {
+    content: $ti-youtube;
+  }
+}
+.ti-amazon {
+  &::before {
+    content: $ti-amazon;
+  }
+}
+.ti-amazon-a {
+  &::before {
+    content: $ti-amazon-a;
+  }
+}
+.ti-digital-ocean {
+  &::before {
+    content: $ti-digital-ocean;
+  }
+}
+.ti-git {
+  &::before {
+    content: $ti-git;
+  }
+}
+.ti-instagram {
+  &::before {
+    content: $ti-instagram;
+  }
+}
+.ti-telegram {
+  &::before {
+    content: $ti-telegram;
+  }
+}
+.ti-timos-accounts {
+  &::before {
+    content: $ti-timos-accounts-path1;
+  }
+}
+.ti-timos-accounts {
+  &::after {
+    content: $ti-timos-accounts-path2;
+    margin-left: -1em;
+    opacity: 0.5;
+  }
+}
+.ti-timos-icons {
+  &::before {
+    content: $ti-timos-icons;
+  }
+}
+.ti-typescript {
+  &::before {
+    content: $ti-typescript;
+  }
+}
+.ti-adobe {
+  &::before {
+    content: $ti-adobe;
+  }
+}
+.ti-discord {
+  &::before {
+    content: $ti-discord;
+  }
+}
+.ti-facebook {
+  &::before {
+    content: $ti-facebook;
+  }
+}
+.ti-facebook-f {
+  &::before {
+    content: $ti-facebook-f;
+  }
+}
+.ti-origin {
+  &::before {
+    content: $ti-origin;
+  }
+}
+.ti-twitch {
+  &::before {
+    content: $ti-twitch;
+  }
+}
+.ti-twitter {
+  &::before {
+    content: $ti-twitter;
+  }
+}
+.ti-whatsapp {
+  &::before {
+    content: $ti-whatsapp;
+  }
+}
+.ti-google {
+  &::before {
+    content: $ti-google;
+  }
+}
+.ti-steam {
+  &::before {
+    content: $ti-steam;
+  }
+}
 .ti-sort-alphabetical-ascending {
-  &:before {
+  &::before {
     content: $ti-sort-alphabetical-ascending-path1;
   }
 }
 .ti-sort-alphabetical-ascending {
-  &:after {
+  &::after {
     content: $ti-sort-alphabetical-ascending-path2;
     margin-left: -1em;
     opacity: 0.5;
   }
 }
 .ti-sort-alphabetical-descending {
-  &:before {
+  &::before {
     content: $ti-sort-alphabetical-descending-path1;
   }
 }
 .ti-sort-alphabetical-descending {
-  &:after {
+  &::after {
     content: $ti-sort-alphabetical-descending-path2;
     margin-left: -1em;
     opacity: 0.5;
   }
 }
 .ti-sort-numeric-ascending {
-  &:before {
+  &::before {
     content: $ti-sort-numeric-ascending-path1;
   }
 }
 .ti-sort-numeric-ascending {
-  &:after {
+  &::after {
     content: $ti-sort-numeric-ascending-path2;
     margin-left: -1em;
     opacity: 0.5;
   }
 }
 .ti-sort-numeric-descending {
-  &:before {
+  &::before {
     content: $ti-sort-numeric-descending-path1;
   }
 }
 .ti-sort-numeric-descending {
-  &:after {
+  &::after {
     content: $ti-sort-numeric-descending-path2;
     margin-left: -1em;
     opacity: 0.5;
   }
 }
 .ti-tiles-minus {
-  &:before {
+  &::before {
     content: $ti-tiles-minus;
   }
 }
 .ti-tiles-plus {
-  &:before {
+  &::before {
     content: $ti-tiles-plus;
   }
 }
 .ti-sort-alphabetical {
-  &:before {
+  &::before {
     content: $ti-sort-alphabetical-path1;
     opacity: 0.5;
   }
 }
 .ti-sort-alphabetical {
-  &:after {
+  &::after {
     content: $ti-sort-alphabetical-path2;
     margin-left: -1em;
   }
 }
 .ti-sort-numeric {
-  &:before {
+  &::before {
     content: $ti-sort-numeric-path1;
     opacity: 0.5;
   }
 }
 .ti-sort-numeric {
-  &:after {
+  &::after {
     content: $ti-sort-numeric-path2;
     margin-left: -1em;
   }
 }
 .ti-tiles-four {
-  &:before {
+  &::before {
     content: $ti-tiles-four;
   }
 }
 .ti-tiles-nine {
-  &:before {
+  &::before {
     content: $ti-tiles-nine;
   }
 }
 .ti-tiles-sixteen {
-  &:before {
+  &::before {
     content: $ti-tiles-sixteen;
   }
 }
 .ti-volume-0 {
-  &:before {
+  &::before {
     content: $ti-volume-0;
   }
 }
 .ti-volume-cross {
-  &:before {
+  &::before {
     content: $ti-volume-cross-path1;
   }
 }
 .ti-volume-cross {
-  &:after {
+  &::after {
     content: $ti-volume-cross-path2;
     margin-left: -1em;
     opacity: 0.5;
   }
 }
 .ti-volume-off {
-  &:before {
+  &::before {
     content: $ti-volume-off-path1;
   }
 }
 .ti-volume-off {
-  &:after {
+  &::after {
     content: $ti-volume-off-path2;
     margin-left: -1em;
     opacity: 0.5;
   }
 }
 .ti-eye {
-  &:before {
+  &::before {
     content: $ti-eye-path1;
   }
 }
 .ti-eye {
-  &:after {
+  &::after {
     content: $ti-eye-path2;
     margin-left: -1em;
     opacity: 0.5;
   }
 }
 .ti-eye-slash {
-  &:before {
+  &::before {
     content: $ti-eye-slash-path1;
   }
 }
 .ti-eye-slash {
-  &:after {
+  &::after {
     content: $ti-eye-slash-path2;
     margin-left: -1em;
     opacity: 0.5;
   }
 }
 .ti-volume-1 {
-  &:before {
+  &::before {
     content: $ti-volume-1-path1;
   }
 }
 .ti-volume-1 {
-  &:after {
+  &::after {
     content: $ti-volume-1-path2;
     margin-left: -1em;
     opacity: 0.5;
   }
 }
 .ti-volume-2 {
-  &:before {
+  &::before {
     content: $ti-volume-2-path1;
   }
 }
 .ti-volume-2 {
-  &:after {
+  &::after {
     content: $ti-volume-2-path2;
     margin-left: -1em;
     opacity: 0.5;
   }
 }
 .ti-volume-3 {
-  &:before {
+  &::before {
     content: $ti-volume-3-path1;
   }
 }
 .ti-volume-3 {
-  &:after {
+  &::after {
     content: $ti-volume-3-path2;
     margin-left: -1em;
     opacity: 0.5;
   }
 }
 .ti-volume-minus {
-  &:before {
+  &::before {
     content: $ti-volume-minus-path1;
   }
 }
 .ti-volume-minus {
-  &:after {
+  &::after {
     content: $ti-volume-minus-path2;
     margin-left: -1em;
     opacity: 0.5;
   }
 }
 .ti-volume-plus {
-  &:before {
+  &::before {
     content: $ti-volume-plus-path1;
   }
 }
 .ti-volume-plus {
-  &:after {
+  &::after {
     content: $ti-volume-plus-path2;
     margin-left: -1em;
     opacity: 0.5;
   }
 }
 .ti-cross-inverted {
-  &:before {
+  &::before {
     content: $ti-cross-inverted;
   }
 }
 .ti-sidebar-alt {
-  &:before {
+  &::before {
     content: $ti-sidebar-alt;
   }
 }
 .ti-biohazard {
-  &:before {
+  &::before {
     content: $ti-biohazard;
   }
 }
 .ti-cloud-fog {
-  &:before {
+  &::before {
     content: $ti-cloud-fog-path1;
   }
 }
 .ti-cloud-fog {
-  &:after {
+  &::after {
     content: $ti-cloud-fog-path2;
     margin-left: -1em;
     opacity: 0.5;
   }
 }
 .ti-cloud-moon-rain {
-  &:before {
+  &::before {
     content: $ti-cloud-moon-rain-path1;
   }
 }
 .ti-cloud-moon-rain {
-  &:after {
+  &::after {
     content: $ti-cloud-moon-rain-path2;
     margin-left: -1em;
     opacity: 0.5;
   }
 }
 .ti-cloud-snow-rain {
-  &:before {
+  &::before {
     content: $ti-cloud-snow-rain-path1;
   }
 }
 .ti-cloud-snow-rain {
-  &:after {
+  &::after {
     content: $ti-cloud-snow-rain-path2;
     margin-left: -1em;
     opacity: 0.5;
   }
 }
 .ti-cloud-sun-rain {
-  &:before {
+  &::before {
     content: $ti-cloud-sun-rain-path1;
   }
 }
 .ti-cloud-sun-rain {
-  &:after {
+  &::after {
     content: $ti-cloud-sun-rain-path2;
     margin-left: -1em;
     opacity: 0.5;
   }
 }
 .ti-database {
-  &:before {
+  &::before {
     content: $ti-database;
   }
 }
 .ti-cloud-moon {
-  &:before {
+  &::before {
     content: $ti-cloud-moon-path1;
   }
 }
 .ti-cloud-moon {
-  &:after {
+  &::after {
     content: $ti-cloud-moon-path2;
     margin-left: -1em;
     opacity: 0.5;
   }
 }
 .ti-cloud-rain {
-  &:before {
+  &::before {
     content: $ti-cloud-rain-path1;
   }
 }
 .ti-cloud-rain {
-  &:after {
+  &::after {
     content: $ti-cloud-rain-path2;
     margin-left: -1em;
     opacity: 0.5;
   }
 }
 .ti-cloud-snow {
-  &:before {
+  &::before {
     content: $ti-cloud-snow-path1;
   }
 }
 .ti-cloud-snow {
-  &:after {
+  &::after {
     content: $ti-cloud-snow-path2;
     margin-left: -1em;
     opacity: 0.5;
   }
 }
 .ti-cloud-sun {
-  &:before {
+  &::before {
     content: $ti-cloud-sun-path1;
   }
 }
 .ti-cloud-sun {
-  &:after {
+  &::after {
     content: $ti-cloud-sun-path2;
     margin-left: -1em;
     opacity: 0.5;
   }
 }
 .ti-cloud-thunder {
-  &:before {
+  &::before {
     content: $ti-cloud-thunder-path1;
   }
 }
 .ti-cloud-thunder {
-  &:after {
+  &::after {
     content: $ti-cloud-thunder-path2;
     margin-left: -1em;
     opacity: 0.5;
   }
 }
 .ti-cloud-thunder-rain {
-  &:before {
+  &::before {
     content: $ti-cloud-thunder-rain-path1;
   }
 }
 .ti-cloud-thunder-rain {
-  &:after {
+  &::after {
     content: $ti-cloud-thunder-rain-path2;
     margin-left: -1em;
     opacity: 0.5;
   }
 }
 .ti-map-marker {
-  &:before {
+  &::before {
     content: $ti-map-marker-path1;
   }
 }
 .ti-map-marker {
-  &:after {
+  &::after {
     content: $ti-map-marker-path2;
     margin-left: -1em;
     opacity: 0.5;
   }
 }
 .ti-snowflake {
-  &:before {
+  &::before {
     content: $ti-snowflake;
   }
 }
 .ti-calendar-alt {
-  &:before {
+  &::before {
     content: $ti-calendar-alt-path1;
   }
 }
 .ti-calendar-alt {
-  &:after {
+  &::after {
     content: $ti-calendar-alt-path2;
     margin-left: -1em;
     opacity: 0.5;
   }
 }
 .ti-image {
-  &:before {
+  &::before {
     content: $ti-image-path1;
   }
 }
 .ti-image {
-  &:after {
+  &::after {
     content: $ti-image-path2;
     margin-left: -1em;
     opacity: 0.5;
   }
 }
 .ti-mail {
-  &:before {
+  &::before {
     content: $ti-mail;
   }
 }
 .ti-mail-unread {
-  &:before {
+  &::before {
     content: $ti-mail-unread-path1;
   }
 }
 .ti-mail-unread {
-  &:after {
+  &::after {
     content: $ti-mail-unread-path2;
     margin-left: -1em;
     opacity: 0.5;
   }
 }
 .ti-music {
-  &:before {
+  &::before {
     content: $ti-music;
   }
 }
 .ti-notification-disabled {
-  &:before {
+  &::before {
     content: $ti-notification-disabled-path1;
   }
 }
 .ti-notification-disabled {
-  &:after {
+  &::after {
     content: $ti-notification-disabled-path2;
     margin-left: -1em;
     opacity: 0.5;
   }
 }
 .ti-wrench {
-  &:before {
+  &::before {
     content: $ti-wrench;
   }
 }
 .ti-anchor {
-  &:before {
+  &::before {
     content: $ti-anchor;
   }
 }
 .ti-calendar {
-  &:before {
+  &::before {
     content: $ti-calendar-path1;
     opacity: 0.5;
   }
 }
 .ti-calendar {
-  &:after {
+  &::after {
     content: $ti-calendar-path2;
     margin-left: -1em;
   }
 }
 .ti-map {
-  &:before {
+  &::before {
     content: $ti-map;
   }
 }
 .ti-microscope {
-  &:before {
+  &::before {
     content: $ti-microscope-path1;
   }
 }
 .ti-microscope {
-  &:after {
+  &::after {
     content: $ti-microscope-path2;
     margin-left: -1em;
     opacity: 0.33;
   }
 }
 .ti-notification {
-  &:before {
+  &::before {
     content: $ti-notification-path1;
   }
 }
 .ti-notification {
-  &:after {
+  &::after {
     content: $ti-notification-path2;
     margin-left: -1em;
     opacity: 0.5;
   }
 }
 .ti-phone-alt {
-  &:before {
+  &::before {
     content: $ti-phone-alt;
   }
 }
 .ti-photos {
-  &:before {
+  &::before {
     content: $ti-photos-path1;
   }
 }
 .ti-photos {
-  &:after {
+  &::after {
     content: $ti-photos-path2;
     margin-left: -1em;
     opacity: 0.33;
   }
 }
 .ti-present {
-  &:before {
+  &::before {
     content: $ti-present-path1;
   }
 }
 .ti-present {
-  &:after {
+  &::after {
     content: $ti-present-path2;
     margin-left: -1em;
     opacity: 0.55;
   }
 }
 .ti-settings {
-  &:before {
+  &::before {
     content: $ti-settings-path1;
     opacity: 0.5;
   }
 }
 .ti-settings {
-  &:after {
+  &::after {
     content: $ti-settings-path2;
     margin-left: -1em;
   }
 }
 .ti-star-add {
-  &:before {
+  &::before {
     content: $ti-star-add-path1;
     opacity: 0.5;
   }
 }
 .ti-star-add {
-  &:after {
+  &::after {
     content: $ti-star-add-path2;
     margin-left: -1em;
   }
 }
 .ti-ticket {
-  &:before {
+  &::before {
     content: $ti-ticket-path1;
   }
 }
 .ti-ticket {
-  &:after {
+  &::after {
     content: $ti-ticket-path2;
     margin-left: -1em;
     opacity: 0.5;
   }
 }
 .ti-umbrella {
-  &:before {
+  &::before {
     content: $ti-umbrella;
   }
 }
 .ti-attachment {
-  &:before {
+  &::before {
     content: $ti-attachment;
   }
 }
 .ti-chat-bubble {
-  &:before {
+  &::before {
     content: $ti-chat-bubble;
   }
 }
 .ti-chat-bubbles {
-  &:before {
+  &::before {
     content: $ti-chat-bubbles-path1;
   }
 }
 .ti-chat-bubbles {
-  &:after {
+  &::after {
     content: $ti-chat-bubbles-path2;
     margin-left: -1em;
     opacity: 0.5;
   }
 }
 .ti-cloud-upload {
-  &:before {
+  &::before {
     content: $ti-cloud-upload;
   }
 }
 .ti-hard-drive {
-  &:before {
+  &::before {
     content: $ti-hard-drive;
   }
 }
 .ti-microphone-muted {
-  &:before {
+  &::before {
     content: $ti-microphone-muted-path1;
   }
 }
 .ti-microphone-muted {
-  &:after {
+  &::after {
     content: $ti-microphone-muted-path2;
     margin-left: -1em;
     opacity: 0.5;
   }
 }
 .ti-movie {
-  &:before {
+  &::before {
     content: $ti-movie;
   }
 }
 .ti-newspaper {
-  &:before {
+  &::before {
     content: $ti-newspaper-path1;
   }
 }
 .ti-newspaper {
-  &:after {
+  &::after {
     content: $ti-newspaper-path2;
     margin-left: -1em;
     opacity: 0.33;
   }
 }
 .ti-trashcan-alt {
-  &:before {
+  &::before {
     content: $ti-trashcan-alt;
   }
 }
 .ti-upload {
-  &:before {
+  &::before {
     content: $ti-upload-path1;
   }
 }
 .ti-upload {
-  &:after {
+  &::after {
     content: $ti-upload-path2;
     margin-left: -1em;
     opacity: 0.5;
   }
 }
 .ti-cloud {
-  &:before {
+  &::before {
     content: $ti-cloud;
   }
 }
 .ti-cloud-download {
-  &:before {
+  &::before {
     content: $ti-cloud-download;
   }
 }
 .ti-link {
-  &:before {
+  &::before {
     content: $ti-link;
   }
 }
 .ti-power {
-  &:before {
+  &::before {
     content: $ti-power;
   }
 }
 .ti-printer {
-  &:before {
+  &::before {
     content: $ti-printer;
   }
 }
 .ti-login {
-  &:before {
+  &::before {
     content: $ti-login-path1;
     opacity: 0.5;
   }
 }
 .ti-login {
-  &:after {
+  &::after {
     content: $ti-login-path2;
     margin-left: -1em;
   }
 }
 .ti-logout {
-  &:before {
+  &::before {
     content: $ti-logout-path1;
   }
 }
 .ti-logout {
-  &:after {
+  &::after {
     content: $ti-logout-path2;
     margin-left: -1em;
     opacity: 0.5;
   }
 }
 .ti-question-triangle {
-  &:before {
+  &::before {
     content: $ti-question-triangle;
   }
 }
 .ti-chevron-down {
-  &:before {
+  &::before {
     content: $ti-chevron-down;
   }
 }
 .ti-chevron-left {
-  &:before {
+  &::before {
     content: $ti-chevron-left;
   }
 }
 .ti-chevron-up {
-  &:before {
+  &::before {
     content: $ti-chevron-up;
   }
 }
 .ti-double-chevron-down {
-  &:before {
+  &::before {
     content: $ti-double-chevron-down;
   }
 }
 .ti-double-chevron-left {
-  &:before {
+  &::before {
     content: $ti-double-chevron-left;
   }
 }
 .ti-double-chevron-right {
-  &:before {
+  &::before {
     content: $ti-double-chevron-right;
   }
 }
 .ti-double-chevron-up {
-  &:before {
+  &::before {
     content: $ti-double-chevron-up;
   }
 }
 .ti-exclamation-circle {
-  &:before {
+  &::before {
     content: $ti-exclamation-circle;
   }
 }
 .ti-exclamation-triangle {
-  &:before {
+  &::before {
     content: $ti-exclamation-triangle;
   }
 }
 .ti-question-circle {
-  &:before {
+  &::before {
     content: $ti-question-circle;
   }
 }
 .ti-arrow-return {
-  &:before {
+  &::before {
     content: $ti-arrow-return;
   }
 }
 .ti-calculator {
-  &:before {
+  &::before {
     content: $ti-calculator;
   }
 }
 .ti-chevron-right {
-  &:before {
+  &::before {
     content: $ti-chevron-right;
   }
 }
 .ti-cocktail {
-  &:before {
+  &::before {
     content: $ti-cocktail;
   }
 }
 .ti-color-fan {
-  &:before {
+  &::before {
     content: $ti-color-fan;
   }
 }
 .ti-fast-backward {
-  &:before {
+  &::before {
     content: $ti-fast-backward;
   }
 }
 .ti-filter {
-  &:before {
+  &::before {
     content: $ti-filter;
   }
 }
 .ti-flashlight {
-  &:before {
+  &::before {
     content: $ti-flashlight-path1;
   }
 }
 .ti-flashlight {
-  &:after {
+  &::after {
     content: $ti-flashlight-path2;
     margin-left: -1em;
     opacity: 0.33;
   }
 }
 .ti-numpad {
-  &:before {
+  &::before {
     content: $ti-numpad;
   }
 }
 .ti-star {
-  &:before {
+  &::before {
     content: $ti-star;
   }
 }
 .ti-arrow-down {
-  &:before {
+  &::before {
     content: $ti-arrow-down;
   }
 }
 .ti-arrow-left {
-  &:before {
+  &::before {
     content: $ti-arrow-left;
   }
 }
 .ti-arrow-right {
-  &:before {
+  &::before {
     content: $ti-arrow-right;
   }
 }
 .ti-arrow-up {
-  &:before {
+  &::before {
     content: $ti-arrow-up;
   }
 }
 .ti-fast-forward {
-  &:before {
+  &::before {
     content: $ti-fast-forward;
   }
 }
 .ti-list-add {
-  &:before {
+  &::before {
     content: $ti-list-add-path1;
     opacity: 0.5;
   }
 }
 .ti-list-add {
-  &:after {
+  &::after {
     content: $ti-list-add-path2;
     margin-left: -1em;
   }
 }
 .ti-pause {
-  &:before {
+  &::before {
     content: $ti-pause;
   }
 }
 .ti-play {
-  &:before {
+  &::before {
     content: $ti-play;
   }
 }
 .ti-step-backwards {
-  &:before {
+  &::before {
     content: $ti-step-backwards;
   }
 }
 .ti-step-forward {
-  &:before {
+  &::before {
     content: $ti-step-forward;
   }
 }
 .ti-stop {
-  &:before {
+  &::before {
     content: $ti-stop;
   }
 }
 .ti-wifi-0 {
-  &:before {
+  &::before {
     content: $ti-wifi-0-path1;
   }
 }
 .ti-wifi-0 {
-  &:after {
+  &::after {
     content: $ti-wifi-0-path2;
     margin-left: -1em;
     opacity: 0.5;
   }
 }
 .ti-chart-stocks {
-  &:before {
+  &::before {
     content: $ti-chart-stocks-path1;
   }
 }
 .ti-chart-stocks {
-  &:after {
+  &::after {
     content: $ti-chart-stocks-path2;
     margin-left: -1em;
     opacity: 0.5;
   }
 }
 .ti-clock-simple {
-  &:before {
+  &::before {
     content: $ti-clock-simple-path1;
   }
 }
 .ti-clock-simple {
-  &:after {
+  &::after {
     content: $ti-clock-simple-path2;
     margin-left: -1em;
     opacity: 0.5;
   }
 }
 .ti-credit-card {
-  &:before {
+  &::before {
     content: $ti-credit-card-path1;
   }
 }
 .ti-credit-card {
-  &:after {
+  &::after {
     content: $ti-credit-card-path2;
     margin-left: -1em;
     opacity: 0.5;
   }
 }
 .ti-dollar {
-  &:before {
+  &::before {
     content: $ti-dollar;
   }
 }
 .ti-globe {
-  &:before {
+  &::before {
     content: $ti-globe;
   }
 }
 .ti-vehicle-front {
-  &:before {
+  &::before {
     content: $ti-vehicle-front;
   }
 }
 .ti-pin-person {
-  &:before {
+  &::before {
     content: $ti-pin-person;
   }
 }
 .ti-band-aid {
-  &:before {
+  &::before {
     content: $ti-band-aid;
   }
 }
 .ti-female {
-  &:before {
+  &::before {
     content: $ti-female;
   }
 }
 .ti-headphone {
-  &:before {
+  &::before {
     content: $ti-headphone-path1;
   }
 }
 .ti-headphone {
-  &:after {
+  &::after {
     content: $ti-headphone-path2;
     margin-left: -1em;
     opacity: 0.5;
   }
 }
 .ti-headset {
-  &:before {
+  &::before {
     content: $ti-headset-path1;
   }
 }
 .ti-headset {
-  &:after {
+  &::after {
     content: $ti-headset-path2;
     margin-left: -1em;
     opacity: 0.5;
   }
 }
 .ti-heartbeat {
-  &:before {
+  &::before {
     content: $ti-heartbeat;
   }
 }
 .ti-heart-broken {
-  &:before {
+  &::before {
     content: $ti-heart-broken;
   }
 }
 .ti-pin {
-  &:before {
+  &::before {
     content: $ti-pin;
   }
 }
 .ti-apple {
-  &:before {
+  &::before {
     content: $ti-apple;
   }
 }
 .ti-exchange {
-  &:before {
+  &::before {
     content: $ti-exchange-path1;
   }
 }
 .ti-exchange {
-  &:after {
+  &::after {
     content: $ti-exchange-path2;
     margin-left: -1em;
     opacity: 0.5;
   }
 }
 .ti-exclamation {
-  &:before {
+  &::before {
     content: $ti-exclamation-path1;
     opacity: 0.5;
   }
 }
 .ti-exclamation {
-  &:after {
+  &::after {
     content: $ti-exclamation-path2;
     margin-left: -1em;
   }
 }
 .ti-heart-empty {
-  &:before {
+  &::before {
     content: $ti-heart-empty;
   }
 }
 .ti-male {
-  &:before {
+  &::before {
     content: $ti-male;
   }
 }
 .ti-microphone {
-  &:before {
+  &::before {
     content: $ti-microphone-path1;
   }
 }
 .ti-microphone {
-  &:after {
+  &::after {
     content: $ti-microphone-path2;
     margin-left: -1em;
     opacity: 0.5;
   }
 }
 .ti-minecraft {
-  &:before {
+  &::before {
     content: $ti-minecraft;
   }
 }
 .ti-tesla {
-  &:before {
+  &::before {
     content: $ti-tesla;
   }
 }
 .ti-thermometer-three-quarter {
-  &:before {
+  &::before {
     content: $ti-thermometer-three-quarter-path1;
   }
 }
 .ti-thermometer-three-quarter {
-  &:after {
+  &::after {
     content: $ti-thermometer-three-quarter-path2;
     margin-left: -1em;
     opacity: 0.5;
   }
 }
 .ti-barometer {
-  &:before {
+  &::before {
     content: $ti-barometer-path1;
   }
 }
 .ti-barometer {
-  &:after {
+  &::after {
     content: $ti-barometer-path2;
     margin-left: -1em;
     opacity: 0.33;
   }
 }
 .ti-thermometer-empty {
-  &:before {
+  &::before {
     content: $ti-thermometer-empty-path1;
   }
 }
 .ti-thermometer-empty {
-  &:after {
+  &::after {
     content: $ti-thermometer-empty-path2;
     margin-left: -1em;
     opacity: 0.5;
   }
 }
 .ti-thermometer-full {
-  &:before {
+  &::before {
     content: $ti-thermometer-full-path1;
   }
 }
 .ti-thermometer-full {
-  &:after {
+  &::after {
     content: $ti-thermometer-full-path2;
     margin-left: -1em;
     opacity: 0.5;
   }
 }
 .ti-thermometer-half {
-  &:before {
+  &::before {
     content: $ti-thermometer-half-path1;
   }
 }
 .ti-thermometer-half {
-  &:after {
+  &::after {
     content: $ti-thermometer-half-path2;
     margin-left: -1em;
     opacity: 0.5;
   }
 }
 .ti-thermometer-quarter {
-  &:before {
+  &::before {
     content: $ti-thermometer-quarter-path1;
   }
 }
 .ti-thermometer-quarter {
-  &:after {
+  &::after {
     content: $ti-thermometer-quarter-path2;
     margin-left: -1em;
     opacity: 0.5;
   }
 }
 .ti-key {
-  &:before {
+  &::before {
     content: $ti-key-path1;
   }
 }
 .ti-key {
-  &:after {
+  &::after {
     content: $ti-key-path2;
     margin-left: -1em;
     opacity: 0.5;
   }
 }
 .ti-lock-closed {
-  &:before {
+  &::before {
     content: $ti-lock-closed-path1;
   }
 }
 .ti-lock-closed {
-  &:after {
+  &::after {
     content: $ti-lock-closed-path2;
     margin-left: -1em;
     opacity: 0.5;
   }
 }
 .ti-lock-opened {
-  &:before {
+  &::before {
     content: $ti-lock-opened-path1;
   }
 }
 .ti-lock-opened {
-  &:after {
+  &::after {
     content: $ti-lock-opened-path2;
     margin-left: -1em;
     opacity: 0.5;
   }
 }
 .ti-alarm {
-  &:before {
+  &::before {
     content: $ti-alarm-path1;
     opacity: 0.5;
   }
 }
 .ti-alarm {
-  &:after {
+  &::after {
     content: $ti-alarm-path2;
     margin-left: -1em;
   }
 }
 .ti-minus {
-  &:before {
+  &::before {
     content: $ti-minus;
   }
 }
 .ti-plus {
-  &:before {
+  &::before {
     content: $ti-plus;
   }
 }
 .ti-segment {
-  &:before {
+  &::before {
     content: $ti-segment-path1;
   }
 }
 .ti-segment {
-  &:after {
+  &::after {
     content: $ti-segment-path2;
     margin-left: -1em;
     opacity: 0.33;
   }
 }
 .ti-slider {
-  &:before {
+  &::before {
     content: $ti-slider-path1;
     opacity: 0.33;
   }
 }
 .ti-slider {
-  &:after {
+  &::after {
     content: $ti-slider-path2;
     margin-left: -1em;
   }
 }
 .ti-tooltip {
-  &:before {
+  &::before {
     content: $ti-tooltip;
   }
 }
 .ti-dice-4 {
-  &:before {
+  &::before {
     content: $ti-dice-4-path1;
   }
 }
 .ti-dice-4 {
-  &:after {
+  &::after {
     content: $ti-dice-4-path2;
     margin-left: -1em;
     opacity: 0.5;
   }
 }
 .ti-dice-5 {
-  &:before {
+  &::before {
     content: $ti-dice-5-path1;
   }
 }
 .ti-dice-5 {
-  &:after {
+  &::after {
     content: $ti-dice-5-path2;
     margin-left: -1em;
     opacity: 0.5;
   }
 }
 .ti-bar {
-  &:before {
+  &::before {
     content: $ti-bar;
   }
 }
 .ti-bar-progress {
-  &:before {
+  &::before {
     content: $ti-bar-progress-path1;
     opacity: 0.33;
   }
 }
 .ti-bar-progress {
-  &:after {
+  &::after {
     content: $ti-bar-progress-path2;
     margin-left: -1em;
   }
 }
 .ti-crosshair {
-  &:before {
+  &::before {
     content: $ti-crosshair;
   }
 }
 .ti-dice-1 {
-  &:before {
+  &::before {
     content: $ti-dice-1-path1;
   }
 }
 .ti-dice-1 {
-  &:after {
+  &::after {
     content: $ti-dice-1-path2;
     margin-left: -1em;
     opacity: 0.5;
   }
 }
 .ti-dice-2 {
-  &:before {
+  &::before {
     content: $ti-dice-2-path1;
   }
 }
 .ti-dice-2 {
-  &:after {
+  &::after {
     content: $ti-dice-2-path2;
     margin-left: -1em;
     opacity: 0.5;
   }
 }
 .ti-dice-3 {
-  &:before {
+  &::before {
     content: $ti-dice-3-path1;
   }
 }
 .ti-dice-3 {
-  &:after {
+  &::after {
     content: $ti-dice-3-path2;
     margin-left: -1em;
     opacity: 0.5;
   }
 }
 .ti-dice-6 {
-  &:before {
+  &::before {
     content: $ti-dice-6-path1;
   }
 }
 .ti-dice-6 {
-  &:after {
+  &::after {
     content: $ti-dice-6-path2;
     margin-left: -1em;
     opacity: 0.5;
   }
 }
 .ti-moon {
-  &:before {
+  &::before {
     content: $ti-moon;
   }
 }
 .ti-peace {
-  &:before {
+  &::before {
     content: $ti-peace-path1;
     opacity: 0.5;
   }
 }
 .ti-peace {
-  &:after {
+  &::after {
     content: $ti-peace-path2;
     margin-left: -1em;
   }
 }
 .ti-quote-left {
-  &:before {
+  &::before {
     content: $ti-quote-left-path1;
     opacity: 0.5;
   }
 }
 .ti-quote-left {
-  &:after {
+  &::after {
     content: $ti-quote-left-path2;
     margin-left: -1em;
   }
 }
 .ti-repeat {
-  &:before {
+  &::before {
     content: $ti-repeat;
   }
 }
 .ti-sun {
-  &:before {
+  &::before {
     content: $ti-sun-path1;
   }
 }
 .ti-sun {
-  &:after {
+  &::after {
     content: $ti-sun-path2;
     margin-left: -1em;
     opacity: 0.5;
   }
 }
 .ti-swap {
-  &:before {
+  &::before {
     content: $ti-swap-path1;
     opacity: 0.5;
   }
 }
 .ti-swap {
-  &:after {
+  &::after {
     content: $ti-swap-path2;
     margin-left: -1em;
   }
 }
 .ti-user-circle {
-  &:before {
+  &::before {
     content: $ti-user-circle-path1;
     opacity: 0.5;
   }
 }
 .ti-user-circle {
-  &:after {
+  &::after {
     content: $ti-user-circle-path2;
     margin-left: -1em;
   }
 }
 .ti-wifi-1 {
-  &:before {
+  &::before {
     content: $ti-wifi-1-path1;
     opacity: 0.5;
   }
 }
 .ti-wifi-1 {
-  &:after {
+  &::after {
     content: $ti-wifi-1-path2;
     margin-left: -1em;
   }
 }
 .ti-wifi-2 {
-  &:before {
+  &::before {
     content: $ti-wifi-2-path1;
     opacity: 0.5;
   }
 }
 .ti-wifi-2 {
-  &:after {
+  &::after {
     content: $ti-wifi-2-path2;
     margin-left: -1em;
   }
 }
 .ti-wifi-3 {
-  &:before {
+  &::before {
     content: $ti-wifi-3;
   }
 }
 .ti-percentage {
-  &:before {
+  &::before {
     content: $ti-percentage-path1;
     opacity: 0.5;
   }
 }
 .ti-percentage {
-  &:after {
+  &::after {
     content: $ti-percentage-path2;
     margin-left: -1em;
   }
 }
 .ti-quote-right {
-  &:before {
+  &::before {
     content: $ti-quote-right-path1;
     opacity: 0.5;
   }
 }
 .ti-quote-right {
-  &:after {
+  &::after {
     content: $ti-quote-right-path2;
     margin-left: -1em;
   }
 }
 .ti-camera {
-  &:before {
+  &::before {
     content: $ti-camera-path1;
     opacity: 0.5;
   }
 }
 .ti-camera {
-  &:after {
+  &::after {
     content: $ti-camera-path2;
     margin-left: -1em;
   }
 }
 .ti-chart-donut {
-  &:before {
+  &::before {
     content: $ti-chart-donut-path1;
     opacity: 0.5;
   }
 }
 .ti-chart-donut {
-  &:after {
+  &::after {
     content: $ti-chart-donut-path2;
     margin-left: -1em;
   }
 }
 .ti-chart-pie {
-  &:before {
+  &::before {
     content: $ti-chart-pie-path1;
   }
 }
 .ti-chart-pie {
-  &:after {
+  &::after {
     content: $ti-chart-pie-path2;
     margin-left: -1em;
     opacity: 0.5;
   }
 }
 .ti-chart-radial {
-  &:before {
+  &::before {
     content: $ti-chart-radial-path1;
     opacity: 0.33;
   }
 }
 .ti-chart-radial {
-  &:after {
+  &::after {
     content: $ti-chart-radial-path2;
     margin-left: -1em;
   }
 }
 .ti-computer {
-  &:before {
+  &::before {
     content: $ti-computer-path1;
     opacity: 0.5;
   }
 }
 .ti-computer {
-  &:after {
+  &::after {
     content: $ti-computer-path2;
     margin-left: -1em;
   }
 }
 .ti-github {
-  &:before {
+  &::before {
     content: $ti-github;
   }
 }
 .ti-hockey-sticks {
-  &:before {
+  &::before {
     content: $ti-hockey-sticks-path1;
   }
 }
 .ti-hockey-sticks {
-  &:after {
+  &::after {
     content: $ti-hockey-sticks-path2;
     margin-left: -1em;
     opacity: 0.5;
   }
 }
 .ti-modal {
-  &:before {
+  &::before {
     content: $ti-modal-path1;
     opacity: 0.33;
   }
 }
 .ti-modal {
-  &:after {
+  &::after {
     content: $ti-modal-path2;
     margin-left: -1em;
   }
 }
 .ti-phone {
-  &:before {
+  &::before {
     content: $ti-phone-path1;
   }
 }
 .ti-phone {
-  &:after {
+  &::after {
     content: $ti-phone-path2;
     margin-left: -1em;
     opacity: 0.33;
   }
 }
 .ti-spinner {
-  &:before {
+  &::before {
     content: $ti-spinner;
   }
 }
 .ti-tabbar {
-  &:before {
+  &::before {
     content: $ti-tabbar-path1;
     opacity: 0.33;
   }
 }
 .ti-tabbar {
-  &:after {
+  &::after {
     content: $ti-tabbar-path2;
     margin-left: -1em;
   }
 }
 .ti-toggle {
-  &:before {
+  &::before {
     content: $ti-toggle-path1;
   }
 }
 .ti-toggle {
-  &:after {
+  &::after {
     content: $ti-toggle-path2;
     margin-left: -1em;
     opacity: 0.5;
   }
 }
 .ti-windows {
-  &:before {
+  &::before {
     content: $ti-windows-path1;
   }
 }
 .ti-windows {
-  &:after {
+  &::after {
     content: $ti-windows-path2;
     margin-left: -1em;
     opacity: 0.5;
   }
 }
 .ti-amspro {
-  &:before {
+  &::before {
     content: $ti-amspro-path1;
     opacity: 0.5;
   }
 }
 .ti-amspro {
-  &:after {
+  &::after {
     content: $ti-amspro-path2;
     margin-left: -1em;
   }
 }
 .ti-button {
-  &:before {
+  &::before {
     content: $ti-button-path1;
     opacity: 0.33;
   }
 }
 .ti-button {
-  &:after {
+  &::after {
     content: $ti-button-path2;
     margin-left: -1em;
   }
 }
 .ti-card {
-  &:before {
+  &::before {
     content: $ti-card-path1;
   }
 }
 .ti-card {
-  &:after {
+  &::after {
     content: $ti-card-path2;
     margin-left: -1em;
     opacity: 0.5;
   }
 }
 .ti-chart-bar {
-  &:before {
+  &::before {
     content: $ti-chart-bar-path1;
     opacity: 0.33;
   }
 }
 .ti-chart-bar {
-  &:after {
+  &::after {
     content: $ti-chart-bar-path2;
     margin-left: -1em;
   }
 }
 .ti-chart-empty {
-  &:before {
+  &::before {
     content: $ti-chart-empty;
   }
 }
 .ti-chart-radar {
-  &:before {
+  &::before {
     content: $ti-chart-radar;
   }
 }
 .ti-checkbox {
-  &:before {
+  &::before {
     content: $ti-checkbox-path1;
     opacity: 0.5;
   }
 }
 .ti-checkbox {
-  &:after {
+  &::after {
     content: $ti-checkbox-path2;
     margin-left: -1em;
   }
 }
 .ti-code {
-  &:before {
+  &::before {
     content: $ti-code;
   }
 }
 .ti-component {
-  &:before {
+  &::before {
     content: $ti-component;
   }
 }
 .ti-divider {
-  &:before {
+  &::before {
     content: $ti-divider-path1;
     opacity: 0.5;
   }
 }
 .ti-divider {
-  &:after {
+  &::after {
     content: $ti-divider-path2;
     margin-left: -1em;
   }
 }
 .ti-download {
-  &:before {
+  &::before {
     content: $ti-download-path1;
     opacity: 0.5;
   }
 }
 .ti-download {
-  &:after {
+  &::after {
     content: $ti-download-path2;
     margin-left: -1em;
   }
 }
 .ti-hockey-stick {
-  &:before {
+  &::before {
     content: $ti-hockey-stick;
   }
 }
 .ti-input {
-  &:before {
+  &::before {
     content: $ti-input-path1;
   }
 }
 .ti-input {
-  &:after {
+  &::after {
     content: $ti-input-path2;
     margin-left: -1em;
     opacity: 0.5;
   }
 }
 .ti-painting {
-  &:before {
+  &::before {
     content: $ti-painting-path1;
   }
 }
 .ti-painting {
-  &:after {
+  &::after {
     content: $ti-painting-path2;
     margin-left: -1em;
     opacity: 0.33;
   }
 }
 .ti-table {
-  &:before {
+  &::before {
     content: $ti-table-path1;
     opacity: 0.1;
   }
 }
 .ti-table {
-  &:after {
+  &::after {
     content: $ti-table-path2;
     margin-left: -1em;
     opacity: 0.5;
   }
 }
 .ti-arrow-up-right {
-  &:before {
+  &::before {
     content: $ti-arrow-up-right;
   }
 }
 .ti-book {
-  &:before {
+  &::before {
     content: $ti-book-path1;
     opacity: 0.33;
   }
 }
 .ti-book {
-  &:after {
+  &::after {
     content: $ti-book-path2;
     margin-left: -1em;
   }
 }
 .ti-book-p {
-  &:before {
+  &::before {
     content: $ti-book-p-path1;
     opacity: 0.33;
   }
 }
 .ti-book-p {
-  &:after {
+  &::after {
     content: $ti-book-p-path2;
     margin-left: -1em;
   }
 }
 .ti-book-q {
-  &:before {
+  &::before {
     content: $ti-book-q-path1;
     opacity: 0.33;
   }
 }
 .ti-book-q {
-  &:after {
+  &::after {
     content: $ti-book-q-path2;
     margin-left: -1em;
   }
 }
 .ti-chart-line {
-  &:before {
+  &::before {
     content: $ti-chart-line-path1;
     opacity: 0.5;
   }
 }
 .ti-chart-line {
-  &:after {
+  &::after {
     content: $ti-chart-line-path2;
     margin-left: -1em;
   }
 }
 .ti-checkmark {
-  &:before {
+  &::before {
     content: $ti-checkmark;
   }
 }
 .ti-scale {
-  &:before {
+  &::before {
     content: $ti-scale-path1;
   }
 }
 .ti-scale {
-  &:after {
+  &::after {
     content: $ti-scale-path2;
     margin-left: -1em;
     opacity: 0.5;
   }
 }
 .ti-sidebar {
-  &:before {
+  &::before {
     content: $ti-sidebar-path1;
   }
 }
 .ti-sidebar {
-  &:after {
+  &::after {
     content: $ti-sidebar-path2;
     margin-left: -1em;
     opacity: 0.5;
   }
 }
 .ti-todo {
-  &:before {
+  &::before {
     content: $ti-todo;
   }
 }
 .ti-user {
-  &:before {
+  &::before {
     content: $ti-user;
   }
 }
 .ti-user-active {
-  &:before {
+  &::before {
     content: $ti-user-active-path1;
   }
 }
 .ti-user-active {
-  &:after {
+  &::after {
     content: $ti-user-active-path2;
     margin-left: -1em;
     opacity: 0.5;
   }
 }
 .ti-user-inactive {
-  &:before {
+  &::before {
     content: $ti-user-inactive-path1;
   }
 }
 .ti-user-inactive {
-  &:after {
+  &::after {
     content: $ti-user-inactive-path2;
     margin-left: -1em;
     opacity: 0.5;
   }
 }
 .ti-users {
-  &:before {
+  &::before {
     content: $ti-users-path1;
   }
 }
 .ti-users {
-  &:after {
+  &::after {
     content: $ti-users-path2;
     margin-left: -1em;
     opacity: 0.5;
   }
 }
 .ti-arrow-down-left {
-  &:before {
+  &::before {
     content: $ti-arrow-down-left;
   }
 }
 .ti-arrow-down-right {
-  &:before {
+  &::before {
     content: $ti-arrow-down-right;
   }
 }
 .ti-arrow-up-left {
-  &:before {
+  &::before {
     content: $ti-arrow-up-left;
   }
 }
 .ti-bucket {
-  &:before {
+  &::before {
     content: $ti-bucket-path1;
   }
 }
 .ti-bucket {
-  &:after {
+  &::after {
     content: $ti-bucket-path2;
     margin-left: -1em;
     opacity: 0.5;
   }
 }
 .ti-dot {
-  &:before {
+  &::before {
     content: $ti-dot;
   }
 }
 .ti-dots {
-  &:before {
+  &::before {
     content: $ti-dots;
   }
 }
 .ti-farm {
-  &:before {
+  &::before {
     content: $ti-farm-path1;
   }
 }
 .ti-farm {
-  &:after {
+  &::after {
     content: $ti-farm-path2;
     margin-left: -1em;
     opacity: 0.5;
   }
 }
 .ti-list {
-  &:before {
+  &::before {
     content: $ti-list-path1;
   }
 }
 .ti-list {
-  &:after {
+  &::after {
     content: $ti-list-path2;
     margin-left: -1em;
     opacity: 0.5;
   }
 }
 .ti-list-check {
-  &:before {
+  &::before {
     content: $ti-list-check-path1;
   }
 }
 .ti-list-check {
-  &:after {
+  &::after {
     content: $ti-list-check-path2;
     margin-left: -1em;
     opacity: 0.5;
   }
 }
 .ti-moped-license-plate {
-  &:before {
+  &::before {
     content: $ti-moped-license-plate;
   }
 }
 .ti-offer {
-  &:before {
+  &::before {
     content: $ti-offer;
   }
 }
 .ti-scale-in {
-  &:before {
+  &::before {
     content: $ti-scale-in-path1;
     opacity: 0.5;
   }
 }
 .ti-scale-in {
-  &:after {
+  &::after {
     content: $ti-scale-in-path2;
     margin-left: -1em;
   }
 }
 .ti-scale-out {
-  &:before {
+  &::before {
     content: $ti-scale-out-path1;
     opacity: 0.5;
   }
 }
 .ti-scale-out {
-  &:after {
+  &::after {
     content: $ti-scale-out-path2;
     margin-left: -1em;
   }
 }
 .ti-at {
-  &:before {
+  &::before {
     content: $ti-at;
   }
 }
 .ti-circle {
-  &:before {
+  &::before {
     content: $ti-circle;
   }
 }
 .ti-cross {
-  &:before {
+  &::before {
     content: $ti-cross;
   }
 }
 .ti-hashtag {
-  &:before {
+  &::before {
     content: $ti-hashtag;
   }
 }
 .ti-lens {
-  &:before {
+  &::before {
     content: $ti-lens-path1;
     opacity: 0.5;
   }
 }
 .ti-lens {
-  &:after {
+  &::after {
     content: $ti-lens-path2;
     margin-left: -1em;
   }
 }
 .ti-list-bullet {
-  &:before {
+  &::before {
     content: $ti-list-bullet-path1;
   }
 }
 .ti-list-bullet {
-  &:after {
+  &::after {
     content: $ti-list-bullet-path2;
     margin-left: -1em;
     opacity: 0.5;
   }
 }
 .ti-pencil {
-  &:before {
+  &::before {
     content: $ti-pencil;
   }
 }
 .ti-questionmark {
-  &:before {
+  &::before {
     content: $ti-questionmark-path1;
   }
 }
 .ti-questionmark {
-  &:after {
+  &::after {
     content: $ti-questionmark-path2;
     margin-left: -1em;
     opacity: 0.5;
   }
 }
 .ti-reply {
-  &:before {
+  &::before {
     content: $ti-reply;
   }
 }
 .ti-server {
-  &:before {
+  &::before {
     content: $ti-server;
   }
 }
 .ti-share {
-  &:before {
+  &::before {
     content: $ti-share-path1;
     opacity: 0.5;
   }
 }
 .ti-share {
-  &:after {
+  &::after {
     content: $ti-share-path2;
     margin-left: -1em;
   }
 }
 .ti-tools {
-  &:before {
+  &::before {
     content: $ti-tools;
   }
 }
 .ti-trashcan {
-  &:before {
+  &::before {
     content: $ti-trashcan-path1;
     opacity: 0.33;
   }
 }
 .ti-trashcan {
-  &:after {
+  &::after {
     content: $ti-trashcan-path2;
     margin-left: -1em;
   }
 }
 .ti-user-card {
-  &:before {
+  &::before {
     content: $ti-user-card-path1;
     opacity: 0.5;
   }
 }
 .ti-user-card {
-  &:after {
+  &::after {
     content: $ti-user-card-path2;
     margin-left: -1em;
   }
 }
 .ti-add {
-  &:before {
+  &::before {
     content: $ti-add-path1;
     opacity: 0.5;
   }
 }
 .ti-add {
-  &:after {
+  &::after {
     content: $ti-add-path2;
     margin-left: -1em;
   }
 }
 .ti-checkmark-circle {
-  &:before {
+  &::before {
     content: $ti-checkmark-circle;
   }
 }
 .ti-checkmarks {
-  &:before {
+  &::before {
     content: $ti-checkmarks-path1;
   }
 }
 .ti-checkmarks {
-  &:after {
+  &::after {
     content: $ti-checkmarks-path2;
     margin-left: -1em;
     opacity: 0.5;
   }
 }
 .ti-cross-circle {
-  &:before {
+  &::before {
     content: $ti-cross-circle;
   }
 }
 .ti-gears {
-  &:before {
+  &::before {
     content: $ti-gears-path1;
   }
 }
 .ti-gears {
-  &:after {
+  &::after {
     content: $ti-gears-path2;
     margin-left: -1em;
     opacity: 0.5;
   }
 }
 .ti-heart {
-  &:before {
+  &::before {
     content: $ti-heart;
   }
 }
 .ti-house {
-  &:before {
+  &::before {
     content: $ti-house-path1;
     opacity: 0.5;
   }
 }
 .ti-house {
-  &:after {
+  &::after {
     content: $ti-house-path2;
     margin-left: -1em;
   }
 }
 .ti-i-circle {
-  &:before {
+  &::before {
     content: $ti-i-circle;
   }
 }
 .ti-save {
-  &:before {
+  &::before {
     content: $ti-save-path1;
     opacity: 0.5;
   }
 }
 .ti-save {
-  &:after {
+  &::after {
     content: $ti-save-path2;
     margin-left: -1em;
   }
 }
 .ti-stars {
-  &:before {
+  &::before {
     content: $ti-stars-path1;
   }
 }
 .ti-stars {
-  &:after {
+  &::after {
     content: $ti-stars-path2;
     margin-left: -1em;
     opacity: 0.5;
   }
 }
 .ti-thunder {
-  &:before {
+  &::before {
     content: $ti-thunder;
   }
 }

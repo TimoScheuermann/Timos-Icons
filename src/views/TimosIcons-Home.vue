@@ -98,6 +98,11 @@
             <img src="assets/portfolio.svg" />
           </tc-card>
         </a>
+        <a href="https://accounts.timos.design" target="_blank">
+          <tc-card>
+            <img src="https://accounts.timos.design/pwa/maskIcon.svg" />
+          </tc-card>
+        </a>
       </tl-grid>
     </div>
   </div>
