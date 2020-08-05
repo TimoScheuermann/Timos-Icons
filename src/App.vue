@@ -4,6 +4,18 @@
     <timosicons-tabbar />
     <timosicons-header />
 
+    <tc-modal
+      v-model="isUpdateAvailable"
+      title="new content"
+      subtitle="download now"
+    >
+      <tc-button
+        @click="updateNow"
+        name="Update application"
+        icon="download"
+        variant="filled"
+      />
+    </tc-modal>
     <router-view />
   </div>
 </template>
@@ -22,15 +34,37 @@ import TimosIconsHeader from '@/components/shared/TimosIcons-Header.vue';
   }
 })
 export default class App extends Vue {
-  mounted() {
-    const xhr = new XMLHttpRequest(); // a new request
-    xhr.open('GET', '/resources/icons.json', true);
-    xhr.send(null);
-    xhr.onload = () => {
-      if (xhr.readyState === 4 && xhr.status === 200) {
-        this.$store.commit('updateIcons', JSON.parse(xhr.responseText));
+  public isUpdateAvailable = false;
+  private swRegistration: ServiceWorkerRegistration | undefined = undefined;
+
+  async mounted() {
+    const res = await fetch('/resources/icons.json').then(r => r.json());
+    this.$store.commit('updateIcons', res);
+
+    document.addEventListener(
+      // eslint-disable-next-line
+      'swUpdated' as any,
+      (e: CustomEvent<ServiceWorkerRegistration>) => {
+        console.log('sw update');
+        if (!e.detail || !e.detail.waiting) {
+          return;
+        }
+        this.isUpdateAvailable = true;
+        this.swRegistration = e.detail;
+      },
+      {
+        once: true
       }
-    };
+    );
+
+    navigator.serviceWorker.addEventListener('controllerchange', () =>
+      window.location.reload()
+    );
+  }
+
+  public updateNow() {
+    // eslint-disable-next-line
+    this.swRegistration!.waiting!.postMessage({ type: 'SKIP_WAITING' });
   }
 }
 </script>
