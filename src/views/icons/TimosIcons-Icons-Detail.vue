@@ -117,7 +117,6 @@
 import { Vue, Component, Watch } from 'vue-property-decorator';
 import TimosIconsIconScroller from '@/components/icons/TimosIcons-IconScroller.vue';
 import { Icon } from '@/models/Icon.model';
-import axios from '@/axios';
 import { copyToClipboard } from '@/utils';
 
 @Component({
@@ -173,7 +172,9 @@ export default class TimosIconsIconsDetail extends Vue {
   @Watch('$route', { deep: true, immediate: true })
   async setupCopies(): Promise<void> {
     if (this.icon) {
-      this.svg = (await axios.get(`/resources/svg/${this.icon.name}.svg`)).data;
+      this.svg = await fetch(`/resources/svg/${this.icon.name}.svg`).then(s =>
+        s.text()
+      );
       this.html = `<i class="ti-${this.icon.name}" />`;
     }
   }

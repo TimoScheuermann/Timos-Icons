@@ -1,8 +1,10 @@
 @charset "UTF-8";
 @font-face {
   font-family: "Timos-Icons";
-  src: url("fonts/Timos-Icons.eot?kjddan");
-  src: url("fonts/Timos-Icons.eot?kjddan#iefix") format("embedded-opentype"), url("fonts/Timos-Icons.ttf?kjddan") format("truetype"), url("fonts/Timos-Icons.woff?kjddan") format("woff"), url("fonts/Timos-Icons.svg?kjddan#Timos-Icons") format("svg");
+  src: url("fonts/Timos-Icons.eot?yxgtpl");
+  src: url("fonts/Timos-Icons.eot?yxgtpl#iefix") format("embedded-opentype"),
+    url("fonts/Timos-Icons.ttf?yxgtpl") format("truetype"), url("fonts/Timos-Icons.woff?yxgtpl") format("woff"),
+    url("fonts/Timos-Icons.svg?yxgtpl#Timos-Icons") format("svg");
   font-weight: normal;
   font-style: normal;
   font-display: block;
@@ -20,6 +22,150 @@ i {
   /* Better Font Rendering =========== */
   -webkit-font-smoothing: antialiased;
   -moz-osx-font-smoothing: grayscale;
+}
+
+.ti-presents:before {
+  content: "";
+}
+
+.ti-presents:after {
+  content: "";
+  margin-left: -1em;
+  opacity: 0.55;
+}
+
+.ti-books:before {
+  content: "";
+  opacity: 0.33;
+}
+
+.ti-books:after {
+  content: "";
+  margin-left: -1em;
+}
+
+.ti-align-center:before {
+  content: "";
+}
+
+.ti-align-justify:before {
+  content: "";
+}
+
+.ti-align-left:before {
+  content: "";
+}
+
+.ti-align-right:before {
+  content: "";
+}
+
+.ti-shield-checkmark:before {
+  content: "";
+}
+
+.ti-arrow-down-alt:before {
+  content: "";
+}
+
+.ti-arrow-left-alt:before {
+  content: "";
+}
+
+.ti-arrow-right-alt:before {
+  content: "";
+}
+
+.ti-arrow-up-alt:before {
+  content: "";
+}
+
+.ti-lightbulb:before {
+  content: "";
+  opacity: 0.33;
+}
+
+.ti-lightbulb:after {
+  content: "";
+  margin-left: -1em;
+}
+
+.ti-shield:before {
+  content: "";
+}
+
+.ti-shield-cross:before {
+  content: "";
+}
+
+.ti-user-shield:before {
+  content: "";
+}
+
+.ti-user-shield:after {
+  content: "";
+  margin-left: -1em;
+  opacity: 0.5;
+}
+
+.ti-arrows-h:before {
+  content: "";
+}
+
+.ti-arrows-v:before {
+  content: "";
+}
+
+.ti-codepen:before {
+  content: "";
+}
+
+.ti-copy:before {
+  content: "";
+  opacity: 0.5;
+}
+
+.ti-copy:after {
+  content: "";
+  margin-left: -1em;
+}
+
+.ti-ghost:before {
+  content: "";
+}
+
+.ti-header-alt:before {
+  content: "";
+}
+
+.ti-header-alt:after {
+  content: "";
+  margin-left: -1em;
+  opacity: 0.33;
+}
+
+.ti-arrows-move:before {
+  content: "";
+}
+
+.ti-blocked:before {
+  content: "";
+}
+
+.ti-checkmark-inverted:before {
+  content: "";
+}
+
+.ti-rss:before {
+  content: "";
+}
+
+.ti-spinner-alt:before {
+  content: "";
+}
+
+.ti-qr-code:before {
+  content: "";
 }
 
 .ti-folder-cloud:before {
@@ -1772,12 +1918,6 @@ i {
   content: "";
 }
 
-.ti-scale:after {
-  content: "";
-  margin-left: -1em;
-  opacity: 0.5;
-}
-
 .ti-sidebar:before {
   content: "";
 }
@@ -1840,12 +1980,6 @@ i {
 
 .ti-bucket:before {
   content: "";
-}
-
-.ti-bucket:after {
-  content: "";
-  margin-left: -1em;
-  opacity: 0.5;
 }
 
 .ti-dot:before {
@@ -2027,7 +2161,7 @@ i {
 .ti-checkmarks:after {
   content: "";
   margin-left: -1em;
-  opacity: 0.5;
+  opacity: 0.33;
 }
 
 .ti-cross-circle:before {

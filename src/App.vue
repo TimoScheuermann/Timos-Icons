@@ -6,8 +6,8 @@
 
     <tc-modal
       v-model="isUpdateAvailable"
-      title="new content"
-      subtitle="download now"
+      title="New Update available"
+      subtitle="There's a new update to Timo's Icons available. Click 'Update application' to download it."
     >
       <tc-button
         @click="updateNow"

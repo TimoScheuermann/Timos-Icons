@@ -2,11 +2,11 @@
 
 @font-face {
   font-family: "#{$icomoon-font-family}";
-  src: url("#{$icomoon-font-path}/#{$icomoon-font-family}.eot?kjddan");
-  src: url("#{$icomoon-font-path}/#{$icomoon-font-family}.eot?kjddan#iefix") format("embedded-opentype"),
-    url("#{$icomoon-font-path}/#{$icomoon-font-family}.ttf?kjddan") format("truetype"),
-    url("#{$icomoon-font-path}/#{$icomoon-font-family}.woff?kjddan") format("woff"),
-    url("#{$icomoon-font-path}/#{$icomoon-font-family}.svg?kjddan##{$icomoon-font-family}") format("svg");
+  src: url("#{$icomoon-font-path}/#{$icomoon-font-family}.eot?yxgtpl");
+  src: url("#{$icomoon-font-path}/#{$icomoon-font-family}.eot?yxgtpl#iefix") format("embedded-opentype"),
+    url("#{$icomoon-font-path}/#{$icomoon-font-family}.ttf?yxgtpl") format("truetype"),
+    url("#{$icomoon-font-path}/#{$icomoon-font-family}.woff?yxgtpl") format("woff"),
+    url("#{$icomoon-font-path}/#{$icomoon-font-family}.svg?yxgtpl##{$icomoon-font-family}") format("svg");
   font-weight: normal;
   font-style: normal;
   font-display: block;
@@ -27,6 +27,189 @@ i {
   -moz-osx-font-smoothing: grayscale;
 }
 
+.ti-presents {
+  &:before {
+    content: $ti-presents-path1;
+  }
+}
+.ti-presents {
+  &:after {
+    content: $ti-presents-path2;
+    margin-left: -1em;
+
+    opacity: 0.55;
+  }
+}
+.ti-books {
+  &:before {
+    content: $ti-books-path1;
+
+    opacity: 0.33;
+  }
+}
+.ti-books {
+  &:after {
+    content: $ti-books-path2;
+    margin-left: -1em;
+  }
+}
+.ti-align-center {
+  &:before {
+    content: $ti-align-center;
+  }
+}
+.ti-align-justify {
+  &:before {
+    content: $ti-align-justify;
+  }
+}
+.ti-align-left {
+  &:before {
+    content: $ti-align-left;
+  }
+}
+.ti-align-right {
+  &:before {
+    content: $ti-align-right;
+  }
+}
+.ti-shield-checkmark {
+  &:before {
+    content: $ti-shield-checkmark;
+  }
+}
+.ti-arrow-down-alt {
+  &:before {
+    content: $ti-arrow-down-alt;
+  }
+}
+.ti-arrow-left-alt {
+  &:before {
+    content: $ti-arrow-left-alt;
+  }
+}
+.ti-arrow-right-alt {
+  &:before {
+    content: $ti-arrow-right-alt;
+  }
+}
+.ti-arrow-up-alt {
+  &:before {
+    content: $ti-arrow-up-alt;
+  }
+}
+.ti-lightbulb {
+  &:before {
+    content: $ti-lightbulb-path1;
+
+    opacity: 0.33;
+  }
+}
+.ti-lightbulb {
+  &:after {
+    content: $ti-lightbulb-path2;
+    margin-left: -1em;
+  }
+}
+.ti-shield {
+  &:before {
+    content: $ti-shield;
+  }
+}
+.ti-shield-cross {
+  &:before {
+    content: $ti-shield-cross;
+  }
+}
+.ti-user-shield {
+  &:before {
+    content: $ti-user-shield-path1;
+  }
+}
+.ti-user-shield {
+  &:after {
+    content: $ti-user-shield-path2;
+    margin-left: -1em;
+
+    opacity: 0.5;
+  }
+}
+.ti-arrows-h {
+  &:before {
+    content: $ti-arrows-h;
+  }
+}
+.ti-arrows-v {
+  &:before {
+    content: $ti-arrows-v;
+  }
+}
+.ti-codepen {
+  &:before {
+    content: $ti-codepen;
+  }
+}
+.ti-copy {
+  &:before {
+    content: $ti-copy-path1;
+
+    opacity: 0.5;
+  }
+}
+.ti-copy {
+  &:after {
+    content: $ti-copy-path2;
+    margin-left: -1em;
+  }
+}
+.ti-ghost {
+  &:before {
+    content: $ti-ghost;
+  }
+}
+.ti-header-alt {
+  &:before {
+    content: $ti-header-alt-path1;
+  }
+}
+.ti-header-alt {
+  &:after {
+    content: $ti-header-alt-path2;
+    margin-left: -1em;
+
+    opacity: 0.33;
+  }
+}
+.ti-arrows-move {
+  &:before {
+    content: $ti-arrows-move;
+  }
+}
+.ti-blocked {
+  &:before {
+    content: $ti-blocked;
+  }
+}
+.ti-checkmark-inverted {
+  &:before {
+    content: $ti-checkmark-inverted;
+  }
+}
+.ti-rss {
+  &:before {
+    content: $ti-rss;
+  }
+}
+.ti-spinner-alt {
+  &:before {
+    content: $ti-spinner-alt;
+  }
+}
+.ti-qr-code {
+  &:before {
+    content: $ti-qr-code;
+  }
+}
 .ti-folder-cloud {
   &:before {
     content: $ti-folder-cloud;
@@ -2276,15 +2459,7 @@ i {
 }
 .ti-scale {
   &:before {
-    content: $ti-scale-path1;
-  }
-}
-.ti-scale {
-  &:after {
-    content: $ti-scale-path2;
-    margin-left: -1em;
-
-    opacity: 0.5;
+    content: $ti-scale;
   }
 }
 .ti-sidebar {
@@ -2366,15 +2541,7 @@ i {
 }
 .ti-bucket {
   &:before {
-    content: $ti-bucket-path1;
-  }
-}
-.ti-bucket {
-  &:after {
-    content: $ti-bucket-path2;
-    margin-left: -1em;
-
-    opacity: 0.5;
+    content: $ti-bucket;
   }
 }
 .ti-dot {
@@ -2608,7 +2775,7 @@ i {
     content: $ti-checkmarks-path2;
     margin-left: -1em;
 
-    opacity: 0.5;
+    opacity: 0.33;
   }
 }
 .ti-cross-circle {
