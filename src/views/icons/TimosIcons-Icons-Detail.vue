@@ -40,14 +40,14 @@
                 <div class="details">
                   <tc-button
                     :icon="icon.name"
-                    color="error"
+                    tfbackground="error"
                     :name="coppied === 1 ? 'Copied!' : 'Copy HTML'"
                     variant="filled"
                     @click="copy('html')"
                   />
                   <tc-button
                     :icon="icon.name"
-                    color="success"
+                    tfbackground="success"
                     :name="coppied === 0 ? 'Copied!' : 'Copy SVG'"
                     variant="filled"
                     @click="copy('svg')"
@@ -116,8 +116,8 @@
 <script lang="ts">
 import { Vue, Component, Watch } from 'vue-property-decorator';
 import TimosIconsIconScroller from '@/components/icons/TimosIcons-IconScroller.vue';
-import { Icon } from '@/models/Icon.model';
-import { copyToClipboard } from '@/utils';
+import { copyToClipboard } from '@/utils/functions';
+import { Icon } from '@/utils/model';
 
 @Component({
   components: {
@@ -140,7 +140,6 @@ export default class TimosIconsIconsDetail extends Vue {
     try {
       return 'ti-' + this.icon.name;
     } catch (error) {
-      console.log('bei iconclass');
       return 'ti-apple';
     }
   }

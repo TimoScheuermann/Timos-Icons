@@ -110,7 +110,7 @@
 
 <script lang="ts">
 import { Vue, Component } from 'vue-property-decorator';
-import { getIconVersions, getIconsOfVersion } from '@/utils';
+import { getIconsOfVersion, getIconVersions } from '@/utils/functions';
 import BigHeading from '@/components/BigHeading.vue';
 import TimosIconsIconScroller from '@/components/icons/TimosIcons-IconScroller.vue';
 

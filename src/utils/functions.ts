@@ -1,5 +1,11 @@
-import { Icon } from '@/models/Icon.model';
 import store from '@/store';
+import {
+  getTAUser,
+  signInTAUser,
+  signOutTAUser,
+  verfiyTAUser
+} from 'timos-accounts';
+import { Icon } from './model';
 
 /* eslint-disable */
 export function formatDate(time: any): string {
@@ -58,21 +64,21 @@ export function formatDate(time: any): string {
 function getIcons(): Icon[] {
   return store.getters.icons;
 }
+
 function transformVersion(v: string): number {
-  return +(v || '1.0').split('.').join('');
+  return +v.split('.').join('');
 }
 
 export function getIconVersions(): string[] {
-  const versions: string[] = [];
-  getIcons().forEach((x: Icon) => {
-    if (!versions.includes(x.version || '1.0'))
-      versions.push(x.version || '1.0');
-  });
-  return versions.sort((b, a) => transformVersion(a) - transformVersion(b));
+  const versions: string[] = getIcons().map(x => x.version);
+  return versions
+    .filter((x, i) => versions.indexOf(x) === i)
+    .sort((a, b) => transformVersion(b) - transformVersion(a));
 }
+
 export function getIconsOfVersion(v: string): string[] {
   return getIcons()
-    .filter((x: Icon) => (x.version || '1.0') === v)
+    .filter((x: Icon) => x.version === v)
     .map(x => x.name);
 }
 
@@ -83,4 +89,16 @@ export function copyToClipboard(text: string) {
   dummy.select();
   document.execCommand('copy');
   document.body.removeChild(dummy);
+}
+
+export async function login() {
+  if (!(await verfiyTAUser())) {
+    signInTAUser(window.location.href);
+  } else {
+    store.commit('validate', getTAUser());
+  }
+}
+export function logout() {
+  signOutTAUser();
+  store.commit('logout');
 }

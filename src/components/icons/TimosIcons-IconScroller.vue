@@ -14,7 +14,8 @@
 </template>
 <script lang="ts">
 import { Vue, Component } from 'vue-property-decorator';
-import { Icon } from '@/models/Icon.model';
+import { Icon } from '@/utils/model';
+
 @Component
 export default class TimosIconsIconScroller extends Vue {
   public icons: Icon[] = [...this.$store.getters.icons];

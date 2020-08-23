@@ -1,7 +1,7 @@
 <template>
   <tc-navbar :autoBackground="true">
     <router-link :to="{ name: 'home' }" slot="logo" class="logo">
-      <img src="assets/logo.svg" alt="" />
+      <i class="ti-timos-icons" />
       <b>Timo's Icons</b>
     </router-link>
 
@@ -12,6 +12,7 @@
       :name="r.name"
       :icon="r.icon"
     />
+    <timosicons-sign-in-out slot="actions" />
   </tc-navbar>
 </template>
 
@@ -19,37 +20,31 @@
 import { Vue, Component } from 'vue-property-decorator';
 
 import routes from '@/routes';
-@Component
+import TimosIconsSignInOut from './TimosIcons-SignInOut.vue';
+
+@Component({
+  components: {
+    'timosicons-sign-in-out': TimosIconsSignInOut
+  }
+})
 export default class TimosIconsNavbar extends Vue {
   public routes = routes;
 }
 </script>
 
 <style lang="scss" scoped>
-img {
-  transition: 0.2s ease-in-out;
-}
-.tc-navbar__light {
-  img {
-    filter: brightness(0%);
-  }
-}
 .tc-navbar {
   @media #{$isMobile} {
     display: none !important;
   }
 
   .logo {
-    display: flex;
-    justify-content: center;
-    align-items: center;
     color: inherit;
-
-    img {
-      height: 30px;
-      width: 36px;
+    display: flex;
+    align-items: center;
+    i {
+      font-size: 30px;
     }
-
     b {
       margin-left: 10px;
     }

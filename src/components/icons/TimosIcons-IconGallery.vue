@@ -17,7 +17,8 @@
 
 <script lang="ts">
 import { Vue, Component, Prop, Watch } from 'vue-property-decorator';
-import { Icon } from '@/models/Icon.model';
+import { Icon } from '@/utils/model';
+
 @Component
 export default class TimosIconsIconGallery extends Vue {
   @Prop({ default: [] }) queries!: string[];

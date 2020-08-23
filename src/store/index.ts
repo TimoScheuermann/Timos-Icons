@@ -1,33 +1,53 @@
 /* eslint-disable */
-import { Icon } from '@/models/Icon.model';
+import { Icon, Issue, User } from '@/utils/model';
 import Vue from 'vue';
 import Vuex from 'vuex';
 
 Vue.use(Vuex);
 const store = new Vuex.Store({
   state: {
-    icons: [] as Icon[]
+    icons: [] as Icon[],
+    user: {} as User,
+    validated: false,
+    issues: []
   },
   getters: {
     icons: (state: any): Icon[] => {
       return state.icons;
     },
-    iconIssues: (state: any) => {
-      return state.iconIssues;
+    issues: (state: any) => {
+      return state.issues.filter((x: Issue) => x.state === 'OPEN');
     },
-    hasIconIssues: (state: any, getters: any) => {
-      return getters.iconIssues.length > 0;
+    issue: (state: any) => (id: string) => {
+      const split = id.split('.');
+      return state.issues.filter(
+        (x: any) => x._id === split[split.length - 1]
+      )[0];
     },
-    iconIssue: (state: any) => (number: number) => {
-      return state.iconIssues.filter((x: any) => x.number === number)[0];
+    valid: (state: any): boolean => {
+      return state.validated;
+    },
+    user: (state: any): User => {
+      return state.user;
     }
   },
   mutations: {
-    updateIcons(state: any, icons: Icon[]) {
+    setIcons(state: any, icons: Icon[]) {
       state.icons = icons;
     },
-    updateIconIssues(state: any, issues: any[]) {
-      state.iconIssues = issues;
+    setIssues(state: any, issues: any[]) {
+      state.issues = issues;
+    },
+    addIssue(state: any, issue: any) {
+      state.issues.push(issue);
+    },
+    logout(state: any) {
+      state.validated = false;
+      state.user = undefined;
+    },
+    validate(state: any, user: User) {
+      state.validated = true;
+      state.user = user;
     }
   }
 });

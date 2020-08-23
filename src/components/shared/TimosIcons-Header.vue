@@ -5,17 +5,20 @@
     :backName="hasBack && $route.meta.back.title"
     :backTo="hasBack && { name: $route.meta.back.route }"
   >
-    <router-link tag="div" :to="{ name: 'home' }" class="logo">
-      <img src="assets/logo.svg" alt="" />
-    </router-link>
+    <timosicons-sign-in-out />
   </tc-header>
 </template>
 
 <script lang="ts">
 import { Vue, Component, Watch } from 'vue-property-decorator';
 import { getTitle } from '@/router';
+import TimosIconsSignInOut from './TimosIcons-SignInOut.vue';
 
-@Component
+@Component({
+  components: {
+    'timosicons-sign-in-out': TimosIconsSignInOut
+  }
+})
 export default class TimosIconsHeader extends Vue {
   public title = "Timo's Icons";
 
@@ -26,33 +29,21 @@ export default class TimosIconsHeader extends Vue {
   @Watch('$route', { deep: true, immediate: true })
   routeChanged(): void {
     this.title = getTitle().split('| ')[1] || "Timo's Icons";
+    if (this.$route.name === 'issuesdetails') this.title = 'Issue';
   }
 }
 </script>
 
 <style lang="scss" scoped>
-img {
-  transition: 0.2s ease-in-out;
-}
-.tc-header__light {
-  img {
-    filter: brightness(0%);
-  }
-}
 .tc-header {
   @media #{$isDesktop} {
     display: none !important;
   }
 
   .logo {
-    display: flex;
-    justify-content: center;
-    align-items: center;
     cursor: pointer;
-
-    img {
-      height: 30px;
-      width: 36px;
+    i {
+      font-size: 30px;
     }
   }
 }

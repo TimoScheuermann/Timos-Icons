@@ -1,113 +1,91 @@
 <template>
-  <tc-card rounded="true" :dark="isFromTimo(comment)">
-    <div class="head">
-      <img class="avatar" :src="comment.user.avatar_url" alt="profile pic" />
-      <div class="info">
-        <div class="author">{{ comment.user.login }}</div>
-        <div class="time">
-          {{ timePrefix }} {{ formatDate(comment.created_at) }}
-        </div>
+  <div class="timosicons-comment" v-if="author && comment">
+    <tl-flow head>
+      <tl-flow>
+        <tc-avatar size="tiny" :src="author.avatar" />
+        <tl-flow flow="column" vertical="start">
+          <h4>{{ author.name }}</h4>
+          <div>{{ formatDate(comment.date) }}</div>
+        </tl-flow>
+      </tl-flow>
+      <div>
+        <tc-link tfcolor="error" v-if="isAuthor" @click="del">delete</tc-link>
+        <!-- <tc-link @click="replyContext = true">reply</tc-link> -->
       </div>
-      <div
-        class="association owner"
-        v-if="isFromTimo(comment) && !hasOpenedIssue(comment)"
-      >
-        Owner
-      </div>
-      <div class="association author" v-if="hasOpenedIssue(comment)">
-        Author
-      </div>
-    </div>
-    <div class="content" ref="body"></div>
-    <div class="content slot" v-if="$slots.default">
-      <slot />
-    </div>
-  </tc-card>
+    </tl-flow>
+    <p>{{ comment.content }}</p>
+    <template v-if="replyContext">
+      <tc-divider />
+      <tc-textarea rows="2" />
+      <tl-flow horizontal="space-between">
+        <tc-button name="cancel" />
+        <tc-button name="reply" />
+      </tl-flow>
+    </template>
+  </div>
 </template>
 <script lang="ts">
-import { Vue, Component, Prop, Watch } from 'vue-property-decorator';
-import { formatDate } from '@/utils';
-import * as MarkdownIt from 'markdown-it';
+import { Vue, Component, Prop } from 'vue-property-decorator';
+import { formatDate } from '@/utils/functions';
+import { axios } from '@/utils/axios';
+import { IssueComment, User } from '@/utils/model';
 
 @Component
 export default class TimosIconsComment extends Vue {
-  // eslint-disable-next-line
-  @Prop() comment!: any;
-  // eslint-disable-next-line
-  @Prop() issue!: any;
-  @Prop() timePrefix!: string;
-  @Prop({ default: '' }) title!: string;
+  @Prop() id!: string;
 
-  @Watch('comment')
-  commentChanged(): void {
-    const md = new MarkdownIt();
-    (this.$refs.body as HTMLElement).innerHTML = md.render(this.comment.body);
+  public comment: IssueComment | null = null;
+  public author: User | null = null;
+  public replyContext = false;
+
+  get isAuthor(): boolean {
+    if (this.comment) {
+      return this.comment.author === this.$store.getters.user._id;
+    }
+    return false;
   }
 
-  mounted(): void {
-    this.commentChanged();
-  }
-  // eslint-disable-next-line
-  public isFromTimo(comment: any): boolean {
-    return comment.author_association === 'OWNER';
-  }
-  // eslint-disable-next-line
-  public hasOpenedIssue(comment: any): boolean {
-    return comment.user.login === this.issue.user.login;
+  async mounted(): Promise<void> {
+    this.comment = (
+      await axios.get(`https://api.timos.design/icons/comment/${this.id}`)
+    ).data;
+
+    if (this.comment) {
+      this.author = (
+        await axios.get(`https://api.timos.design/user/${this.comment.author}`)
+      ).data;
+    }
   }
 
   public formatDate(date: string): string {
     return formatDate(date);
   }
+
+  public async del(): Promise<void> {
+    // delete comment
+  }
 }
 </script>
 <style lang="scss" scoped>
-.tc-card {
-  margin-top: 30px;
-  .head {
-    width: 100%;
-    display: flex;
-    align-items: center;
-    img.avatar {
-      $size: 50px;
+.timosicons-comment {
+  margin-top: 20px;
+  .tl-flow[head] {
+    h4 {
+      margin: 0;
+    }
+    justify-content: space-between !important;
+    .tc-avatar {
       margin-right: 20px;
-      width: $size;
-      height: $size;
-      border-radius: $size;
-    }
-    .info {
-      text-align: left;
-      .author {
-        font-size: 18px;
-        font-weight: bold;
-        opacity: 0.7;
-      }
-      .time {
-        opacity: 0.4;
-        font-size: 13px;
-        margin-top: 3px;
-      }
-    }
-    position: relative;
-    .association {
-      position: absolute;
-      top: -10px;
-      right: -10px;
-      &.author {
-        color: $success;
-      }
-      &.owner {
-        color: $error;
-      }
     }
   }
-  .content {
-    text-align: left;
-    padding-top: 10px;
-    margin-bottom: -20px;
-    &.slot {
-      padding: 20px;
-    }
+  .tc-link[d] {
+    margin-right: 10px;
+  }
+  p {
+    margin-bottom: 0;
+  }
+  /deep/ textarea {
+    min-height: 0px !important;
   }
 }
 </style>

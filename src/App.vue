@@ -39,7 +39,7 @@ export default class App extends Vue {
 
   async mounted() {
     const res = await fetch('/resources/icons.json').then(r => r.json());
-    this.$store.commit('updateIcons', res);
+    this.$store.commit('setIcons', res);
 
     document.addEventListener(
       // eslint-disable-next-line

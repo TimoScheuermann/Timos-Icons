@@ -2,11 +2,11 @@
 
 @font-face {
   font-family: "#{$icomoon-font-family}";
-  src: url("#{$icomoon-font-path}/#{$icomoon-font-family}.eot?yxgtpl");
-  src: url("#{$icomoon-font-path}/#{$icomoon-font-family}.eot?yxgtpl#iefix") format("embedded-opentype"),
-    url("#{$icomoon-font-path}/#{$icomoon-font-family}.ttf?yxgtpl") format("truetype"),
-    url("#{$icomoon-font-path}/#{$icomoon-font-family}.woff?yxgtpl") format("woff"),
-    url("#{$icomoon-font-path}/#{$icomoon-font-family}.svg?yxgtpl##{$icomoon-font-family}") format("svg");
+  src: url("#{$icomoon-font-path}/#{$icomoon-font-family}.eot?e8nrdx");
+  src: url("#{$icomoon-font-path}/#{$icomoon-font-family}.eot?e8nrdx#iefix") format("embedded-opentype"),
+    url("#{$icomoon-font-path}/#{$icomoon-font-family}.ttf?e8nrdx") format("truetype"),
+    url("#{$icomoon-font-path}/#{$icomoon-font-family}.woff?e8nrdx") format("woff"),
+    url("#{$icomoon-font-path}/#{$icomoon-font-family}.svg?e8nrdx##{$icomoon-font-family}") format("svg");
   font-weight: normal;
   font-style: normal;
   font-display: block;
@@ -27,6 +27,68 @@ i {
   -moz-osx-font-smoothing: grayscale;
 }
 
+.ti-warehouse {
+  &:before {
+    content: $ti-warehouse-path1;
+  }
+}
+.ti-warehouse {
+  &:after {
+    content: $ti-warehouse-path2;
+    margin-left: -1em;
+
+    opacity: 0.5;
+  }
+}
+.ti-watch {
+  &:before {
+    content: $ti-watch-path1;
+
+    opacity: 0.66;
+  }
+}
+.ti-watch {
+  &:after {
+    content: $ti-watch-path2;
+    margin-left: -1em;
+  }
+}
+.ti-bluetooth {
+  &:before {
+    content: $ti-bluetooth;
+  }
+}
+.ti-gym {
+  &:before {
+    content: $ti-gym;
+  }
+}
+.ti-hockey-puck {
+  &:before {
+    content: $ti-hockey-puck-path1;
+  }
+}
+.ti-hockey-puck {
+  &:after {
+    content: $ti-hockey-puck-path2;
+    margin-left: -1em;
+
+    opacity: 0.5;
+  }
+}
+.ti-timos-translator {
+  &:before {
+    content: $ti-timos-translator-path1;
+
+    opacity: 0.33;
+  }
+}
+.ti-timos-translator {
+  &:after {
+    content: $ti-timos-translator-path2;
+    margin-left: -1em;
+  }
+}
 .ti-presents {
   &:before {
     content: $ti-presents-path1;
@@ -73,9 +135,68 @@ i {
     content: $ti-align-right;
   }
 }
+.ti-bucket {
+  &:before {
+    content: $ti-bucket;
+  }
+}
+.ti-chart-radar {
+  &:before {
+    content: $ti-chart-radar-path1;
+
+    opacity: 0.5;
+  }
+}
+.ti-chart-radar {
+  &:after {
+    content: $ti-chart-radar-path2;
+    margin-left: -1em;
+  }
+}
+.ti-checkmark {
+  &:before {
+    content: $ti-checkmark;
+  }
+}
+.ti-checkmarks {
+  &:before {
+    content: $ti-checkmarks-path1;
+  }
+}
+.ti-checkmarks {
+  &:after {
+    content: $ti-checkmarks-path2;
+    margin-left: -1em;
+
+    opacity: 0.33;
+  }
+}
+.ti-moon {
+  &:before {
+    content: $ti-moon;
+  }
+}
+.ti-scale {
+  &:before {
+    content: $ti-scale;
+  }
+}
 .ti-shield-checkmark {
   &:before {
     content: $ti-shield-checkmark;
+  }
+}
+.ti-sidebar-alt {
+  &:before {
+    content: $ti-sidebar-alt-path1;
+  }
+}
+.ti-sidebar-alt {
+  &:after {
+    content: $ti-sidebar-alt-path2;
+    margin-left: -1em;
+
+    opacity: 0.33;
   }
 }
 .ti-arrow-down-alt {
@@ -831,11 +952,6 @@ i {
     content: $ti-cross-inverted;
   }
 }
-.ti-sidebar-alt {
-  &:before {
-    content: $ti-sidebar-alt;
-  }
-}
 .ti-biohazard {
   &:before {
     content: $ti-biohazard;
@@ -992,6 +1108,19 @@ i {
 .ti-snowflake {
   &:before {
     content: $ti-snowflake;
+  }
+}
+.ti-star-add {
+  &:before {
+    content: $ti-star-add-path1;
+
+    opacity: 0.5;
+  }
+}
+.ti-star-add {
+  &:after {
+    content: $ti-star-add-path2;
+    margin-left: -1em;
   }
 }
 .ti-calendar-alt {
@@ -1154,19 +1283,6 @@ i {
     margin-left: -1em;
   }
 }
-.ti-star-add {
-  &:before {
-    content: $ti-star-add-path1;
-
-    opacity: 0.5;
-  }
-}
-.ti-star-add {
-  &:after {
-    content: $ti-star-add-path2;
-    margin-left: -1em;
-  }
-}
 .ti-ticket {
   &:before {
     content: $ti-ticket-path1;
@@ -1318,9 +1434,27 @@ i {
     opacity: 0.5;
   }
 }
+.ti-crosshair {
+  &:before {
+    content: $ti-crosshair-path1;
+
+    opacity: 0.33;
+  }
+}
+.ti-crosshair {
+  &:after {
+    content: $ti-crosshair-path2;
+    margin-left: -1em;
+  }
+}
 .ti-question-triangle {
   &:before {
     content: $ti-question-triangle;
+  }
+}
+.ti-checkmark-circle {
+  &:before {
+    content: $ti-checkmark-circle;
   }
 }
 .ti-chevron-down {
@@ -1336,6 +1470,11 @@ i {
 .ti-chevron-up {
   &:before {
     content: $ti-chevron-up;
+  }
+}
+.ti-cross-circle {
+  &:before {
+    content: $ti-cross-circle;
   }
 }
 .ti-double-chevron-down {
@@ -1366,6 +1505,11 @@ i {
 .ti-exclamation-triangle {
   &:before {
     content: $ti-exclamation-triangle;
+  }
+}
+.ti-i-circle {
+  &:before {
+    content: $ti-i-circle;
   }
 }
 .ti-question-circle {
@@ -1896,11 +2040,6 @@ i {
     margin-left: -1em;
   }
 }
-.ti-crosshair {
-  &:before {
-    content: $ti-crosshair;
-  }
-}
 .ti-dice-1 {
   &:before {
     content: $ti-dice-1-path1;
@@ -1953,11 +2092,6 @@ i {
     opacity: 0.5;
   }
 }
-.ti-moon {
-  &:before {
-    content: $ti-moon;
-  }
-}
 .ti-peace {
   &:before {
     content: $ti-peace-path1;
@@ -1969,6 +2103,19 @@ i {
   &:after {
     content: $ti-peace-path2;
     margin-left: -1em;
+  }
+}
+.ti-phone {
+  &:before {
+    content: $ti-phone-path1;
+  }
+}
+.ti-phone {
+  &:after {
+    content: $ti-phone-path2;
+    margin-left: -1em;
+
+    opacity: 0.33;
   }
 }
 .ti-quote-left {
@@ -2059,32 +2206,6 @@ i {
     content: $ti-wifi-3;
   }
 }
-.ti-percentage {
-  &:before {
-    content: $ti-percentage-path1;
-
-    opacity: 0.5;
-  }
-}
-.ti-percentage {
-  &:after {
-    content: $ti-percentage-path2;
-    margin-left: -1em;
-  }
-}
-.ti-quote-right {
-  &:before {
-    content: $ti-quote-right-path1;
-
-    opacity: 0.5;
-  }
-}
-.ti-quote-right {
-  &:after {
-    content: $ti-quote-right-path2;
-    margin-left: -1em;
-  }
-}
 .ti-camera {
   &:before {
     content: $ti-camera-path1;
@@ -2108,6 +2229,32 @@ i {
 .ti-chart-donut {
   &:after {
     content: $ti-chart-donut-path2;
+    margin-left: -1em;
+  }
+}
+.ti-percentage {
+  &:before {
+    content: $ti-percentage-path1;
+
+    opacity: 0.5;
+  }
+}
+.ti-percentage {
+  &:after {
+    content: $ti-percentage-path2;
+    margin-left: -1em;
+  }
+}
+.ti-quote-right {
+  &:before {
+    content: $ti-quote-right-path1;
+
+    opacity: 0.5;
+  }
+}
+.ti-quote-right {
+  &:after {
+    content: $ti-quote-right-path2;
     margin-left: -1em;
   }
 }
@@ -2179,19 +2326,6 @@ i {
   &:after {
     content: $ti-modal-path2;
     margin-left: -1em;
-  }
-}
-.ti-phone {
-  &:before {
-    content: $ti-phone-path1;
-  }
-}
-.ti-phone {
-  &:after {
-    content: $ti-phone-path2;
-    margin-left: -1em;
-
-    opacity: 0.33;
   }
 }
 .ti-spinner {
@@ -2293,11 +2427,6 @@ i {
 .ti-chart-empty {
   &:before {
     content: $ti-chart-empty;
-  }
-}
-.ti-chart-radar {
-  &:before {
-    content: $ti-chart-radar;
   }
 }
 .ti-checkbox {
@@ -2452,16 +2581,6 @@ i {
     margin-left: -1em;
   }
 }
-.ti-checkmark {
-  &:before {
-    content: $ti-checkmark;
-  }
-}
-.ti-scale {
-  &:before {
-    content: $ti-scale;
-  }
-}
 .ti-sidebar {
   &:before {
     content: $ti-sidebar-path1;
@@ -2537,11 +2656,6 @@ i {
 .ti-arrow-up-left {
   &:before {
     content: $ti-arrow-up-left;
-  }
-}
-.ti-bucket {
-  &:before {
-    content: $ti-bucket;
   }
 }
 .ti-dot {
@@ -2760,29 +2874,6 @@ i {
     margin-left: -1em;
   }
 }
-.ti-checkmark-circle {
-  &:before {
-    content: $ti-checkmark-circle;
-  }
-}
-.ti-checkmarks {
-  &:before {
-    content: $ti-checkmarks-path1;
-  }
-}
-.ti-checkmarks {
-  &:after {
-    content: $ti-checkmarks-path2;
-    margin-left: -1em;
-
-    opacity: 0.33;
-  }
-}
-.ti-cross-circle {
-  &:before {
-    content: $ti-cross-circle;
-  }
-}
 .ti-gears {
   &:before {
     content: $ti-gears-path1;
@@ -2812,11 +2903,6 @@ i {
   &:after {
     content: $ti-house-path2;
     margin-left: -1em;
-  }
-}
-.ti-i-circle {
-  &:before {
-    content: $ti-i-circle;
   }
 }
 .ti-save {

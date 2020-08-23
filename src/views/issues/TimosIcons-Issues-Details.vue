@@ -4,61 +4,112 @@
       <img alt="" slot="background" src="assets/hero.jpg" />
       <transition-group tag="div" class="hero-content" name="swap">
         <div class="error" v-if="error" :key="0">Error</div>
-        <div class="loaded" v-else-if="loaded" :key="1">
-          <div class="type" :style="{ color: '#' + issue.labels[0].color }">
-            {{ issue.labels[0].name }}
+        <div class="loaded" v-else-if="issue" :key="1">
+          <div class="type">
+            {{ issue.type }}
           </div>
-          <h1>#{{ number }} {{ issue.title }}</h1>
-          <div class="hero--sub">
-            <div class="indicator" :class="issue.state">
-              {{ issue.state }}
-            </div>
-            <tc-button
-              :href="issue.html_url"
-              variant="filled"
-              name="View on GitHub"
-              iconPosition="right"
-              icon="github"
-            />
-          </div>
+          <h1>{{ issue.title }}</h1>
         </div>
-        <div class="loading" v-else :key="2">
-          <tc-spinner />
-          <div class="info">Loading</div>
-        </div>
+        <tl-flow v-else :key="2">
+          <tc-spinner :dark="true" variant="dots-wave" />
+        </tl-flow>
       </transition-group>
     </tc-hero>
+    <transition name="swap">
+      <div v-if="issue">
+        <tc-header variant="sticky" top="50">
+          <tl-flow h horizontal="space-between">
+            <div>
+              <tc-button
+                icon="heart"
+                :name="issue.likes || '0'"
+                :disabled="true"
+                tfbackground="error"
+              />
+              <tc-button
+                :name="'Like' + (liked ? 'd' : '')"
+                :variant="liked ? 'filled' : 'opaque'"
+                tfbackground="error"
+                @click="likeButton"
+              />
+            </div>
+            <div>{{ formatDate(issue.date) }}</div>
+          </tl-flow>
+        </tc-header>
 
-    <div content v-if="loaded">
-      <timosicons-comment
-        :comment="issue"
-        :issue="issue"
-        timePrefix="reported this issue"
-        :title="issue.title"
-      />
+        <div content>
+          <tc-card v-if="author" rounded="true" :shadow="false">
+            <tl-flow horizontal="space-between">
+              <tc-avatar :src="author.avatar" size="tiny" />
+              <h3>{{ author.name }}</h3>
+            </tl-flow>
+            <tc-divider />
+            <div c>{{ issue.content }}</div>
+          </tc-card>
+          <h1>Comments</h1>
+          <template v-if="issue.comments.length === 0">
+            <p>
+              There are no comments yet. Be among the first to write something
+            </p>
+            <template v-if="$store.getters.valid">
+              <tc-textarea
+                :rows="2"
+                v-model="firstComment"
+                title="Write a comment"
+              />
+              <tc-button
+                name="Submit"
+                @click="submitComment()"
+                :disabled="submitting || firstComment.length === 0"
+              />
+            </template>
+            <tc-button
+              v-else
+              @click="signIn"
+              icon="login"
+              name="Sign in to write a comment"
+            />
+          </template>
+          <tc-revealer v-else title="Write a comment">
+            <div class="spacer" />
 
-      <div v-if="comments.length > 0" class="comments-section">
-        <h1>
-          {{ comments.length }} Comment{{ comments.length > 1 ? 's' : '' }}
-        </h1>
-        <div class="comments">
-          <timosicons-comment
-            v-for="comment in comments"
-            :key="comment.created"
-            :comment="comment"
-            :issue="issue"
-          />
+            <template v-if="$store.getters.valid">
+              <tc-textarea :rows="2" v-model="firstComment" />
+              <tc-button
+                name="Submit"
+                @click="submitComment()"
+                :disabled="submitting || firstComment.length === 0"
+              />
+            </template>
+            <tc-button
+              v-else
+              @click="signIn"
+              icon="login"
+              name="Sign in to write a comment"
+            />
+          </tc-revealer>
+          <timosicons-comment v-for="c in issue.comments" :key="c" :id="c" />
         </div>
       </div>
-    </div>
-    <tc-scroll-up />
+      <div v-else-if="error" content>
+        <tl-flow flow="column">
+          <h1>Issue not found</h1>
+          <p>
+            The issue you are looking for does not exist, had its name changed
+            or is currently unavailable
+          </p>
+          <tc-button icon="chevron-left" name="Issues" routeName="issues" />
+        </tl-flow>
+      </div>
+    </transition>
   </div>
 </template>
 <script lang="ts">
 import { Vue, Component } from 'vue-property-decorator';
-import axios from '@/axios';
-import { formatDate } from '@/utils';
+import { axios } from '@/utils/axios';
+import { formatDate, login } from '@/utils/functions';
 import TimosIconsComment from '@/components/icons/TimosIcons-Comment.vue';
+import { Issue, User, IssueComment } from '@/utils/model';
 
 @Component({
   components: {
@@ -67,16 +118,19 @@ import TimosIconsComment from '@/components/icons/TimosIcons-Comment.vue';
 })
 export default class TimosIconsRequestsDetail extends Vue {
   public error = false;
-  public comments: [] | null = null;
-  // eslint-disable-next-line
-  public issue: any | null = null;
+  public issue: Issue | null = null;
+  public liked = false;
+  public author: User | null = null;
+  public firstComment = '';
+  public submitting = false;
 
-  get loaded(): boolean {
-    return !!this.comments && !!this.issue;
+  get id(): string {
+    const split = this.$route.params.issue.split('.');
+    return split[split.length - 1];
   }
 
-  get number(): string {
-    return this.$route.params.issue;
+  public signIn(): void {
+    login();
   }
 
   public formatDate(date: Record<string, unknown>): string {
@@ -84,51 +138,60 @@ export default class TimosIconsRequestsDetail extends Vue {
   }
 
   async created(): Promise<void> {
-    this.loadComments();
     this.loadIssue();
   }
 
-  async loadComments(): Promise<void> {
-    const { data } = await axios.get(
-      `https://api.github.com/repos/TimoScheuermann/Timos-Icons/issues/${this.number}/comments`
-    );
-    if (data) {
-      this.comments = data;
+  async loadIssue(): Promise<void> {
+    this.issue = (
+      await axios.get(`https://api.timos.design/icons/issues/${this.id}`)
+    ).data;
+
+    if (this.issue) {
+      this.author = (
+        await axios.get(`https://api.timos.design/user/${this.issue.author}`)
+      ).data;
     } else {
       this.error = true;
     }
   }
 
-  async loadIssue(): Promise<void> {
-    const { data } = await axios.get(
-      `https://api.github.com/repos/TimoScheuermann/Timos-Icons/issues/${this.number}`
-    );
-    if (data) {
-      this.issue = data;
-    } else {
-      this.error = true;
+  public likeButton(): void {
+    this.liked = !this.liked;
+  }
+
+  public async submitComment(): Promise<void> {
+    if (this.firstComment.length === 0) {
+      alert('Missing input');
+      return;
+    }
+    if (this.issue) {
+      this.submitting = true;
+      const { data } = await axios.post(
+        `https://api.timos.design/icons/comment?iid=${this.issue._id}`,
+        {
+          author: this.$store.getters.user._id,
+          content: this.firstComment
+        } as IssueComment
+      );
+      this.firstComment = '';
+      this.submitting = false;
+      this.issue.comments.push(data._id);
     }
   }
 }
 </script>
 <style lang="scss" scoped>
-.tc-scroll-up {
-  @media #{$isMobile} {
-    bottom: 60px;
-  }
+.tl-flow[h] {
+  width: 90vw;
 }
-.comments-section {
-  margin-top: 40px;
-  text-align: center;
-  .comments {
-    display: flex;
-    flex-direction: column;
-    align-items: center;
-    .tc-card {
-      width: 90vw;
-      max-width: 800px;
-    }
-  }
+div[c] {
+  text-align: left;
+}
+/deep/ textarea {
+  min-height: 0px !important;
+}
+.spacer {
+  height: 10px;
 }
 
 .swap-enter-active,

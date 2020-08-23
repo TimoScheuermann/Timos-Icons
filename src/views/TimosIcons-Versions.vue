@@ -37,16 +37,19 @@
 
 <script lang="ts">
 import { Vue, Component } from 'vue-property-decorator';
-import { Icon } from '../models/Icon.model';
-import { getIconVersions, getIconsOfVersion } from '@/utils';
+import { Icon } from '@/utils/model';
+import { getIconsOfVersion, getIconVersions } from '@/utils/functions';
+
 @Component
 export default class TimosIconsVersions extends Vue {
   get icons(): Icon[] {
     return this.$store.getters.icons;
   }
+
   get versions(): string[] {
     return getIconVersions();
   }
+
   getIconsOfVersion(v: string): string[] {
     return getIconsOfVersion(v);
   }
