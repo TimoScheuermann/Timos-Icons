@@ -1,12 +1,16 @@
-@import "variables";
+@import 'variables';
 
 @font-face {
-  font-family: "#{$icomoon-font-family}";
-  src: url("#{$icomoon-font-path}/#{$icomoon-font-family}.eot?e8nrdx");
-  src: url("#{$icomoon-font-path}/#{$icomoon-font-family}.eot?e8nrdx#iefix") format("embedded-opentype"),
-    url("#{$icomoon-font-path}/#{$icomoon-font-family}.ttf?e8nrdx") format("truetype"),
-    url("#{$icomoon-font-path}/#{$icomoon-font-family}.woff?e8nrdx") format("woff"),
-    url("#{$icomoon-font-path}/#{$icomoon-font-family}.svg?e8nrdx##{$icomoon-font-family}") format("svg");
+  font-family: '#{$icomoon-font-family}';
+  src: url('#{$icomoon-font-path}/#{$icomoon-font-family}.eot?1lac49');
+  src: url('#{$icomoon-font-path}/#{$icomoon-font-family}.eot?1lac49#iefix')
+      format('embedded-opentype'),
+    url('#{$icomoon-font-path}/#{$icomoon-font-family}.ttf?1lac49')
+      format('truetype'),
+    url('#{$icomoon-font-path}/#{$icomoon-font-family}.woff?1lac49')
+      format('woff'),
+    url('#{$icomoon-font-path}/#{$icomoon-font-family}.svg?1lac49##{$icomoon-font-family}')
+      format('svg');
   font-weight: normal;
   font-style: normal;
   font-display: block;
@@ -14,7 +18,7 @@
 
 i {
   /* use !important to prevent issues with browser extensions that change fonts */
-  font-family: "#{$icomoon-font-family}" !important;
+  font-family: '#{$icomoon-font-family}' !important;
   speak: never;
   font-style: normal;
   font-weight: normal;
@@ -27,6 +31,19 @@ i {
   -moz-osx-font-smoothing: grayscale;
 }
 
+.ti-food-bowl {
+  &:before {
+    content: $ti-food-bowl-path1;
+  }
+}
+.ti-food-bowl {
+  &:after {
+    content: $ti-food-bowl-path2;
+    margin-left: -1em;
+
+    opacity: 0.5;
+  }
+}
 .ti-warehouse {
   &:before {
     content: $ti-warehouse-path1;
@@ -105,7 +122,6 @@ i {
 .ti-books {
   &:before {
     content: $ti-books-path1;
-
     opacity: 0.33;
   }
 }

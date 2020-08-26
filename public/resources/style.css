@@ -1,8 +1,8 @@
 @charset "UTF-8";
 @font-face {
   font-family: "Timos-Icons";
-  src: url("fonts/Timos-Icons.eot?e8nrdx");
-  src: url("fonts/Timos-Icons.eot?e8nrdx#iefix") format("embedded-opentype"), url("fonts/Timos-Icons.ttf?e8nrdx") format("truetype"), url("fonts/Timos-Icons.woff?e8nrdx") format("woff"), url("fonts/Timos-Icons.svg?e8nrdx#Timos-Icons") format("svg");
+  src: url("fonts/Timos-Icons.eot?1lac49");
+  src: url("fonts/Timos-Icons.eot?1lac49#iefix") format("embedded-opentype"), url("fonts/Timos-Icons.ttf?1lac49") format("truetype"), url("fonts/Timos-Icons.woff?1lac49") format("woff"), url("fonts/Timos-Icons.svg?1lac49#Timos-Icons") format("svg");
   font-weight: normal;
   font-style: normal;
   font-display: block;
@@ -20,6 +20,16 @@ i {
   /* Better Font Rendering =========== */
   -webkit-font-smoothing: antialiased;
   -moz-osx-font-smoothing: grayscale;
+}
+
+.ti-food-bowl:before {
+  content: "";
+}
+
+.ti-food-bowl:after {
+  content: "";
+  margin-left: -1em;
+  opacity: 0.5;
 }
 
 .ti-warehouse:before {
