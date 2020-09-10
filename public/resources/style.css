@@ -1,8 +1,8 @@
 @charset "UTF-8";
 @font-face {
   font-family: "Timos-Icons";
-  src: url("fonts/Timos-Icons.eot?c3gb0c");
-  src: url("fonts/Timos-Icons.eot?c3gb0c#iefix") format("embedded-opentype"), url("fonts/Timos-Icons.ttf?c3gb0c") format("truetype"), url("fonts/Timos-Icons.woff?c3gb0c") format("woff"), url("fonts/Timos-Icons.svg?c3gb0c#Timos-Icons") format("svg");
+  src: url("fonts/Timos-Icons.eot?5ug0l5");
+  src: url("fonts/Timos-Icons.eot?5ug0l5#iefix") format("embedded-opentype"), url("fonts/Timos-Icons.ttf?5ug0l5") format("truetype"), url("fonts/Timos-Icons.woff?5ug0l5") format("woff"), url("fonts/Timos-Icons.svg?5ug0l5#Timos-Icons") format("svg");
   font-weight: normal;
   font-style: normal;
   font-display: block;
@@ -20,6 +20,26 @@ i {
   /* Better Font Rendering =========== */
   -webkit-font-smoothing: antialiased;
   -moz-osx-font-smoothing: grayscale;
+}
+
+.ti-apple-alt:before {
+  content: "";
+  opacity: 0.5;
+}
+
+.ti-apple-alt:after {
+  content: "";
+  margin-left: -1em;
+}
+
+.ti-book-cook:before {
+  content: "";
+  opacity: 0.33;
+}
+
+.ti-book-cook:after {
+  content: "";
+  margin-left: -1em;
 }
 
 .ti-trophy:before {
