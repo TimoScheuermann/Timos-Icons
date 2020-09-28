@@ -2,14 +2,14 @@
 
 @font-face {
   font-family: '#{$icomoon-font-family}';
-  src: url('#{$icomoon-font-path}/#{$icomoon-font-family}.eot?5ug0l5');
-  src: url('#{$icomoon-font-path}/#{$icomoon-font-family}.eot?5ug0l5#iefix')
+  src: url('#{$icomoon-font-path}/#{$icomoon-font-family}.eot?hv89fx');
+  src: url('#{$icomoon-font-path}/#{$icomoon-font-family}.eot?hv89fx#iefix')
       format('embedded-opentype'),
-    url('#{$icomoon-font-path}/#{$icomoon-font-family}.ttf?5ug0l5')
+    url('#{$icomoon-font-path}/#{$icomoon-font-family}.ttf?hv89fx')
       format('truetype'),
-    url('#{$icomoon-font-path}/#{$icomoon-font-family}.woff?5ug0l5')
+    url('#{$icomoon-font-path}/#{$icomoon-font-family}.woff?hv89fx')
       format('woff'),
-    url('#{$icomoon-font-path}/#{$icomoon-font-family}.svg?5ug0l5##{$icomoon-font-family}')
+    url('#{$icomoon-font-path}/#{$icomoon-font-family}.svg?hv89fx##{$icomoon-font-family}')
       format('svg');
   font-weight: normal;
   font-style: normal;
@@ -31,9 +31,40 @@ i {
   -moz-osx-font-smoothing: grayscale;
 }
 
+.ti-crop {
+  &:before {
+    content: $ti-crop;
+  }
+}
+.ti-dots-vertical {
+  &:before {
+    content: $ti-dots-vertical;
+  }
+}
+.ti-location-arrow {
+  &:before {
+    content: $ti-location-arrow;
+  }
+}
+.ti-map-pin {
+  &:before {
+    content: $ti-map-pin;
+  }
+}
+.ti-pin-checkmark {
+  &:before {
+    content: $ti-pin-checkmark;
+  }
+}
+.ti-terminal {
+  &:before {
+    content: $ti-terminal;
+  }
+}
 .ti-apple-alt {
   &:before {
     content: $ti-apple-alt-path1;
+
     opacity: 0.5;
   }
 }
@@ -46,6 +77,7 @@ i {
 .ti-book-cook {
   &:before {
     content: $ti-book-cook-path1;
+
     opacity: 0.33;
   }
 }
@@ -69,6 +101,7 @@ i {
   &:after {
     content: $ti-food-bowl-path2;
     margin-left: -1em;
+
     opacity: 0.5;
   }
 }
@@ -81,12 +114,14 @@ i {
   &:after {
     content: $ti-warehouse-path2;
     margin-left: -1em;
+
     opacity: 0.5;
   }
 }
 .ti-watch {
   &:before {
     content: $ti-watch-path1;
+
     opacity: 0.66;
   }
 }
@@ -115,12 +150,14 @@ i {
   &:after {
     content: $ti-hockey-puck-path2;
     margin-left: -1em;
+
     opacity: 0.5;
   }
 }
 .ti-timos-translator {
   &:before {
     content: $ti-timos-translator-path1;
+
     opacity: 0.33;
   }
 }
@@ -139,6 +176,7 @@ i {
   &:after {
     content: $ti-presents-path2;
     margin-left: -1em;
+
     opacity: 0.55;
   }
 }
@@ -182,6 +220,7 @@ i {
 .ti-chart-radar {
   &:before {
     content: $ti-chart-radar-path1;
+
     opacity: 0.5;
   }
 }
@@ -205,6 +244,7 @@ i {
   &:after {
     content: $ti-checkmarks-path2;
     margin-left: -1em;
+
     opacity: 0.33;
   }
 }
@@ -232,6 +272,7 @@ i {
   &:after {
     content: $ti-sidebar-alt-path2;
     margin-left: -1em;
+
     opacity: 0.33;
   }
 }
@@ -258,6 +299,7 @@ i {
 .ti-lightbulb {
   &:before {
     content: $ti-lightbulb-path1;
+
     opacity: 0.33;
   }
 }
@@ -286,6 +328,7 @@ i {
   &:after {
     content: $ti-user-shield-path2;
     margin-left: -1em;
+
     opacity: 0.5;
   }
 }
@@ -307,6 +350,7 @@ i {
 .ti-copy {
   &:before {
     content: $ti-copy-path1;
+
     opacity: 0.5;
   }
 }
@@ -330,6 +374,7 @@ i {
   &:after {
     content: $ti-header-alt-path2;
     margin-left: -1em;
+
     opacity: 0.33;
   }
 }
@@ -417,6 +462,7 @@ i {
   &:after {
     content: $ti-files-path2;
     margin-left: -1em;
+
     opacity: 0.66;
   }
 }
@@ -429,6 +475,7 @@ i {
   &:after {
     content: $ti-file-zip-path2;
     margin-left: -1em;
+
     opacity: 0.5;
   }
 }
@@ -441,6 +488,7 @@ i {
   &:after {
     content: $ti-file-binary-path2;
     margin-left: -1em;
+
     opacity: 0.5;
   }
 }
@@ -453,6 +501,7 @@ i {
   &:after {
     content: $ti-file-code-path2;
     margin-left: -1em;
+
     opacity: 0.5;
   }
 }
@@ -465,6 +514,7 @@ i {
   &:after {
     content: $ti-file-csv-path2;
     margin-left: -1em;
+
     opacity: 0.5;
   }
 }
@@ -477,6 +527,7 @@ i {
   &:after {
     content: $ti-file-download-path2;
     margin-left: -1em;
+
     opacity: 0.5;
   }
 }
@@ -489,6 +540,7 @@ i {
   &:after {
     content: $ti-file-image-path2;
     margin-left: -1em;
+
     opacity: 0.5;
   }
 }
@@ -501,6 +553,7 @@ i {
   &:after {
     content: $ti-file-pdf-path2;
     margin-left: -1em;
+
     opacity: 0.5;
   }
 }
@@ -513,6 +566,7 @@ i {
   &:after {
     content: $ti-file-powerpoint-path2;
     margin-left: -1em;
+
     opacity: 0.5;
   }
 }
@@ -525,6 +579,7 @@ i {
   &:after {
     content: $ti-file-upload-path2;
     margin-left: -1em;
+
     opacity: 0.5;
   }
 }
@@ -537,6 +592,7 @@ i {
   &:after {
     content: $ti-file-path2;
     margin-left: -1em;
+
     opacity: 0.5;
   }
 }
@@ -549,6 +605,7 @@ i {
   &:after {
     content: $ti-file-audio-path2;
     margin-left: -1em;
+
     opacity: 0.5;
   }
 }
@@ -561,6 +618,7 @@ i {
   &:after {
     content: $ti-file-empty-path2;
     margin-left: -1em;
+
     opacity: 0.5;
   }
 }
@@ -573,6 +631,7 @@ i {
   &:after {
     content: $ti-file-excel-path2;
     margin-left: -1em;
+
     opacity: 0.5;
   }
 }
@@ -585,6 +644,7 @@ i {
   &:after {
     content: $ti-file-text-path2;
     margin-left: -1em;
+
     opacity: 0.5;
   }
 }
@@ -597,6 +657,7 @@ i {
   &:after {
     content: $ti-file-word-path2;
     margin-left: -1em;
+
     opacity: 0.5;
   }
 }
@@ -618,6 +679,7 @@ i {
 .ti-tccomponents {
   &:before {
     content: $ti-tccomponents-path1;
+
     opacity: 0.6;
   }
 }
@@ -625,6 +687,7 @@ i {
   &:after {
     content: $ti-tccomponents-path2;
     margin-left: -1em;
+
     opacity: 0.4;
   }
 }
@@ -672,6 +735,7 @@ i {
   &:after {
     content: $ti-timos-accounts-path2;
     margin-left: -1em;
+
     opacity: 0.5;
   }
 }
@@ -744,6 +808,7 @@ i {
   &:after {
     content: $ti-sort-alphabetical-ascending-path2;
     margin-left: -1em;
+
     opacity: 0.5;
   }
 }
@@ -756,6 +821,7 @@ i {
   &:after {
     content: $ti-sort-alphabetical-descending-path2;
     margin-left: -1em;
+
     opacity: 0.5;
   }
 }
@@ -768,6 +834,7 @@ i {
   &:after {
     content: $ti-sort-numeric-ascending-path2;
     margin-left: -1em;
+
     opacity: 0.5;
   }
 }
@@ -780,6 +847,7 @@ i {
   &:after {
     content: $ti-sort-numeric-descending-path2;
     margin-left: -1em;
+
     opacity: 0.5;
   }
 }
@@ -796,6 +864,7 @@ i {
 .ti-sort-alphabetical {
   &:before {
     content: $ti-sort-alphabetical-path1;
+
     opacity: 0.5;
   }
 }
@@ -808,6 +877,7 @@ i {
 .ti-sort-numeric {
   &:before {
     content: $ti-sort-numeric-path1;
+
     opacity: 0.5;
   }
 }
@@ -846,6 +916,7 @@ i {
   &:after {
     content: $ti-volume-cross-path2;
     margin-left: -1em;
+
     opacity: 0.5;
   }
 }
@@ -858,6 +929,7 @@ i {
   &:after {
     content: $ti-volume-off-path2;
     margin-left: -1em;
+
     opacity: 0.5;
   }
 }
@@ -870,6 +942,7 @@ i {
   &:after {
     content: $ti-eye-path2;
     margin-left: -1em;
+
     opacity: 0.5;
   }
 }
@@ -882,6 +955,7 @@ i {
   &:after {
     content: $ti-eye-slash-path2;
     margin-left: -1em;
+
     opacity: 0.5;
   }
 }
@@ -894,6 +968,7 @@ i {
   &:after {
     content: $ti-volume-1-path2;
     margin-left: -1em;
+
     opacity: 0.5;
   }
 }
@@ -906,6 +981,7 @@ i {
   &:after {
     content: $ti-volume-2-path2;
     margin-left: -1em;
+
     opacity: 0.5;
   }
 }
@@ -918,6 +994,7 @@ i {
   &:after {
     content: $ti-volume-3-path2;
     margin-left: -1em;
+
     opacity: 0.5;
   }
 }
@@ -930,6 +1007,7 @@ i {
   &:after {
     content: $ti-volume-minus-path2;
     margin-left: -1em;
+
     opacity: 0.5;
   }
 }
@@ -942,6 +1020,7 @@ i {
   &:after {
     content: $ti-volume-plus-path2;
     margin-left: -1em;
+
     opacity: 0.5;
   }
 }
@@ -964,6 +1043,7 @@ i {
   &:after {
     content: $ti-cloud-fog-path2;
     margin-left: -1em;
+
     opacity: 0.5;
   }
 }
@@ -976,6 +1056,7 @@ i {
   &:after {
     content: $ti-cloud-moon-rain-path2;
     margin-left: -1em;
+
     opacity: 0.5;
   }
 }
@@ -988,6 +1069,7 @@ i {
   &:after {
     content: $ti-cloud-snow-rain-path2;
     margin-left: -1em;
+
     opacity: 0.5;
   }
 }
@@ -1000,6 +1082,7 @@ i {
   &:after {
     content: $ti-cloud-sun-rain-path2;
     margin-left: -1em;
+
     opacity: 0.5;
   }
 }
@@ -1017,6 +1100,7 @@ i {
   &:after {
     content: $ti-cloud-moon-path2;
     margin-left: -1em;
+
     opacity: 0.5;
   }
 }
@@ -1029,6 +1113,7 @@ i {
   &:after {
     content: $ti-cloud-rain-path2;
     margin-left: -1em;
+
     opacity: 0.5;
   }
 }
@@ -1041,6 +1126,7 @@ i {
   &:after {
     content: $ti-cloud-snow-path2;
     margin-left: -1em;
+
     opacity: 0.5;
   }
 }
@@ -1053,6 +1139,7 @@ i {
   &:after {
     content: $ti-cloud-sun-path2;
     margin-left: -1em;
+
     opacity: 0.5;
   }
 }
@@ -1065,6 +1152,7 @@ i {
   &:after {
     content: $ti-cloud-thunder-path2;
     margin-left: -1em;
+
     opacity: 0.5;
   }
 }
@@ -1077,6 +1165,7 @@ i {
   &:after {
     content: $ti-cloud-thunder-rain-path2;
     margin-left: -1em;
+
     opacity: 0.5;
   }
 }
@@ -1089,6 +1178,7 @@ i {
   &:after {
     content: $ti-map-marker-path2;
     margin-left: -1em;
+
     opacity: 0.5;
   }
 }
@@ -1100,6 +1190,7 @@ i {
 .ti-star-add {
   &:before {
     content: $ti-star-add-path1;
+
     opacity: 0.5;
   }
 }
@@ -1118,6 +1209,7 @@ i {
   &:after {
     content: $ti-calendar-alt-path2;
     margin-left: -1em;
+
     opacity: 0.5;
   }
 }
@@ -1130,6 +1222,7 @@ i {
   &:after {
     content: $ti-image-path2;
     margin-left: -1em;
+
     opacity: 0.5;
   }
 }
@@ -1147,6 +1240,7 @@ i {
   &:after {
     content: $ti-mail-unread-path2;
     margin-left: -1em;
+
     opacity: 0.5;
   }
 }
@@ -1164,6 +1258,7 @@ i {
   &:after {
     content: $ti-notification-disabled-path2;
     margin-left: -1em;
+
     opacity: 0.5;
   }
 }
@@ -1180,6 +1275,7 @@ i {
 .ti-calendar {
   &:before {
     content: $ti-calendar-path1;
+
     opacity: 0.5;
   }
 }
@@ -1203,6 +1299,7 @@ i {
   &:after {
     content: $ti-microscope-path2;
     margin-left: -1em;
+
     opacity: 0.33;
   }
 }
@@ -1215,6 +1312,7 @@ i {
   &:after {
     content: $ti-notification-path2;
     margin-left: -1em;
+
     opacity: 0.5;
   }
 }
@@ -1232,6 +1330,7 @@ i {
   &:after {
     content: $ti-photos-path2;
     margin-left: -1em;
+
     opacity: 0.33;
   }
 }
@@ -1244,12 +1343,14 @@ i {
   &:after {
     content: $ti-present-path2;
     margin-left: -1em;
+
     opacity: 0.55;
   }
 }
 .ti-settings {
   &:before {
     content: $ti-settings-path1;
+
     opacity: 0.5;
   }
 }
@@ -1268,6 +1369,7 @@ i {
   &:after {
     content: $ti-ticket-path2;
     margin-left: -1em;
+
     opacity: 0.5;
   }
 }
@@ -1295,6 +1397,7 @@ i {
   &:after {
     content: $ti-chat-bubbles-path2;
     margin-left: -1em;
+
     opacity: 0.5;
   }
 }
@@ -1317,6 +1420,7 @@ i {
   &:after {
     content: $ti-microphone-muted-path2;
     margin-left: -1em;
+
     opacity: 0.5;
   }
 }
@@ -1334,6 +1438,7 @@ i {
   &:after {
     content: $ti-newspaper-path2;
     margin-left: -1em;
+
     opacity: 0.33;
   }
 }
@@ -1351,6 +1456,7 @@ i {
   &:after {
     content: $ti-upload-path2;
     margin-left: -1em;
+
     opacity: 0.5;
   }
 }
@@ -1382,6 +1488,7 @@ i {
 .ti-login {
   &:before {
     content: $ti-login-path1;
+
     opacity: 0.5;
   }
 }
@@ -1400,12 +1507,14 @@ i {
   &:after {
     content: $ti-logout-path2;
     margin-left: -1em;
+
     opacity: 0.5;
   }
 }
 .ti-crosshair {
   &:before {
     content: $ti-crosshair-path1;
+
     opacity: 0.33;
   }
 }
@@ -1529,6 +1638,7 @@ i {
   &:after {
     content: $ti-flashlight-path2;
     margin-left: -1em;
+
     opacity: 0.33;
   }
 }
@@ -1570,6 +1680,7 @@ i {
 .ti-list-add {
   &:before {
     content: $ti-list-add-path1;
+
     opacity: 0.5;
   }
 }
@@ -1613,6 +1724,7 @@ i {
   &:after {
     content: $ti-wifi-0-path2;
     margin-left: -1em;
+
     opacity: 0.5;
   }
 }
@@ -1625,6 +1737,7 @@ i {
   &:after {
     content: $ti-chart-stocks-path2;
     margin-left: -1em;
+
     opacity: 0.5;
   }
 }
@@ -1637,6 +1750,7 @@ i {
   &:after {
     content: $ti-clock-simple-path2;
     margin-left: -1em;
+
     opacity: 0.5;
   }
 }
@@ -1649,6 +1763,7 @@ i {
   &:after {
     content: $ti-credit-card-path2;
     margin-left: -1em;
+
     opacity: 0.5;
   }
 }
@@ -1691,6 +1806,7 @@ i {
   &:after {
     content: $ti-headphone-path2;
     margin-left: -1em;
+
     opacity: 0.5;
   }
 }
@@ -1703,6 +1819,7 @@ i {
   &:after {
     content: $ti-headset-path2;
     margin-left: -1em;
+
     opacity: 0.5;
   }
 }
@@ -1735,12 +1852,14 @@ i {
   &:after {
     content: $ti-exchange-path2;
     margin-left: -1em;
+
     opacity: 0.5;
   }
 }
 .ti-exclamation {
   &:before {
     content: $ti-exclamation-path1;
+
     opacity: 0.5;
   }
 }
@@ -1769,6 +1888,7 @@ i {
   &:after {
     content: $ti-microphone-path2;
     margin-left: -1em;
+
     opacity: 0.5;
   }
 }
@@ -1791,6 +1911,7 @@ i {
   &:after {
     content: $ti-thermometer-three-quarter-path2;
     margin-left: -1em;
+
     opacity: 0.5;
   }
 }
@@ -1803,6 +1924,7 @@ i {
   &:after {
     content: $ti-barometer-path2;
     margin-left: -1em;
+
     opacity: 0.33;
   }
 }
@@ -1815,6 +1937,7 @@ i {
   &:after {
     content: $ti-thermometer-empty-path2;
     margin-left: -1em;
+
     opacity: 0.5;
   }
 }
@@ -1827,6 +1950,7 @@ i {
   &:after {
     content: $ti-thermometer-full-path2;
     margin-left: -1em;
+
     opacity: 0.5;
   }
 }
@@ -1839,6 +1963,7 @@ i {
   &:after {
     content: $ti-thermometer-half-path2;
     margin-left: -1em;
+
     opacity: 0.5;
   }
 }
@@ -1851,6 +1976,7 @@ i {
   &:after {
     content: $ti-thermometer-quarter-path2;
     margin-left: -1em;
+
     opacity: 0.5;
   }
 }
@@ -1863,6 +1989,7 @@ i {
   &:after {
     content: $ti-key-path2;
     margin-left: -1em;
+
     opacity: 0.5;
   }
 }
@@ -1875,6 +2002,7 @@ i {
   &:after {
     content: $ti-lock-closed-path2;
     margin-left: -1em;
+
     opacity: 0.5;
   }
 }
@@ -1887,12 +2015,14 @@ i {
   &:after {
     content: $ti-lock-opened-path2;
     margin-left: -1em;
+
     opacity: 0.5;
   }
 }
 .ti-alarm {
   &:before {
     content: $ti-alarm-path1;
+
     opacity: 0.5;
   }
 }
@@ -1921,12 +2051,14 @@ i {
   &:after {
     content: $ti-segment-path2;
     margin-left: -1em;
+
     opacity: 0.33;
   }
 }
 .ti-slider {
   &:before {
     content: $ti-slider-path1;
+
     opacity: 0.33;
   }
 }
@@ -1950,6 +2082,7 @@ i {
   &:after {
     content: $ti-dice-4-path2;
     margin-left: -1em;
+
     opacity: 0.5;
   }
 }
@@ -1962,6 +2095,7 @@ i {
   &:after {
     content: $ti-dice-5-path2;
     margin-left: -1em;
+
     opacity: 0.5;
   }
 }
@@ -1973,6 +2107,7 @@ i {
 .ti-bar-progress {
   &:before {
     content: $ti-bar-progress-path1;
+
     opacity: 0.33;
   }
 }
@@ -1991,6 +2126,7 @@ i {
   &:after {
     content: $ti-dice-1-path2;
     margin-left: -1em;
+
     opacity: 0.5;
   }
 }
@@ -2003,6 +2139,7 @@ i {
   &:after {
     content: $ti-dice-2-path2;
     margin-left: -1em;
+
     opacity: 0.5;
   }
 }
@@ -2015,6 +2152,7 @@ i {
   &:after {
     content: $ti-dice-3-path2;
     margin-left: -1em;
+
     opacity: 0.5;
   }
 }
@@ -2027,12 +2165,14 @@ i {
   &:after {
     content: $ti-dice-6-path2;
     margin-left: -1em;
+
     opacity: 0.5;
   }
 }
 .ti-peace {
   &:before {
     content: $ti-peace-path1;
+
     opacity: 0.5;
   }
 }
@@ -2051,12 +2191,14 @@ i {
   &:after {
     content: $ti-phone-path2;
     margin-left: -1em;
+
     opacity: 0.33;
   }
 }
 .ti-quote-left {
   &:before {
     content: $ti-quote-left-path1;
+
     opacity: 0.5;
   }
 }
@@ -2080,12 +2222,14 @@ i {
   &:after {
     content: $ti-sun-path2;
     margin-left: -1em;
+
     opacity: 0.5;
   }
 }
 .ti-swap {
   &:before {
     content: $ti-swap-path1;
+
     opacity: 0.5;
   }
 }
@@ -2098,6 +2242,7 @@ i {
 .ti-user-circle {
   &:before {
     content: $ti-user-circle-path1;
+
     opacity: 0.5;
   }
 }
@@ -2110,6 +2255,7 @@ i {
 .ti-wifi-1 {
   &:before {
     content: $ti-wifi-1-path1;
+
     opacity: 0.5;
   }
 }
@@ -2122,6 +2268,7 @@ i {
 .ti-wifi-2 {
   &:before {
     content: $ti-wifi-2-path1;
+
     opacity: 0.5;
   }
 }
@@ -2139,6 +2286,7 @@ i {
 .ti-camera {
   &:before {
     content: $ti-camera-path1;
+
     opacity: 0.5;
   }
 }
@@ -2151,6 +2299,7 @@ i {
 .ti-chart-donut {
   &:before {
     content: $ti-chart-donut-path1;
+
     opacity: 0.5;
   }
 }
@@ -2163,6 +2312,7 @@ i {
 .ti-percentage {
   &:before {
     content: $ti-percentage-path1;
+
     opacity: 0.5;
   }
 }
@@ -2175,6 +2325,7 @@ i {
 .ti-quote-right {
   &:before {
     content: $ti-quote-right-path1;
+
     opacity: 0.5;
   }
 }
@@ -2193,12 +2344,14 @@ i {
   &:after {
     content: $ti-chart-pie-path2;
     margin-left: -1em;
+
     opacity: 0.5;
   }
 }
 .ti-chart-radial {
   &:before {
     content: $ti-chart-radial-path1;
+
     opacity: 0.33;
   }
 }
@@ -2211,6 +2364,7 @@ i {
 .ti-computer {
   &:before {
     content: $ti-computer-path1;
+
     opacity: 0.5;
   }
 }
@@ -2234,12 +2388,14 @@ i {
   &:after {
     content: $ti-hockey-sticks-path2;
     margin-left: -1em;
+
     opacity: 0.5;
   }
 }
 .ti-modal {
   &:before {
     content: $ti-modal-path1;
+
     opacity: 0.33;
   }
 }
@@ -2257,6 +2413,7 @@ i {
 .ti-tabbar {
   &:before {
     content: $ti-tabbar-path1;
+
     opacity: 0.33;
   }
 }
@@ -2275,6 +2432,7 @@ i {
   &:after {
     content: $ti-toggle-path2;
     margin-left: -1em;
+
     opacity: 0.5;
   }
 }
@@ -2287,12 +2445,14 @@ i {
   &:after {
     content: $ti-windows-path2;
     margin-left: -1em;
+
     opacity: 0.5;
   }
 }
 .ti-amspro {
   &:before {
     content: $ti-amspro-path1;
+
     opacity: 0.5;
   }
 }
@@ -2305,6 +2465,7 @@ i {
 .ti-button {
   &:before {
     content: $ti-button-path1;
+
     opacity: 0.33;
   }
 }
@@ -2323,12 +2484,14 @@ i {
   &:after {
     content: $ti-card-path2;
     margin-left: -1em;
+
     opacity: 0.5;
   }
 }
 .ti-chart-bar {
   &:before {
     content: $ti-chart-bar-path1;
+
     opacity: 0.33;
   }
 }
@@ -2346,6 +2509,7 @@ i {
 .ti-checkbox {
   &:before {
     content: $ti-checkbox-path1;
+
     opacity: 0.5;
   }
 }
@@ -2368,6 +2532,7 @@ i {
 .ti-divider {
   &:before {
     content: $ti-divider-path1;
+
     opacity: 0.5;
   }
 }
@@ -2380,6 +2545,7 @@ i {
 .ti-download {
   &:before {
     content: $ti-download-path1;
+
     opacity: 0.5;
   }
 }
@@ -2403,6 +2569,7 @@ i {
   &:after {
     content: $ti-input-path2;
     margin-left: -1em;
+
     opacity: 0.5;
   }
 }
@@ -2415,12 +2582,14 @@ i {
   &:after {
     content: $ti-painting-path2;
     margin-left: -1em;
+
     opacity: 0.33;
   }
 }
 .ti-table {
   &:before {
     content: $ti-table-path1;
+
     opacity: 0.1;
   }
 }
@@ -2428,6 +2597,7 @@ i {
   &:after {
     content: $ti-table-path2;
     margin-left: -1em;
+
     opacity: 0.5;
   }
 }
@@ -2439,6 +2609,7 @@ i {
 .ti-book {
   &:before {
     content: $ti-book-path1;
+
     opacity: 0.33;
   }
 }
@@ -2451,6 +2622,7 @@ i {
 .ti-book-p {
   &:before {
     content: $ti-book-p-path1;
+
     opacity: 0.33;
   }
 }
@@ -2463,6 +2635,7 @@ i {
 .ti-book-q {
   &:before {
     content: $ti-book-q-path1;
+
     opacity: 0.33;
   }
 }
@@ -2475,6 +2648,7 @@ i {
 .ti-chart-line {
   &:before {
     content: $ti-chart-line-path1;
+
     opacity: 0.5;
   }
 }
@@ -2493,6 +2667,7 @@ i {
   &:after {
     content: $ti-sidebar-path2;
     margin-left: -1em;
+
     opacity: 0.5;
   }
 }
@@ -2515,6 +2690,7 @@ i {
   &:after {
     content: $ti-user-active-path2;
     margin-left: -1em;
+
     opacity: 0.5;
   }
 }
@@ -2527,6 +2703,7 @@ i {
   &:after {
     content: $ti-user-inactive-path2;
     margin-left: -1em;
+
     opacity: 0.5;
   }
 }
@@ -2539,6 +2716,7 @@ i {
   &:after {
     content: $ti-users-path2;
     margin-left: -1em;
+
     opacity: 0.5;
   }
 }
@@ -2576,6 +2754,7 @@ i {
   &:after {
     content: $ti-farm-path2;
     margin-left: -1em;
+
     opacity: 0.5;
   }
 }
@@ -2588,6 +2767,7 @@ i {
   &:after {
     content: $ti-list-path2;
     margin-left: -1em;
+
     opacity: 0.5;
   }
 }
@@ -2600,6 +2780,7 @@ i {
   &:after {
     content: $ti-list-check-path2;
     margin-left: -1em;
+
     opacity: 0.5;
   }
 }
@@ -2616,6 +2797,7 @@ i {
 .ti-scale-in {
   &:before {
     content: $ti-scale-in-path1;
+
     opacity: 0.5;
   }
 }
@@ -2628,6 +2810,7 @@ i {
 .ti-scale-out {
   &:before {
     content: $ti-scale-out-path1;
+
     opacity: 0.5;
   }
 }
@@ -2660,6 +2843,7 @@ i {
 .ti-lens {
   &:before {
     content: $ti-lens-path1;
+
     opacity: 0.5;
   }
 }
@@ -2678,6 +2862,7 @@ i {
   &:after {
     content: $ti-list-bullet-path2;
     margin-left: -1em;
+
     opacity: 0.5;
   }
 }
@@ -2695,6 +2880,7 @@ i {
   &:after {
     content: $ti-questionmark-path2;
     margin-left: -1em;
+
     opacity: 0.5;
   }
 }
@@ -2711,6 +2897,7 @@ i {
 .ti-share {
   &:before {
     content: $ti-share-path1;
+
     opacity: 0.5;
   }
 }
@@ -2728,6 +2915,7 @@ i {
 .ti-trashcan {
   &:before {
     content: $ti-trashcan-path1;
+
     opacity: 0.33;
   }
 }
@@ -2740,6 +2928,7 @@ i {
 .ti-user-card {
   &:before {
     content: $ti-user-card-path1;
+
     opacity: 0.5;
   }
 }
@@ -2752,6 +2941,7 @@ i {
 .ti-add {
   &:before {
     content: $ti-add-path1;
+
     opacity: 0.5;
   }
 }
@@ -2770,6 +2960,7 @@ i {
   &:after {
     content: $ti-gears-path2;
     margin-left: -1em;
+
     opacity: 0.5;
   }
 }
@@ -2781,6 +2972,7 @@ i {
 .ti-house {
   &:before {
     content: $ti-house-path1;
+
     opacity: 0.5;
   }
 }
@@ -2793,6 +2985,7 @@ i {
 .ti-save {
   &:before {
     content: $ti-save-path1;
+
     opacity: 0.5;
   }
 }
@@ -2811,6 +3004,7 @@ i {
   &:after {
     content: $ti-stars-path2;
     margin-left: -1em;
+
     opacity: 0.5;
   }
 }
