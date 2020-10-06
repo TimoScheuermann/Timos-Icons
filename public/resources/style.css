@@ -1,10 +1,8 @@
 @charset "UTF-8";
 @font-face {
   font-family: "Timos-Icons";
-  src: url("fonts/Timos-Icons.eot?hv89fx");
-  src: url("fonts/Timos-Icons.eot?hv89fx#iefix") format("embedded-opentype"),
-    url("fonts/Timos-Icons.ttf?hv89fx") format("truetype"), url("fonts/Timos-Icons.woff?hv89fx") format("woff"),
-    url("fonts/Timos-Icons.svg?hv89fx#Timos-Icons") format("svg");
+  src: url("fonts/Timos-Icons.eot?w9pgl2");
+  src: url("fonts/Timos-Icons.eot?w9pgl2#iefix") format("embedded-opentype"), url("fonts/Timos-Icons.ttf?w9pgl2") format("truetype"), url("fonts/Timos-Icons.woff?w9pgl2") format("woff"), url("fonts/Timos-Icons.svg?w9pgl2#Timos-Icons") format("svg");
   font-weight: normal;
   font-style: normal;
   font-display: block;
@@ -22,6 +20,182 @@ i {
   /* Better Font Rendering =========== */
   -webkit-font-smoothing: antialiased;
   -moz-osx-font-smoothing: grayscale;
+}
+
+.ti-fullscreen:before {
+  content: "";
+}
+
+.ti-fullscreen-exit:before {
+  content: "";
+}
+
+.ti-bug:before {
+  content: "";
+  opacity: 0.66;
+}
+
+.ti-bug:after {
+  content: "";
+  margin-left: -1em;
+}
+
+.ti-chat-bubble-typing:before {
+  content: "";
+}
+
+.ti-copyright:before {
+  content: "";
+}
+
+.ti-database-minus:before {
+  content: "";
+  opacity: 0.5;
+}
+
+.ti-database-minus:after {
+  content: "";
+  margin-left: -1em;
+}
+
+.ti-flag:before {
+  content: "";
+  opacity: 0.5;
+}
+
+.ti-flag:after {
+  content: "";
+  margin-left: -1em;
+}
+
+.ti-italic:before {
+  content: "";
+}
+
+.ti-shield-star:before {
+  content: "";
+}
+
+.ti-spy:before {
+  content: "";
+}
+
+.ti-spy:after {
+  content: "";
+  margin-left: -1em;
+  opacity: 0.66;
+}
+
+.ti-underline:before {
+  content: "";
+}
+
+.ti-bold:before {
+  content: "";
+}
+
+.ti-database-checkmark:before {
+  content: "";
+  opacity: 0.5;
+}
+
+.ti-database-checkmark:after {
+  content: "";
+  margin-left: -1em;
+}
+
+.ti-database-download:before {
+  content: "";
+  opacity: 0.5;
+}
+
+.ti-database-download:after {
+  content: "";
+  margin-left: -1em;
+}
+
+.ti-database-plus:before {
+  content: "";
+  opacity: 0.5;
+}
+
+.ti-database-plus:after {
+  content: "";
+  margin-left: -1em;
+}
+
+.ti-database-upload:before {
+  content: "";
+  opacity: 0.5;
+}
+
+.ti-database-upload:after {
+  content: "";
+  margin-left: -1em;
+}
+
+.ti-link-alt:before {
+  content: "";
+}
+
+.ti-user-minus:before {
+  content: "";
+  opacity: 0.5;
+}
+
+.ti-user-minus:after {
+  content: "";
+  margin-left: -1em;
+}
+
+.ti-user-plus:before {
+  content: "";
+}
+
+.ti-user-plus:after {
+  content: "";
+  margin-left: -1em;
+  opacity: 0.5;
+}
+
+.ti-award:before {
+  content: "";
+  opacity: 0.5;
+}
+
+.ti-award:after {
+  content: "";
+  margin-left: -1em;
+}
+
+.ti-phone-call:before {
+  content: "";
+}
+
+.ti-phone-call:after {
+  content: "";
+  margin-left: -1em;
+  opacity: 0.5;
+}
+
+.ti-phone-missed:before {
+  content: "";
+}
+
+.ti-phone-missed:after {
+  content: "";
+  margin-left: -1em;
+  opacity: 0.5;
+}
+
+.ti-phone-off:before {
+  content: "";
+}
+
+.ti-phone-off:after {
+  content: "";
+  margin-left: -1em;
+  opacity: 0.5;
 }
 
 .ti-crop:before {

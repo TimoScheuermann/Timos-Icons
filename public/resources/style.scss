@@ -2,14 +2,14 @@
 
 @font-face {
   font-family: '#{$icomoon-font-family}';
-  src: url('#{$icomoon-font-path}/#{$icomoon-font-family}.eot?hv89fx');
-  src: url('#{$icomoon-font-path}/#{$icomoon-font-family}.eot?hv89fx#iefix')
+  src: url('#{$icomoon-font-path}/#{$icomoon-font-family}.eot?w9pgl2');
+  src: url('#{$icomoon-font-path}/#{$icomoon-font-family}.eot?w9pgl2#iefix')
       format('embedded-opentype'),
-    url('#{$icomoon-font-path}/#{$icomoon-font-family}.ttf?hv89fx')
+    url('#{$icomoon-font-path}/#{$icomoon-font-family}.ttf?w9pgl2')
       format('truetype'),
-    url('#{$icomoon-font-path}/#{$icomoon-font-family}.woff?hv89fx')
+    url('#{$icomoon-font-path}/#{$icomoon-font-family}.woff?w9pgl2')
       format('woff'),
-    url('#{$icomoon-font-path}/#{$icomoon-font-family}.svg?hv89fx##{$icomoon-font-family}')
+    url('#{$icomoon-font-path}/#{$icomoon-font-family}.svg?w9pgl2##{$icomoon-font-family}')
       format('svg');
   font-weight: normal;
   font-style: normal;
@@ -31,6 +31,233 @@ i {
   -moz-osx-font-smoothing: grayscale;
 }
 
+.ti-fullscreen {
+  &:before {
+    content: $ti-fullscreen;
+  }
+}
+.ti-fullscreen-exit {
+  &:before {
+    content: $ti-fullscreen-exit;
+  }
+}
+.ti-bug {
+  &:before {
+    content: $ti-bug-path1;
+
+    opacity: 0.66;
+  }
+}
+.ti-bug {
+  &:after {
+    content: $ti-bug-path2;
+    margin-left: -1em;
+  }
+}
+.ti-chat-bubble-typing {
+  &:before {
+    content: $ti-chat-bubble-typing;
+  }
+}
+.ti-copyright {
+  &:before {
+    content: $ti-copyright;
+  }
+}
+.ti-database-minus {
+  &:before {
+    content: $ti-database-minus-path1;
+
+    opacity: 0.5;
+  }
+}
+.ti-database-minus {
+  &:after {
+    content: $ti-database-minus-path2;
+    margin-left: -1em;
+  }
+}
+.ti-flag {
+  &:before {
+    content: $ti-flag-path1;
+
+    opacity: 0.5;
+  }
+}
+.ti-flag {
+  &:after {
+    content: $ti-flag-path2;
+    margin-left: -1em;
+  }
+}
+.ti-italic {
+  &:before {
+    content: $ti-italic;
+  }
+}
+.ti-shield-star {
+  &:before {
+    content: $ti-shield-star;
+  }
+}
+.ti-spy {
+  &:before {
+    content: $ti-spy-path1;
+  }
+}
+.ti-spy {
+  &:after {
+    content: $ti-spy-path2;
+    margin-left: -1em;
+
+    opacity: 0.66;
+  }
+}
+.ti-underline {
+  &:before {
+    content: $ti-underline;
+  }
+}
+.ti-bold {
+  &:before {
+    content: $ti-bold;
+  }
+}
+.ti-database-checkmark {
+  &:before {
+    content: $ti-database-checkmark-path1;
+
+    opacity: 0.5;
+  }
+}
+.ti-database-checkmark {
+  &:after {
+    content: $ti-database-checkmark-path2;
+    margin-left: -1em;
+  }
+}
+.ti-database-download {
+  &:before {
+    content: $ti-database-download-path1;
+
+    opacity: 0.5;
+  }
+}
+.ti-database-download {
+  &:after {
+    content: $ti-database-download-path2;
+    margin-left: -1em;
+  }
+}
+.ti-database-plus {
+  &:before {
+    content: $ti-database-plus-path1;
+
+    opacity: 0.5;
+  }
+}
+.ti-database-plus {
+  &:after {
+    content: $ti-database-plus-path2;
+    margin-left: -1em;
+  }
+}
+.ti-database-upload {
+  &:before {
+    content: $ti-database-upload-path1;
+
+    opacity: 0.5;
+  }
+}
+.ti-database-upload {
+  &:after {
+    content: $ti-database-upload-path2;
+    margin-left: -1em;
+  }
+}
+.ti-link-alt {
+  &:before {
+    content: $ti-link-alt;
+  }
+}
+.ti-user-minus {
+  &:before {
+    content: $ti-user-minus-path1;
+
+    opacity: 0.5;
+  }
+}
+.ti-user-minus {
+  &:after {
+    content: $ti-user-minus-path2;
+    margin-left: -1em;
+  }
+}
+.ti-user-plus {
+  &:before {
+    content: $ti-user-plus-path1;
+  }
+}
+.ti-user-plus {
+  &:after {
+    content: $ti-user-plus-path2;
+    margin-left: -1em;
+
+    opacity: 0.5;
+  }
+}
+.ti-award {
+  &:before {
+    content: $ti-award-path1;
+
+    opacity: 0.5;
+  }
+}
+.ti-award {
+  &:after {
+    content: $ti-award-path2;
+    margin-left: -1em;
+  }
+}
+.ti-phone-call {
+  &:before {
+    content: $ti-phone-call-path1;
+  }
+}
+.ti-phone-call {
+  &:after {
+    content: $ti-phone-call-path2;
+    margin-left: -1em;
+
+    opacity: 0.5;
+  }
+}
+.ti-phone-missed {
+  &:before {
+    content: $ti-phone-missed-path1;
+  }
+}
+.ti-phone-missed {
+  &:after {
+    content: $ti-phone-missed-path2;
+    margin-left: -1em;
+
+    opacity: 0.5;
+  }
+}
+.ti-phone-off {
+  &:before {
+    content: $ti-phone-off-path1;
+  }
+}
+.ti-phone-off {
+  &:after {
+    content: $ti-phone-off-path2;
+    margin-left: -1em;
+
+    opacity: 0.5;
+  }
+}
 .ti-crop {
   &:before {
     content: $ti-crop;
