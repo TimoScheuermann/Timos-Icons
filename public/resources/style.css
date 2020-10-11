@@ -1,8 +1,8 @@
 @charset "UTF-8";
 @font-face {
   font-family: "Timos-Icons";
-  src: url("fonts/Timos-Icons.eot?w9pgl2");
-  src: url("fonts/Timos-Icons.eot?w9pgl2#iefix") format("embedded-opentype"), url("fonts/Timos-Icons.ttf?w9pgl2") format("truetype"), url("fonts/Timos-Icons.woff?w9pgl2") format("woff"), url("fonts/Timos-Icons.svg?w9pgl2#Timos-Icons") format("svg");
+  src: url("fonts/Timos-Icons.eot?ipn9mq");
+  src: url("fonts/Timos-Icons.eot?ipn9mq#iefix") format("embedded-opentype"), url("fonts/Timos-Icons.ttf?ipn9mq") format("truetype"), url("fonts/Timos-Icons.woff?ipn9mq") format("woff"), url("fonts/Timos-Icons.svg?ipn9mq#Timos-Icons") format("svg");
   font-weight: normal;
   font-style: normal;
   font-display: block;
@@ -20,6 +20,220 @@ i {
   /* Better Font Rendering =========== */
   -webkit-font-smoothing: antialiased;
   -moz-osx-font-smoothing: grayscale;
+}
+
+.ti-badge-8k-filled:before {
+  content: "";
+}
+
+.ti-badge-cc:before {
+  content: "";
+}
+
+.ti-badge-cc-filled:before {
+  content: "";
+}
+
+.ti-badge-tm:before {
+  content: "";
+}
+
+.ti-badge-tm-filled:before {
+  content: "";
+}
+
+.ti-back:before {
+  content: "";
+}
+
+.ti-badge-4k:before {
+  content: "";
+}
+
+.ti-badge-4k-filled:before {
+  content: "";
+}
+
+.ti-badge-8k:before {
+  content: "";
+}
+
+.ti-badge-hd:before {
+  content: "";
+}
+
+.ti-badge-hd-filled:before {
+  content: "";
+}
+
+.ti-bed:before {
+  content: "";
+  opacity: 0.5;
+}
+
+.ti-bed:after {
+  content: "";
+  margin-left: -1em;
+}
+
+.ti-loyalty:before {
+  content: "";
+}
+
+.ti-bank:before {
+  content: "";
+  opacity: 0.5;
+}
+
+.ti-bank:after {
+  content: "";
+  margin-left: -1em;
+}
+
+.ti-bell:before {
+  content: "";
+  opacity: 0.66;
+}
+
+.ti-bell:after {
+  content: "";
+  margin-left: -1em;
+}
+
+.ti-bell-exclamation:before {
+  content: "";
+  opacity: 0.66;
+}
+
+.ti-bell-exclamation:after {
+  content: "";
+  margin-left: -1em;
+}
+
+.ti-bell-ring:before {
+  content: "";
+  opacity: 0.66;
+}
+
+.ti-bell-ring:after {
+  content: "";
+  margin-left: -1em;
+}
+
+.ti-bell-slash:before {
+  content: "";
+  opacity: 0.66;
+}
+
+.ti-bell-slash:after {
+  content: "";
+  margin-left: -1em;
+}
+
+.ti-shield-security:before {
+  content: "";
+  opacity: 0.5;
+}
+
+.ti-shield-security:after {
+  content: "";
+  margin-left: -1em;
+}
+
+.ti-file-minus:before {
+  content: "";
+}
+
+.ti-file-minus-filled:before {
+  content: "";
+}
+
+.ti-file-check:before {
+  content: "";
+}
+
+.ti-file-check-filled:before {
+  content: "";
+}
+
+.ti-file-pdf-filled:before {
+  content: "";
+}
+
+.ti-file-person:before {
+  content: "";
+}
+
+.ti-file-person-filled:before {
+  content: "";
+}
+
+.ti-file-plus:before {
+  content: "";
+}
+
+.ti-file-plus-filled:before {
+  content: "";
+}
+
+.ti-file-download-filled:before {
+  content: "";
+}
+
+.ti-file-excel-filled:before {
+  content: "";
+}
+
+.ti-file-powerpoint-filled:before {
+  content: "";
+}
+
+.ti-file-upload-filled:before {
+  content: "";
+}
+
+.ti-file-word-filled:before {
+  content: "";
+}
+
+.ti-file-binary-filled:before {
+  content: "";
+}
+
+.ti-file-code-filled:before {
+  content: "";
+}
+
+.ti-file-image-filled:before {
+  content: "";
+}
+
+.ti-file-medical:before {
+  content: "";
+}
+
+.ti-file-medical-filled:before {
+  content: "";
+}
+
+.ti-file-zip-filled:before {
+  content: "";
+}
+
+.ti-file-audio-filled:before {
+  content: "";
+}
+
+.ti-file-csv-filled:before {
+  content: "";
+}
+
+.ti-file-filled:before {
+  content: "";
+}
+
+.ti-file-text-filled:before {
+  content: "";
 }
 
 .ti-fullscreen:before {
@@ -534,160 +748,60 @@ i {
   content: "";
 }
 
-.ti-files:after {
-  content: "";
-  margin-left: -1em;
-  opacity: 0.66;
-}
-
 .ti-file-zip:before {
   content: "";
-}
-
-.ti-file-zip:after {
-  content: "";
-  margin-left: -1em;
-  opacity: 0.5;
 }
 
 .ti-file-binary:before {
   content: "";
 }
 
-.ti-file-binary:after {
-  content: "";
-  margin-left: -1em;
-  opacity: 0.5;
-}
-
 .ti-file-code:before {
   content: "";
-}
-
-.ti-file-code:after {
-  content: "";
-  margin-left: -1em;
-  opacity: 0.5;
 }
 
 .ti-file-csv:before {
   content: "";
 }
 
-.ti-file-csv:after {
-  content: "";
-  margin-left: -1em;
-  opacity: 0.5;
-}
-
 .ti-file-download:before {
   content: "";
-}
-
-.ti-file-download:after {
-  content: "";
-  margin-left: -1em;
-  opacity: 0.5;
 }
 
 .ti-file-image:before {
   content: "";
 }
 
-.ti-file-image:after {
-  content: "";
-  margin-left: -1em;
-  opacity: 0.5;
-}
-
 .ti-file-pdf:before {
   content: "";
-}
-
-.ti-file-pdf:after {
-  content: "";
-  margin-left: -1em;
-  opacity: 0.5;
 }
 
 .ti-file-powerpoint:before {
   content: "";
 }
 
-.ti-file-powerpoint:after {
-  content: "";
-  margin-left: -1em;
-  opacity: 0.5;
-}
-
 .ti-file-upload:before {
   content: "";
-}
-
-.ti-file-upload:after {
-  content: "";
-  margin-left: -1em;
-  opacity: 0.5;
 }
 
 .ti-file:before {
   content: "";
 }
 
-.ti-file:after {
-  content: "";
-  margin-left: -1em;
-  opacity: 0.5;
-}
-
 .ti-file-audio:before {
   content: "";
-}
-
-.ti-file-audio:after {
-  content: "";
-  margin-left: -1em;
-  opacity: 0.5;
-}
-
-.ti-file-empty:before {
-  content: "";
-}
-
-.ti-file-empty:after {
-  content: "";
-  margin-left: -1em;
-  opacity: 0.5;
 }
 
 .ti-file-excel:before {
   content: "";
 }
 
-.ti-file-excel:after {
-  content: "";
-  margin-left: -1em;
-  opacity: 0.5;
-}
-
 .ti-file-text:before {
   content: "";
 }
 
-.ti-file-text:after {
-  content: "";
-  margin-left: -1em;
-  opacity: 0.5;
-}
-
 .ti-file-word:before {
   content: "";
-}
-
-.ti-file-word:after {
-  content: "";
-  margin-left: -1em;
-  opacity: 0.5;
 }
 
 .ti-tccomponents-tc:before {
