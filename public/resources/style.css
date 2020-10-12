@@ -1,8 +1,8 @@
 @charset "UTF-8";
 @font-face {
   font-family: "Timos-Icons";
-  src: url("fonts/Timos-Icons.eot?ipn9mq");
-  src: url("fonts/Timos-Icons.eot?ipn9mq#iefix") format("embedded-opentype"), url("fonts/Timos-Icons.ttf?ipn9mq") format("truetype"), url("fonts/Timos-Icons.woff?ipn9mq") format("woff"), url("fonts/Timos-Icons.svg?ipn9mq#Timos-Icons") format("svg");
+  src: url("fonts/Timos-Icons.eot?py14ib");
+  src: url("fonts/Timos-Icons.eot?py14ib#iefix") format("embedded-opentype"), url("fonts/Timos-Icons.ttf?py14ib") format("truetype"), url("fonts/Timos-Icons.woff?py14ib") format("woff"), url("fonts/Timos-Icons.svg?py14ib#Timos-Icons") format("svg");
   font-weight: normal;
   font-style: normal;
   font-display: block;
@@ -20,6 +20,800 @@ i {
   /* Better Font Rendering =========== */
   -webkit-font-smoothing: antialiased;
   -moz-osx-font-smoothing: grayscale;
+}
+
+.ti-bookmark-checkmark-duo:before {
+  content: "";
+}
+
+.ti-bookmark-checkmark-duo:after {
+  content: "";
+  margin-left: -1em;
+  opacity: 0.5;
+}
+
+.ti-bookmark-cross:before {
+  content: "";
+}
+
+.ti-bookmark-cross-duo:before {
+  content: "";
+}
+
+.ti-bookmark-cross-duo:after {
+  content: "";
+  margin-left: -1em;
+  opacity: 0.5;
+}
+
+.ti-bookmark-cross-filled:before {
+  content: "";
+}
+
+.ti-bookmark-checkmark:before {
+  content: "";
+}
+
+.ti-bookmark-checkmark-filled:before {
+  content: "";
+}
+
+.ti-bookmark-minus:before {
+  content: "";
+}
+
+.ti-bookmark-minus-duo:before {
+  content: "";
+}
+
+.ti-bookmark-minus-duo:after {
+  content: "";
+  margin-left: -1em;
+  opacity: 0.5;
+}
+
+.ti-bookmark-minus-filled:before {
+  content: "";
+}
+
+.ti-bookmark-plus:before {
+  content: "";
+}
+
+.ti-bookmark-plus-duo:before {
+  content: "";
+}
+
+.ti-bookmark-plus-duo:after {
+  content: "";
+  margin-left: -1em;
+  opacity: 0.5;
+}
+
+.ti-bookmark-plus-filled:before {
+  content: "";
+}
+
+.ti-bookmark-star-duo:before {
+  content: "";
+}
+
+.ti-bookmark-star-duo:after {
+  content: "";
+  margin-left: -1em;
+  opacity: 0.5;
+}
+
+.ti-bookmark-duo:before {
+  content: "";
+  opacity: 0.5;
+}
+
+.ti-bookmark-duo:after {
+  content: "";
+  margin-left: -1em;
+}
+
+.ti-bookmark-filled:before {
+  content: "";
+}
+
+.ti-bookmark-heart:before {
+  content: "";
+}
+
+.ti-bookmark-heart-duo:before {
+  content: "";
+}
+
+.ti-bookmark-heart-duo:after {
+  content: "";
+  margin-left: -1em;
+  opacity: 0.5;
+}
+
+.ti-bookmark-heart-filled:before {
+  content: "";
+}
+
+.ti-bookmarks-duo:before {
+  content: "";
+  opacity: 0.5;
+}
+
+.ti-bookmarks-duo:after {
+  content: "";
+  margin-left: -1em;
+}
+
+.ti-bookmark-star:before {
+  content: "";
+}
+
+.ti-bookmark-star-filled:before {
+  content: "";
+}
+
+.ti-bookmark:before {
+  content: "";
+}
+
+.ti-bookmarks:before {
+  content: "";
+}
+
+.ti-bookmarks-filled:before {
+  content: "";
+}
+
+.ti-copyright-filled:before {
+  content: "";
+}
+
+.ti-user-circle-duo:before {
+  content: "";
+}
+
+.ti-user-circle-duo:after {
+  content: "";
+  margin-left: -1em;
+  opacity: 0.5;
+}
+
+.ti-user-circle-filled:before {
+  content: "";
+}
+
+.ti-tiles-four-duo:before {
+  content: "";
+  opacity: 0.5;
+}
+
+.ti-tiles-four-duo:after {
+  content: "";
+  margin-left: -1em;
+}
+
+.ti-tiles-minus-duo:before {
+  content: "";
+}
+
+.ti-tiles-minus-duo:after {
+  content: "";
+  margin-left: -1em;
+  opacity: 0.5;
+}
+
+.ti-tiles-minus-filled:before {
+  content: "";
+}
+
+.ti-tiles-nine-duo:before {
+  content: "";
+  opacity: 0.5;
+}
+
+.ti-tiles-nine-duo:after {
+  content: "";
+  margin-left: -1em;
+}
+
+.ti-tiles-plus-duo:before {
+  content: "";
+}
+
+.ti-tiles-plus-duo:after {
+  content: "";
+  margin-left: -1em;
+  opacity: 0.5;
+}
+
+.ti-tiles-plus-filled:before {
+  content: "";
+}
+
+.ti-tiles-sixteen-duo:before {
+  content: "";
+  opacity: 0.5;
+}
+
+.ti-tiles-sixteen-duo:after {
+  content: "";
+  margin-left: -1em;
+}
+
+.ti-tiles-four-filled:before {
+  content: "";
+}
+
+.ti-tiles-nine-filled:before {
+  content: "";
+}
+
+.ti-tiles-sixteen-filled:before {
+  content: "";
+}
+
+.ti-server-duo:before {
+  content: "";
+}
+
+.ti-server-duo:after {
+  content: "";
+  margin-left: -1em;
+  opacity: 0.5;
+}
+
+.ti-server-filled:before {
+  content: "";
+}
+
+.ti-terminal-duo:before {
+  content: "";
+}
+
+.ti-terminal-duo:after {
+  content: "";
+  margin-left: -1em;
+  opacity: 0.5;
+}
+
+.ti-terminal-filled:before {
+  content: "";
+}
+
+.ti-user-shield-duo:before {
+  content: "";
+}
+
+.ti-user-shield-duo:after {
+  content: "";
+  margin-left: -1em;
+  opacity: 0.44;
+}
+
+.ti-user-shield-filled:before {
+  content: "";
+}
+
+.ti-exclamation-triangle-duo:before {
+  content: "";
+  opacity: 0.5;
+}
+
+.ti-exclamation-triangle-duo:after {
+  content: "";
+  margin-left: -1em;
+}
+
+.ti-question-circle-duo:before {
+  content: "";
+  opacity: 0.5;
+}
+
+.ti-question-circle-duo:after {
+  content: "";
+  margin-left: -1em;
+}
+
+.ti-question-triangle-duo:before {
+  content: "";
+  opacity: 0.5;
+}
+
+.ti-question-triangle-duo:after {
+  content: "";
+  margin-left: -1em;
+}
+
+.ti-exclamation-circle-duo:before {
+  content: "";
+  opacity: 0.5;
+}
+
+.ti-exclamation-circle-duo:after {
+  content: "";
+  margin-left: -1em;
+}
+
+.ti-i-circle-duo:before {
+  content: "";
+  opacity: 0.5;
+}
+
+.ti-i-circle-duo:after {
+  content: "";
+  margin-left: -1em;
+}
+
+.ti-book-cook-duo:before {
+  content: "";
+  opacity: 0.33;
+}
+
+.ti-book-cook-duo:after {
+  content: "";
+  margin-left: -1em;
+}
+
+.ti-book-cook-filled:before {
+  content: "";
+}
+
+.ti-book-duo:before {
+  content: "";
+  opacity: 0.33;
+}
+
+.ti-book-duo:after {
+  content: "";
+  margin-left: -1em;
+}
+
+.ti-book-p-duo:before {
+  content: "";
+  opacity: 0.33;
+}
+
+.ti-book-p-duo:after {
+  content: "";
+  margin-left: -1em;
+}
+
+.ti-book-p-filled:before {
+  content: "";
+}
+
+.ti-book-q-duo:before {
+  content: "";
+  opacity: 0.33;
+}
+
+.ti-book-q-duo:after {
+  content: "";
+  margin-left: -1em;
+}
+
+.ti-book-filled:before {
+  content: "";
+}
+
+.ti-book-q-filled:before {
+  content: "";
+}
+
+.ti-share-duo:before {
+  content: "";
+  opacity: 0.5;
+}
+
+.ti-share-duo:after {
+  content: "";
+  margin-left: -1em;
+}
+
+.ti-download-duo:before {
+  content: "";
+  opacity: 0.5;
+}
+
+.ti-download-duo:after {
+  content: "";
+  margin-left: -1em;
+}
+
+.ti-share-filled:before {
+  content: "";
+}
+
+.ti-download-filled:before {
+  content: "";
+}
+
+.ti-checkbox-duo:before {
+  content: "";
+}
+
+.ti-checkbox-duo:after {
+  content: "";
+  margin-left: -1em;
+  opacity: 0.5;
+}
+
+.ti-toggle-duo:before {
+  content: "";
+}
+
+.ti-toggle-duo:after {
+  content: "";
+  margin-left: -1em;
+  opacity: 0.5;
+}
+
+.ti-toggle-filled:before {
+  content: "";
+}
+
+.ti-checkbox-filled:before {
+  content: "";
+}
+
+.ti-shield-checkmark-duo:before {
+  content: "";
+  opacity: 0.5;
+}
+
+.ti-shield-checkmark-duo:after {
+  content: "";
+  margin-left: -1em;
+}
+
+.ti-shield-cross-duo:before {
+  content: "";
+  opacity: 0.5;
+}
+
+.ti-shield-cross-duo:after {
+  content: "";
+  margin-left: -1em;
+}
+
+.ti-shield-star-duo:before {
+  content: "";
+  opacity: 0.5;
+}
+
+.ti-shield-star-duo:after {
+  content: "";
+  margin-left: -1em;
+}
+
+.ti-shield-star-filled:before {
+  content: "";
+}
+
+.ti-shield-checkmark-filled:before {
+  content: "";
+}
+
+.ti-shield-cross-filled:before {
+  content: "";
+}
+
+.ti-shield-filled:before {
+  content: "";
+}
+
+.ti-exclamation-circle-filled:before {
+  content: "";
+}
+
+.ti-exclamation-triangle-filled:before {
+  content: "";
+}
+
+.ti-i-circle-filled:before {
+  content: "";
+}
+
+.ti-question-circle-filled:before {
+  content: "";
+}
+
+.ti-question-triangle-filled:before {
+  content: "";
+}
+
+.ti-checkmark-circle-duo:before {
+  content: "";
+}
+
+.ti-checkmark-circle-duo:after {
+  content: "";
+  margin-left: -1em;
+  opacity: 0.5;
+}
+
+.ti-checkmark-circle-filled:before {
+  content: "";
+}
+
+.ti-cross-circle-duo:before {
+  content: "";
+}
+
+.ti-cross-circle-duo:after {
+  content: "";
+  margin-left: -1em;
+  opacity: 0.5;
+}
+
+.ti-cross-circle-filled:before {
+  content: "";
+}
+
+.ti-user-active-filled:before {
+  content: "";
+}
+
+.ti-user-inactive-filled-1:before {
+  content: "";
+}
+
+.ti-user-inactive-filled-1:after {
+  content: "";
+  margin-left: -1em;
+  opacity: 0.5;
+}
+
+.ti-user-minus-duo:before {
+  content: "";
+}
+
+.ti-user-minus-duo:after {
+  content: "";
+  margin-left: -1em;
+  opacity: 0.5;
+}
+
+.ti-user-minus-filled:before {
+  content: "";
+}
+
+.ti-user-plus-duo:before {
+  content: "";
+}
+
+.ti-user-plus-duo:after {
+  content: "";
+  margin-left: -1em;
+  opacity: 0.5;
+}
+
+.ti-user-plus-filled:before {
+  content: "";
+}
+
+.ti-users-duo:before {
+  content: "";
+  opacity: 0.5;
+}
+
+.ti-users-duo:after {
+  content: "";
+  margin-left: -1em;
+}
+
+.ti-users-filled:before {
+  content: "";
+}
+
+.ti-user-duo:before {
+  content: "";
+  opacity: 0.5;
+}
+
+.ti-user-duo:after {
+  content: "";
+  margin-left: -1em;
+}
+
+.ti-user-filled:before {
+  content: "";
+}
+
+.ti-user-inactive-duo:before {
+  content: "";
+  opacity: 0.5;
+}
+
+.ti-user-inactive-duo:after {
+  content: "";
+  margin-left: -1em;
+}
+
+.ti-user-inactive-filled:before {
+  content: "";
+}
+
+.ti-file-minus-duo:before {
+  content: "";
+}
+
+.ti-file-minus-duo:after {
+  content: "";
+  margin-left: -1em;
+  opacity: 0.5;
+}
+
+.ti-file-check-duo:before {
+  content: "";
+}
+
+.ti-file-check-duo:after {
+  content: "";
+  margin-left: -1em;
+  opacity: 0.5;
+}
+
+.ti-file-download-duo:before {
+  content: "";
+}
+
+.ti-file-download-duo:after {
+  content: "";
+  margin-left: -1em;
+  opacity: 0.5;
+}
+
+.ti-file-pdf-duo:before {
+  content: "";
+}
+
+.ti-file-pdf-duo:after {
+  content: "";
+  margin-left: -1em;
+  opacity: 0.5;
+}
+
+.ti-file-person-duo:before {
+  content: "";
+}
+
+.ti-file-person-duo:after {
+  content: "";
+  margin-left: -1em;
+  opacity: 0.5;
+}
+
+.ti-file-plus-duo:before {
+  content: "";
+}
+
+.ti-file-plus-duo:after {
+  content: "";
+  margin-left: -1em;
+  opacity: 0.5;
+}
+
+.ti-file-powerpoint-duo:before {
+  content: "";
+}
+
+.ti-file-powerpoint-duo:after {
+  content: "";
+  margin-left: -1em;
+  opacity: 0.5;
+}
+
+.ti-file-upload-duo:before {
+  content: "";
+}
+
+.ti-file-upload-duo:after {
+  content: "";
+  margin-left: -1em;
+  opacity: 0.5;
+}
+
+.ti-file-excel-duo:before {
+  content: "";
+}
+
+.ti-file-excel-duo:after {
+  content: "";
+  margin-left: -1em;
+  opacity: 0.5;
+}
+
+.ti-file-medical-duo:before {
+  content: "";
+}
+
+.ti-file-medical-duo:after {
+  content: "";
+  margin-left: -1em;
+  opacity: 0.5;
+}
+
+.ti-file-word-duo:before {
+  content: "";
+}
+
+.ti-file-word-duo:after {
+  content: "";
+  margin-left: -1em;
+  opacity: 0.5;
+}
+
+.ti-file-zip-duo:before {
+  content: "";
+}
+
+.ti-file-zip-duo:after {
+  content: "";
+  margin-left: -1em;
+  opacity: 0.5;
+}
+
+.ti-file-binary-duo:before {
+  content: "";
+}
+
+.ti-file-binary-duo:after {
+  content: "";
+  margin-left: -1em;
+  opacity: 0.5;
+}
+
+.ti-file-code-duo:before {
+  content: "";
+}
+
+.ti-file-code-duo:after {
+  content: "";
+  margin-left: -1em;
+  opacity: 0.5;
+}
+
+.ti-file-image-duo:before {
+  content: "";
+}
+
+.ti-file-image-duo:after {
+  content: "";
+  margin-left: -1em;
+  opacity: 0.5;
+}
+
+.ti-file-audio-duo:before {
+  content: "";
+}
+
+.ti-file-audio-duo:after {
+  content: "";
+  margin-left: -1em;
+  opacity: 0.5;
+}
+
+.ti-file-csv-duo:before {
+  content: "";
+}
+
+.ti-file-csv-duo:after {
+  content: "";
+  margin-left: -1em;
+  opacity: 0.5;
+}
+
+.ti-file-text-duo:before {
+  content: "";
+}
+
+.ti-file-text-duo:after {
+  content: "";
+  margin-left: -1em;
+  opacity: 0.5;
 }
 
 .ti-badge-8k-filled:before {
@@ -354,22 +1148,10 @@ i {
 
 .ti-user-minus:before {
   content: "";
-  opacity: 0.5;
-}
-
-.ti-user-minus:after {
-  content: "";
-  margin-left: -1em;
 }
 
 .ti-user-plus:before {
   content: "";
-}
-
-.ti-user-plus:after {
-  content: "";
-  margin-left: -1em;
-  opacity: 0.5;
 }
 
 .ti-award:before {
@@ -448,12 +1230,6 @@ i {
 
 .ti-book-cook:before {
   content: "";
-  opacity: 0.33;
-}
-
-.ti-book-cook:after {
-  content: "";
-  margin-left: -1em;
 }
 
 .ti-trophy:before {
@@ -642,12 +1418,6 @@ i {
   content: "";
 }
 
-.ti-user-shield:after {
-  content: "";
-  margin-left: -1em;
-  opacity: 0.5;
-}
-
 .ti-arrows-h:before {
   content: "";
 }
@@ -690,10 +1460,6 @@ i {
 
 .ti-blocked:before {
   content: "";
-}
-
-.ti-checkmark-inverted:before {
-  content: "";
 }
 
 .ti-rss:before {
@@ -1085,10 +1851,6 @@ i {
   content: "";
   margin-left: -1em;
   opacity: 0.5;
-}
-
-.ti-cross-inverted:before {
-  content: "";
 }
 
 .ti-biohazard:before {
@@ -2035,12 +2797,6 @@ i {
 
 .ti-user-circle:before {
   content: "";
-  opacity: 0.5;
-}
-
-.ti-user-circle:after {
-  content: "";
-  margin-left: -1em;
 }
 
 .ti-wifi-1:before {
@@ -2179,12 +2935,6 @@ i {
   content: "";
 }
 
-.ti-toggle:after {
-  content: "";
-  margin-left: -1em;
-  opacity: 0.5;
-}
-
 .ti-windows:before {
   content: "";
 }
@@ -2241,12 +2991,6 @@ i {
 
 .ti-checkbox:before {
   content: "";
-  opacity: 0.5;
-}
-
-.ti-checkbox:after {
-  content: "";
-  margin-left: -1em;
 }
 
 .ti-code:before {
@@ -2269,12 +3013,6 @@ i {
 
 .ti-download:before {
   content: "";
-  opacity: 0.5;
-}
-
-.ti-download:after {
-  content: "";
-  margin-left: -1em;
 }
 
 .ti-hockey-stick:before {
@@ -2318,32 +3056,14 @@ i {
 
 .ti-book:before {
   content: "";
-  opacity: 0.33;
-}
-
-.ti-book:after {
-  content: "";
-  margin-left: -1em;
 }
 
 .ti-book-p:before {
   content: "";
-  opacity: 0.33;
-}
-
-.ti-book-p:after {
-  content: "";
-  margin-left: -1em;
 }
 
 .ti-book-q:before {
   content: "";
-  opacity: 0.33;
-}
-
-.ti-book-q:after {
-  content: "";
-  margin-left: -1em;
 }
 
 .ti-chart-line:before {
@@ -2378,30 +3098,12 @@ i {
   content: "";
 }
 
-.ti-user-active:after {
-  content: "";
-  margin-left: -1em;
-  opacity: 0.5;
-}
-
 .ti-user-inactive:before {
   content: "";
 }
 
-.ti-user-inactive:after {
-  content: "";
-  margin-left: -1em;
-  opacity: 0.5;
-}
-
 .ti-users:before {
   content: "";
-}
-
-.ti-users:after {
-  content: "";
-  margin-left: -1em;
-  opacity: 0.5;
 }
 
 .ti-arrow-down-left:before {
@@ -2542,12 +3244,6 @@ i {
 
 .ti-share:before {
   content: "";
-  opacity: 0.5;
-}
-
-.ti-share:after {
-  content: "";
-  margin-left: -1em;
 }
 
 .ti-tools:before {

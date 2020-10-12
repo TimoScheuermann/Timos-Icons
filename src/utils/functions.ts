@@ -65,15 +65,18 @@ function getIcons(): Icon[] {
   return store.getters.icons;
 }
 
-function transformVersion(v: string): number {
-  return +v.split('.').join('');
-}
-
 export function getIconVersions(): string[] {
   const versions: string[] = getIcons().map(x => x.version);
   return versions
     .filter((x, i) => versions.indexOf(x) === i)
-    .sort((a, b) => transformVersion(b) - transformVersion(a));
+    .sort((a, b) => {
+      const aa = a.split('.');
+      const bb = b.split('.');
+      if (+aa[0] > +bb[0]) return -1;
+      if (+aa[0] < +bb[0]) return 1;
+      if (+aa[1] > +bb[1]) return -1;
+      return 0;
+    });
 }
 
 export function getIconsOfVersion(v: string): string[] {

@@ -2,11 +2,11 @@
 
 @font-face {
   font-family: '#{$icomoon-font-family}';
-  src:  url('#{$icomoon-font-path}/#{$icomoon-font-family}.eot?ipn9mq');
-  src:  url('#{$icomoon-font-path}/#{$icomoon-font-family}.eot?ipn9mq#iefix') format('embedded-opentype'),
-    url('#{$icomoon-font-path}/#{$icomoon-font-family}.ttf?ipn9mq') format('truetype'),
-    url('#{$icomoon-font-path}/#{$icomoon-font-family}.woff?ipn9mq') format('woff'),
-    url('#{$icomoon-font-path}/#{$icomoon-font-family}.svg?ipn9mq##{$icomoon-font-family}') format('svg');
+  src:  url('#{$icomoon-font-path}/#{$icomoon-font-family}.eot?py14ib');
+  src:  url('#{$icomoon-font-path}/#{$icomoon-font-family}.eot?py14ib#iefix') format('embedded-opentype'),
+    url('#{$icomoon-font-path}/#{$icomoon-font-family}.ttf?py14ib') format('truetype'),
+    url('#{$icomoon-font-path}/#{$icomoon-font-family}.woff?py14ib') format('woff'),
+    url('#{$icomoon-font-path}/#{$icomoon-font-family}.svg?py14ib##{$icomoon-font-family}') format('svg');
   font-weight: normal;
   font-style: normal;
   font-display: block;
@@ -27,6 +27,1087 @@ i {
   -moz-osx-font-smoothing: grayscale;
 }
 
+.ti-bookmark-checkmark-duo {
+  &:before {
+    content: $ti-bookmark-checkmark-duo-path1;
+
+  }
+}
+.ti-bookmark-checkmark-duo  {
+  &:after {
+    content: $ti-bookmark-checkmark-duo-path2;
+    margin-left: -1em;
+
+    opacity: 0.5;
+  }
+}
+.ti-bookmark-cross {
+  &:before {
+    content: $ti-bookmark-cross;
+  }
+}
+.ti-bookmark-cross-duo {
+  &:before {
+    content: $ti-bookmark-cross-duo-path1;
+
+  }
+}
+.ti-bookmark-cross-duo  {
+  &:after {
+    content: $ti-bookmark-cross-duo-path2;
+    margin-left: -1em;
+
+    opacity: 0.5;
+  }
+}
+.ti-bookmark-cross-filled {
+  &:before {
+    content: $ti-bookmark-cross-filled;
+  }
+}
+.ti-bookmark-checkmark {
+  &:before {
+    content: $ti-bookmark-checkmark;
+  }
+}
+.ti-bookmark-checkmark-filled {
+  &:before {
+    content: $ti-bookmark-checkmark-filled;
+  }
+}
+.ti-bookmark-minus {
+  &:before {
+    content: $ti-bookmark-minus;
+  }
+}
+.ti-bookmark-minus-duo {
+  &:before {
+    content: $ti-bookmark-minus-duo-path1;
+
+  }
+}
+.ti-bookmark-minus-duo  {
+  &:after {
+    content: $ti-bookmark-minus-duo-path2;
+    margin-left: -1em;
+
+    opacity: 0.5;
+  }
+}
+.ti-bookmark-minus-filled {
+  &:before {
+    content: $ti-bookmark-minus-filled;
+  }
+}
+.ti-bookmark-plus {
+  &:before {
+    content: $ti-bookmark-plus;
+  }
+}
+.ti-bookmark-plus-duo {
+  &:before {
+    content: $ti-bookmark-plus-duo-path1;
+
+  }
+}
+.ti-bookmark-plus-duo  {
+  &:after {
+    content: $ti-bookmark-plus-duo-path2;
+    margin-left: -1em;
+
+    opacity: 0.5;
+  }
+}
+.ti-bookmark-plus-filled {
+  &:before {
+    content: $ti-bookmark-plus-filled;
+  }
+}
+.ti-bookmark-star-duo {
+  &:before {
+    content: $ti-bookmark-star-duo-path1;
+
+  }
+}
+.ti-bookmark-star-duo  {
+  &:after {
+    content: $ti-bookmark-star-duo-path2;
+    margin-left: -1em;
+
+    opacity: 0.5;
+  }
+}
+.ti-bookmark-duo {
+  &:before {
+    content: $ti-bookmark-duo-path1;
+
+    opacity: 0.5;
+  }
+}
+.ti-bookmark-duo  {
+  &:after {
+    content: $ti-bookmark-duo-path2;
+    margin-left: -1em;
+
+  }
+}
+.ti-bookmark-filled {
+  &:before {
+    content: $ti-bookmark-filled;
+  }
+}
+.ti-bookmark-heart {
+  &:before {
+    content: $ti-bookmark-heart;
+  }
+}
+.ti-bookmark-heart-duo {
+  &:before {
+    content: $ti-bookmark-heart-duo-path1;
+
+  }
+}
+.ti-bookmark-heart-duo  {
+  &:after {
+    content: $ti-bookmark-heart-duo-path2;
+    margin-left: -1em;
+
+    opacity: 0.5;
+  }
+}
+.ti-bookmark-heart-filled {
+  &:before {
+    content: $ti-bookmark-heart-filled;
+  }
+}
+.ti-bookmarks-duo {
+  &:before {
+    content: $ti-bookmarks-duo-path1;
+
+    opacity: 0.5;
+  }
+}
+.ti-bookmarks-duo  {
+  &:after {
+    content: $ti-bookmarks-duo-path2;
+    margin-left: -1em;
+
+  }
+}
+.ti-bookmark-star {
+  &:before {
+    content: $ti-bookmark-star;
+  }
+}
+.ti-bookmark-star-filled {
+  &:before {
+    content: $ti-bookmark-star-filled;
+  }
+}
+.ti-bookmark {
+  &:before {
+    content: $ti-bookmark;
+  }
+}
+.ti-bookmarks {
+  &:before {
+    content: $ti-bookmarks;
+  }
+}
+.ti-bookmarks-filled {
+  &:before {
+    content: $ti-bookmarks-filled;
+  }
+}
+.ti-copyright-filled {
+  &:before {
+    content: $ti-copyright-filled;
+  }
+}
+.ti-user-circle-duo {
+  &:before {
+    content: $ti-user-circle-duo-path1;
+
+  }
+}
+.ti-user-circle-duo  {
+  &:after {
+    content: $ti-user-circle-duo-path2;
+    margin-left: -1em;
+
+    opacity: 0.5;
+  }
+}
+.ti-user-circle-filled {
+  &:before {
+    content: $ti-user-circle-filled;
+  }
+}
+.ti-tiles-four-duo {
+  &:before {
+    content: $ti-tiles-four-duo-path1;
+
+    opacity: 0.5;
+  }
+}
+.ti-tiles-four-duo  {
+  &:after {
+    content: $ti-tiles-four-duo-path2;
+    margin-left: -1em;
+
+  }
+}
+.ti-tiles-minus-duo {
+  &:before {
+    content: $ti-tiles-minus-duo-path1;
+
+  }
+}
+.ti-tiles-minus-duo  {
+  &:after {
+    content: $ti-tiles-minus-duo-path2;
+    margin-left: -1em;
+
+    opacity: 0.5;
+  }
+}
+.ti-tiles-minus-filled {
+  &:before {
+    content: $ti-tiles-minus-filled;
+  }
+}
+.ti-tiles-nine-duo {
+  &:before {
+    content: $ti-tiles-nine-duo-path1;
+
+    opacity: 0.5;
+  }
+}
+.ti-tiles-nine-duo  {
+  &:after {
+    content: $ti-tiles-nine-duo-path2;
+    margin-left: -1em;
+
+  }
+}
+.ti-tiles-plus-duo {
+  &:before {
+    content: $ti-tiles-plus-duo-path1;
+
+  }
+}
+.ti-tiles-plus-duo  {
+  &:after {
+    content: $ti-tiles-plus-duo-path2;
+    margin-left: -1em;
+
+    opacity: 0.5;
+  }
+}
+.ti-tiles-plus-filled {
+  &:before {
+    content: $ti-tiles-plus-filled;
+  }
+}
+.ti-tiles-sixteen-duo {
+  &:before {
+    content: $ti-tiles-sixteen-duo-path1;
+
+    opacity: 0.5;
+  }
+}
+.ti-tiles-sixteen-duo  {
+  &:after {
+    content: $ti-tiles-sixteen-duo-path2;
+    margin-left: -1em;
+
+  }
+}
+.ti-tiles-four-filled {
+  &:before {
+    content: $ti-tiles-four-filled;
+  }
+}
+.ti-tiles-nine-filled {
+  &:before {
+    content: $ti-tiles-nine-filled;
+  }
+}
+.ti-tiles-sixteen-filled {
+  &:before {
+    content: $ti-tiles-sixteen-filled;
+  }
+}
+.ti-server-duo {
+  &:before {
+    content: $ti-server-duo-path1;
+
+  }
+}
+.ti-server-duo  {
+  &:after {
+    content: $ti-server-duo-path2;
+    margin-left: -1em;
+
+    opacity: 0.5;
+  }
+}
+.ti-server-filled {
+  &:before {
+    content: $ti-server-filled;
+  }
+}
+.ti-terminal-duo {
+  &:before {
+    content: $ti-terminal-duo-path1;
+
+  }
+}
+.ti-terminal-duo  {
+  &:after {
+    content: $ti-terminal-duo-path2;
+    margin-left: -1em;
+
+    opacity: 0.5;
+  }
+}
+.ti-terminal-filled {
+  &:before {
+    content: $ti-terminal-filled;
+  }
+}
+.ti-user-shield-duo {
+  &:before {
+    content: $ti-user-shield-duo-path1;
+
+  }
+}
+.ti-user-shield-duo  {
+  &:after {
+    content: $ti-user-shield-duo-path2;
+    margin-left: -1em;
+
+    opacity: 0.44;
+  }
+}
+.ti-user-shield-filled {
+  &:before {
+    content: $ti-user-shield-filled;
+  }
+}
+.ti-exclamation-triangle-duo {
+  &:before {
+    content: $ti-exclamation-triangle-duo-path1;
+
+    opacity: 0.5;
+  }
+}
+.ti-exclamation-triangle-duo  {
+  &:after {
+    content: $ti-exclamation-triangle-duo-path2;
+    margin-left: -1em;
+
+  }
+}
+.ti-question-circle-duo {
+  &:before {
+    content: $ti-question-circle-duo-path1;
+
+    opacity: 0.5;
+  }
+}
+.ti-question-circle-duo  {
+  &:after {
+    content: $ti-question-circle-duo-path2;
+    margin-left: -1em;
+
+  }
+}
+.ti-question-triangle-duo {
+  &:before {
+    content: $ti-question-triangle-duo-path1;
+
+    opacity: 0.5;
+  }
+}
+.ti-question-triangle-duo  {
+  &:after {
+    content: $ti-question-triangle-duo-path2;
+    margin-left: -1em;
+
+  }
+}
+.ti-exclamation-circle-duo {
+  &:before {
+    content: $ti-exclamation-circle-duo-path1;
+
+    opacity: 0.5;
+  }
+}
+.ti-exclamation-circle-duo  {
+  &:after {
+    content: $ti-exclamation-circle-duo-path2;
+    margin-left: -1em;
+
+  }
+}
+.ti-i-circle-duo {
+  &:before {
+    content: $ti-i-circle-duo-path1;
+
+    opacity: 0.5;
+  }
+}
+.ti-i-circle-duo  {
+  &:after {
+    content: $ti-i-circle-duo-path2;
+    margin-left: -1em;
+
+  }
+}
+.ti-book-cook-duo {
+  &:before {
+    content: $ti-book-cook-duo-path1;
+
+    opacity: 0.33;
+  }
+}
+.ti-book-cook-duo  {
+  &:after {
+    content: $ti-book-cook-duo-path2;
+    margin-left: -1em;
+
+  }
+}
+.ti-book-cook-filled {
+  &:before {
+    content: $ti-book-cook-filled;
+  }
+}
+.ti-book-duo {
+  &:before {
+    content: $ti-book-duo-path1;
+
+    opacity: 0.33;
+  }
+}
+.ti-book-duo  {
+  &:after {
+    content: $ti-book-duo-path2;
+    margin-left: -1em;
+
+  }
+}
+.ti-book-p-duo {
+  &:before {
+    content: $ti-book-p-duo-path1;
+
+    opacity: 0.33;
+  }
+}
+.ti-book-p-duo  {
+  &:after {
+    content: $ti-book-p-duo-path2;
+    margin-left: -1em;
+
+  }
+}
+.ti-book-p-filled {
+  &:before {
+    content: $ti-book-p-filled;
+  }
+}
+.ti-book-q-duo {
+  &:before {
+    content: $ti-book-q-duo-path1;
+
+    opacity: 0.33;
+  }
+}
+.ti-book-q-duo  {
+  &:after {
+    content: $ti-book-q-duo-path2;
+    margin-left: -1em;
+
+  }
+}
+.ti-book-filled {
+  &:before {
+    content: $ti-book-filled;
+  }
+}
+.ti-book-q-filled {
+  &:before {
+    content: $ti-book-q-filled;
+  }
+}
+.ti-share-duo {
+  &:before {
+    content: $ti-share-duo-path1;
+
+    opacity: 0.5;
+  }
+}
+.ti-share-duo  {
+  &:after {
+    content: $ti-share-duo-path2;
+    margin-left: -1em;
+
+  }
+}
+.ti-download-duo {
+  &:before {
+    content: $ti-download-duo-path1;
+
+    opacity: 0.5;
+  }
+}
+.ti-download-duo  {
+  &:after {
+    content: $ti-download-duo-path2;
+    margin-left: -1em;
+
+  }
+}
+.ti-share-filled {
+  &:before {
+    content: $ti-share-filled;
+  }
+}
+.ti-download-filled {
+  &:before {
+    content: $ti-download-filled;
+  }
+}
+.ti-checkbox-duo {
+  &:before {
+    content: $ti-checkbox-duo-path1;
+
+  }
+}
+.ti-checkbox-duo  {
+  &:after {
+    content: $ti-checkbox-duo-path2;
+    margin-left: -1em;
+
+    opacity: 0.5;
+  }
+}
+.ti-toggle-duo {
+  &:before {
+    content: $ti-toggle-duo-path1;
+
+  }
+}
+.ti-toggle-duo  {
+  &:after {
+    content: $ti-toggle-duo-path2;
+    margin-left: -1em;
+
+    opacity: 0.5;
+  }
+}
+.ti-toggle-filled {
+  &:before {
+    content: $ti-toggle-filled;
+  }
+}
+.ti-checkbox-filled {
+  &:before {
+    content: $ti-checkbox-filled;
+  }
+}
+.ti-shield-checkmark-duo {
+  &:before {
+    content: $ti-shield-checkmark-duo-path1;
+
+    opacity: 0.5;
+  }
+}
+.ti-shield-checkmark-duo  {
+  &:after {
+    content: $ti-shield-checkmark-duo-path2;
+    margin-left: -1em;
+
+  }
+}
+.ti-shield-cross-duo {
+  &:before {
+    content: $ti-shield-cross-duo-path1;
+
+    opacity: 0.5;
+  }
+}
+.ti-shield-cross-duo  {
+  &:after {
+    content: $ti-shield-cross-duo-path2;
+    margin-left: -1em;
+
+  }
+}
+.ti-shield-star-duo {
+  &:before {
+    content: $ti-shield-star-duo-path1;
+
+    opacity: 0.5;
+  }
+}
+.ti-shield-star-duo  {
+  &:after {
+    content: $ti-shield-star-duo-path2;
+    margin-left: -1em;
+
+  }
+}
+.ti-shield-star-filled {
+  &:before {
+    content: $ti-shield-star-filled;
+  }
+}
+.ti-shield-checkmark-filled {
+  &:before {
+    content: $ti-shield-checkmark-filled;
+  }
+}
+.ti-shield-cross-filled {
+  &:before {
+    content: $ti-shield-cross-filled;
+  }
+}
+.ti-shield-filled {
+  &:before {
+    content: $ti-shield-filled;
+  }
+}
+.ti-exclamation-circle-filled {
+  &:before {
+    content: $ti-exclamation-circle-filled;
+  }
+}
+.ti-exclamation-triangle-filled {
+  &:before {
+    content: $ti-exclamation-triangle-filled;
+  }
+}
+.ti-i-circle-filled {
+  &:before {
+    content: $ti-i-circle-filled;
+  }
+}
+.ti-question-circle-filled {
+  &:before {
+    content: $ti-question-circle-filled;
+  }
+}
+.ti-question-triangle-filled {
+  &:before {
+    content: $ti-question-triangle-filled;
+  }
+}
+.ti-checkmark-circle-duo {
+  &:before {
+    content: $ti-checkmark-circle-duo-path1;
+
+  }
+}
+.ti-checkmark-circle-duo  {
+  &:after {
+    content: $ti-checkmark-circle-duo-path2;
+    margin-left: -1em;
+
+    opacity: 0.5;
+  }
+}
+.ti-checkmark-circle-filled {
+  &:before {
+    content: $ti-checkmark-circle-filled;
+  }
+}
+.ti-cross-circle-duo {
+  &:before {
+    content: $ti-cross-circle-duo-path1;
+
+  }
+}
+.ti-cross-circle-duo  {
+  &:after {
+    content: $ti-cross-circle-duo-path2;
+    margin-left: -1em;
+
+    opacity: 0.5;
+  }
+}
+.ti-cross-circle-filled {
+  &:before {
+    content: $ti-cross-circle-filled;
+  }
+}
+.ti-user-active-filled {
+  &:before {
+    content: $ti-user-active-filled;
+  }
+}
+.ti-user-inactive-filled-1 {
+  &:before {
+    content: $ti-user-inactive-filled-1-path1;
+
+  }
+}
+.ti-user-inactive-filled-1  {
+  &:after {
+    content: $ti-user-inactive-filled-1-path2;
+    margin-left: -1em;
+
+    opacity: 0.5;
+  }
+}
+.ti-user-minus-duo {
+  &:before {
+    content: $ti-user-minus-duo-path1;
+
+  }
+}
+.ti-user-minus-duo  {
+  &:after {
+    content: $ti-user-minus-duo-path2;
+    margin-left: -1em;
+
+    opacity: 0.5;
+  }
+}
+.ti-user-minus-filled {
+  &:before {
+    content: $ti-user-minus-filled;
+  }
+}
+.ti-user-plus-duo {
+  &:before {
+    content: $ti-user-plus-duo-path1;
+
+  }
+}
+.ti-user-plus-duo  {
+  &:after {
+    content: $ti-user-plus-duo-path2;
+    margin-left: -1em;
+
+    opacity: 0.5;
+  }
+}
+.ti-user-plus-filled {
+  &:before {
+    content: $ti-user-plus-filled;
+  }
+}
+.ti-users-duo {
+  &:before {
+    content: $ti-users-duo-path1;
+
+    opacity: 0.5;
+  }
+}
+.ti-users-duo  {
+  &:after {
+    content: $ti-users-duo-path2;
+    margin-left: -1em;
+
+  }
+}
+.ti-users-filled {
+  &:before {
+    content: $ti-users-filled;
+  }
+}
+.ti-user-duo {
+  &:before {
+    content: $ti-user-duo-path1;
+
+    opacity: 0.5;
+  }
+}
+.ti-user-duo  {
+  &:after {
+    content: $ti-user-duo-path2;
+    margin-left: -1em;
+
+  }
+}
+.ti-user-filled {
+  &:before {
+    content: $ti-user-filled;
+  }
+}
+.ti-user-inactive-duo {
+  &:before {
+    content: $ti-user-inactive-duo-path1;
+
+    opacity: 0.5;
+  }
+}
+.ti-user-inactive-duo  {
+  &:after {
+    content: $ti-user-inactive-duo-path2;
+    margin-left: -1em;
+
+  }
+}
+.ti-user-inactive-filled {
+  &:before {
+    content: $ti-user-inactive-filled;
+  }
+}
+.ti-file-minus-duo {
+  &:before {
+    content: $ti-file-minus-duo-path1;
+
+  }
+}
+.ti-file-minus-duo  {
+  &:after {
+    content: $ti-file-minus-duo-path2;
+    margin-left: -1em;
+
+    opacity: 0.5;
+  }
+}
+.ti-file-check-duo {
+  &:before {
+    content: $ti-file-check-duo-path1;
+
+  }
+}
+.ti-file-check-duo  {
+  &:after {
+    content: $ti-file-check-duo-path2;
+    margin-left: -1em;
+
+    opacity: 0.5;
+  }
+}
+.ti-file-download-duo {
+  &:before {
+    content: $ti-file-download-duo-path1;
+
+  }
+}
+.ti-file-download-duo  {
+  &:after {
+    content: $ti-file-download-duo-path2;
+    margin-left: -1em;
+
+    opacity: 0.5;
+  }
+}
+.ti-file-pdf-duo {
+  &:before {
+    content: $ti-file-pdf-duo-path1;
+
+  }
+}
+.ti-file-pdf-duo  {
+  &:after {
+    content: $ti-file-pdf-duo-path2;
+    margin-left: -1em;
+
+    opacity: 0.5;
+  }
+}
+.ti-file-person-duo {
+  &:before {
+    content: $ti-file-person-duo-path1;
+
+  }
+}
+.ti-file-person-duo  {
+  &:after {
+    content: $ti-file-person-duo-path2;
+    margin-left: -1em;
+
+    opacity: 0.5;
+  }
+}
+.ti-file-plus-duo {
+  &:before {
+    content: $ti-file-plus-duo-path1;
+
+  }
+}
+.ti-file-plus-duo  {
+  &:after {
+    content: $ti-file-plus-duo-path2;
+    margin-left: -1em;
+
+    opacity: 0.5;
+  }
+}
+.ti-file-powerpoint-duo {
+  &:before {
+    content: $ti-file-powerpoint-duo-path1;
+
+  }
+}
+.ti-file-powerpoint-duo  {
+  &:after {
+    content: $ti-file-powerpoint-duo-path2;
+    margin-left: -1em;
+
+    opacity: 0.5;
+  }
+}
+.ti-file-upload-duo {
+  &:before {
+    content: $ti-file-upload-duo-path1;
+
+  }
+}
+.ti-file-upload-duo  {
+  &:after {
+    content: $ti-file-upload-duo-path2;
+    margin-left: -1em;
+
+    opacity: 0.5;
+  }
+}
+.ti-file-excel-duo {
+  &:before {
+    content: $ti-file-excel-duo-path1;
+
+  }
+}
+.ti-file-excel-duo  {
+  &:after {
+    content: $ti-file-excel-duo-path2;
+    margin-left: -1em;
+
+    opacity: 0.5;
+  }
+}
+.ti-file-medical-duo {
+  &:before {
+    content: $ti-file-medical-duo-path1;
+
+  }
+}
+.ti-file-medical-duo  {
+  &:after {
+    content: $ti-file-medical-duo-path2;
+    margin-left: -1em;
+
+    opacity: 0.5;
+  }
+}
+.ti-file-word-duo {
+  &:before {
+    content: $ti-file-word-duo-path1;
+
+  }
+}
+.ti-file-word-duo  {
+  &:after {
+    content: $ti-file-word-duo-path2;
+    margin-left: -1em;
+
+    opacity: 0.5;
+  }
+}
+.ti-file-zip-duo {
+  &:before {
+    content: $ti-file-zip-duo-path1;
+
+  }
+}
+.ti-file-zip-duo  {
+  &:after {
+    content: $ti-file-zip-duo-path2;
+    margin-left: -1em;
+
+    opacity: 0.5;
+  }
+}
+.ti-file-binary-duo {
+  &:before {
+    content: $ti-file-binary-duo-path1;
+
+  }
+}
+.ti-file-binary-duo  {
+  &:after {
+    content: $ti-file-binary-duo-path2;
+    margin-left: -1em;
+
+    opacity: 0.5;
+  }
+}
+.ti-file-code-duo {
+  &:before {
+    content: $ti-file-code-duo-path1;
+
+  }
+}
+.ti-file-code-duo  {
+  &:after {
+    content: $ti-file-code-duo-path2;
+    margin-left: -1em;
+
+    opacity: 0.5;
+  }
+}
+.ti-file-image-duo {
+  &:before {
+    content: $ti-file-image-duo-path1;
+
+  }
+}
+.ti-file-image-duo  {
+  &:after {
+    content: $ti-file-image-duo-path2;
+    margin-left: -1em;
+
+    opacity: 0.5;
+  }
+}
+.ti-file-audio-duo {
+  &:before {
+    content: $ti-file-audio-duo-path1;
+
+  }
+}
+.ti-file-audio-duo  {
+  &:after {
+    content: $ti-file-audio-duo-path2;
+    margin-left: -1em;
+
+    opacity: 0.5;
+  }
+}
+.ti-file-csv-duo {
+  &:before {
+    content: $ti-file-csv-duo-path1;
+
+  }
+}
+.ti-file-csv-duo  {
+  &:after {
+    content: $ti-file-csv-duo-path2;
+    margin-left: -1em;
+
+    opacity: 0.5;
+  }
+}
+.ti-file-text-duo {
+  &:before {
+    content: $ti-file-text-duo-path1;
+
+  }
+}
+.ti-file-text-duo  {
+  &:after {
+    content: $ti-file-text-duo-path2;
+    margin-left: -1em;
+
+    opacity: 0.5;
+  }
+}
 .ti-badge-8k-filled {
   &:before {
     content: $ti-badge-8k-filled;
@@ -464,30 +1545,12 @@ i {
 }
 .ti-user-minus {
   &:before {
-    content: $ti-user-minus-path1;
-
-    opacity: 0.5;
-  }
-}
-.ti-user-minus  {
-  &:after {
-    content: $ti-user-minus-path2;
-    margin-left: -1em;
-
+    content: $ti-user-minus;
   }
 }
 .ti-user-plus {
   &:before {
-    content: $ti-user-plus-path1;
-
-  }
-}
-.ti-user-plus  {
-  &:after {
-    content: $ti-user-plus-path2;
-    margin-left: -1em;
-
-    opacity: 0.5;
+    content: $ti-user-plus;
   }
 }
 .ti-award {
@@ -592,16 +1655,7 @@ i {
 }
 .ti-book-cook {
   &:before {
-    content: $ti-book-cook-path1;
-
-    opacity: 0.33;
-  }
-}
-.ti-book-cook  {
-  &:after {
-    content: $ti-book-cook-path2;
-    margin-left: -1em;
-
+    content: $ti-book-cook;
   }
 }
 .ti-trophy {
@@ -849,16 +1903,7 @@ i {
 }
 .ti-user-shield {
   &:before {
-    content: $ti-user-shield-path1;
-
-  }
-}
-.ti-user-shield  {
-  &:after {
-    content: $ti-user-shield-path2;
-    margin-left: -1em;
-
-    opacity: 0.5;
+    content: $ti-user-shield;
   }
 }
 .ti-arrows-h {
@@ -917,11 +1962,6 @@ i {
 .ti-blocked {
   &:before {
     content: $ti-blocked;
-  }
-}
-.ti-checkmark-inverted {
-  &:before {
-    content: $ti-checkmark-inverted;
   }
 }
 .ti-rss {
@@ -1436,11 +2476,6 @@ i {
     margin-left: -1em;
 
     opacity: 0.5;
-  }
-}
-.ti-cross-inverted {
-  &:before {
-    content: $ti-cross-inverted;
   }
 }
 .ti-biohazard {
@@ -2720,16 +3755,7 @@ i {
 }
 .ti-user-circle {
   &:before {
-    content: $ti-user-circle-path1;
-
-    opacity: 0.5;
-  }
-}
-.ti-user-circle  {
-  &:after {
-    content: $ti-user-circle-path2;
-    margin-left: -1em;
-
+    content: $ti-user-circle;
   }
 }
 .ti-wifi-1 {
@@ -2917,16 +3943,7 @@ i {
 }
 .ti-toggle {
   &:before {
-    content: $ti-toggle-path1;
-
-  }
-}
-.ti-toggle  {
-  &:after {
-    content: $ti-toggle-path2;
-    margin-left: -1em;
-
-    opacity: 0.5;
+    content: $ti-toggle;
   }
 }
 .ti-windows {
@@ -3006,16 +4023,7 @@ i {
 }
 .ti-checkbox {
   &:before {
-    content: $ti-checkbox-path1;
-
-    opacity: 0.5;
-  }
-}
-.ti-checkbox  {
-  &:after {
-    content: $ti-checkbox-path2;
-    margin-left: -1em;
-
+    content: $ti-checkbox;
   }
 }
 .ti-code {
@@ -3044,16 +4052,7 @@ i {
 }
 .ti-download {
   &:before {
-    content: $ti-download-path1;
-
-    opacity: 0.5;
-  }
-}
-.ti-download  {
-  &:after {
-    content: $ti-download-path2;
-    margin-left: -1em;
-
+    content: $ti-download;
   }
 }
 .ti-hockey-stick {
@@ -3111,44 +4110,17 @@ i {
 }
 .ti-book {
   &:before {
-    content: $ti-book-path1;
-
-    opacity: 0.33;
-  }
-}
-.ti-book  {
-  &:after {
-    content: $ti-book-path2;
-    margin-left: -1em;
-
+    content: $ti-book;
   }
 }
 .ti-book-p {
   &:before {
-    content: $ti-book-p-path1;
-
-    opacity: 0.33;
-  }
-}
-.ti-book-p  {
-  &:after {
-    content: $ti-book-p-path2;
-    margin-left: -1em;
-
+    content: $ti-book-p;
   }
 }
 .ti-book-q {
   &:before {
-    content: $ti-book-q-path1;
-
-    opacity: 0.33;
-  }
-}
-.ti-book-q  {
-  &:after {
-    content: $ti-book-q-path2;
-    margin-left: -1em;
-
+    content: $ti-book-q;
   }
 }
 .ti-chart-line {
@@ -3191,44 +4163,17 @@ i {
 }
 .ti-user-active {
   &:before {
-    content: $ti-user-active-path1;
-
-  }
-}
-.ti-user-active  {
-  &:after {
-    content: $ti-user-active-path2;
-    margin-left: -1em;
-
-    opacity: 0.5;
+    content: $ti-user-active;
   }
 }
 .ti-user-inactive {
   &:before {
-    content: $ti-user-inactive-path1;
-
-  }
-}
-.ti-user-inactive  {
-  &:after {
-    content: $ti-user-inactive-path2;
-    margin-left: -1em;
-
-    opacity: 0.5;
+    content: $ti-user-inactive;
   }
 }
 .ti-users {
   &:before {
-    content: $ti-users-path1;
-
-  }
-}
-.ti-users  {
-  &:after {
-    content: $ti-users-path2;
-    margin-left: -1em;
-
-    opacity: 0.5;
+    content: $ti-users;
   }
 }
 .ti-arrow-down-left {
@@ -3415,16 +4360,7 @@ i {
 }
 .ti-share {
   &:before {
-    content: $ti-share-path1;
-
-    opacity: 0.5;
-  }
-}
-.ti-share  {
-  &:after {
-    content: $ti-share-path2;
-    margin-left: -1em;
-
+    content: $ti-share;
   }
 }
 .ti-tools {

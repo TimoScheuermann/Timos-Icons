@@ -12,6 +12,7 @@
           rounded="true"
           :dark="i === 0"
           :title="v"
+          :class="{ major: v === '3.0' }"
         >
           <div class="latest" v-if="i === 0">latest</div>
           <div>
@@ -69,6 +70,9 @@ export default class TimosIconsVersions extends Vue {
   padding: 2.5px 10px;
   border-radius: $border-radius;
   font-size: 14px;
+}
+.major {
+  grid-column: 1 / -1;
 }
 .tc-card {
   height: fit-content;
