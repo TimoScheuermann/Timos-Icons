@@ -1,8 +1,8 @@
 @charset "UTF-8";
 @font-face {
   font-family: "Timos-Icons";
-  src: url("fonts/Timos-Icons.eot?py14ib");
-  src: url("fonts/Timos-Icons.eot?py14ib#iefix") format("embedded-opentype"), url("fonts/Timos-Icons.ttf?py14ib") format("truetype"), url("fonts/Timos-Icons.woff?py14ib") format("woff"), url("fonts/Timos-Icons.svg?py14ib#Timos-Icons") format("svg");
+  src: url("fonts/Timos-Icons.eot?crzqno");
+  src: url("fonts/Timos-Icons.eot?crzqno#iefix") format("embedded-opentype"), url("fonts/Timos-Icons.ttf?crzqno") format("truetype"), url("fonts/Timos-Icons.woff?crzqno") format("woff"), url("fonts/Timos-Icons.svg?crzqno#Timos-Icons") format("svg");
   font-weight: normal;
   font-style: normal;
   font-display: block;
@@ -20,6 +20,24 @@ i {
   /* Better Font Rendering =========== */
   -webkit-font-smoothing: antialiased;
   -moz-osx-font-smoothing: grayscale;
+}
+
+.ti-football:before {
+  content: "";
+}
+
+.ti-shield-duo:before {
+  content: "";
+}
+
+.ti-shield-duo:after {
+  content: "";
+  margin-left: -1em;
+  opacity: 0.5;
+}
+
+.ti-tennis:before {
+  content: "";
 }
 
 .ti-bookmark-checkmark-duo:before {
@@ -1276,12 +1294,6 @@ i {
 
 .ti-hockey-puck:before {
   content: "";
-}
-
-.ti-hockey-puck:after {
-  content: "";
-  margin-left: -1em;
-  opacity: 0.5;
 }
 
 .ti-timos-translator:before {
