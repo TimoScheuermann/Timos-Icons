@@ -103,6 +103,14 @@
             <img src="https://accounts.timos.design/pwa/maskIcon.svg" />
           </tc-card>
         </a>
+        <a href="https://p2p.timos.design" target="_blank">
+          <tc-card>
+            <tl-flow>
+              <img src="https://p2p.timos.design/pwa/maskIcon.svg" />
+              <b>Peer-2-Peer.exchange</b>
+            </tl-flow>
+          </tc-card>
+        </a>
       </tl-grid>
     </div>
   </div>
@@ -155,6 +163,10 @@ a .tc-card {
   height: 100%;
   img {
     max-height: 100px;
+  }
+  .tl-flow {
+    white-space: nowrap;
+    flex-wrap: nowrap;
   }
 }
 

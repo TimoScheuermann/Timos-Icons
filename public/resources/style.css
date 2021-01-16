@@ -1,8 +1,8 @@
 @charset "UTF-8";
 @font-face {
   font-family: "Timos-Icons";
-  src: url("fonts/Timos-Icons.eot?crzqno");
-  src: url("fonts/Timos-Icons.eot?crzqno#iefix") format("embedded-opentype"), url("fonts/Timos-Icons.ttf?crzqno") format("truetype"), url("fonts/Timos-Icons.woff?crzqno") format("woff"), url("fonts/Timos-Icons.svg?crzqno#Timos-Icons") format("svg");
+  src: url("fonts/Timos-Icons.eot?2cxqsy");
+  src: url("fonts/Timos-Icons.eot?2cxqsy#iefix") format("embedded-opentype"), url("fonts/Timos-Icons.ttf?2cxqsy") format("truetype"), url("fonts/Timos-Icons.woff?2cxqsy") format("woff"), url("fonts/Timos-Icons.svg?2cxqsy#Timos-Icons") format("svg");
   font-weight: normal;
   font-style: normal;
   font-display: block;
@@ -20,6 +20,254 @@ i {
   /* Better Font Rendering =========== */
   -webkit-font-smoothing: antialiased;
   -moz-osx-font-smoothing: grayscale;
+}
+
+.ti-microphone-muted-filled:before {
+  content: "";
+}
+
+.ti-microphone-filled:before {
+  content: "";
+}
+
+.ti-microphone-muted-duo:before {
+  content: "";
+}
+
+.ti-microphone-muted-duo:after {
+  content: "";
+  margin-left: -1em;
+  opacity: 0.5;
+}
+
+.ti-headphone-duo:before {
+  content: "";
+  opacity: 0.5;
+}
+
+.ti-headphone-duo:after {
+  content: "";
+  margin-left: -1em;
+}
+
+.ti-headphone-filled:before {
+  content: "";
+}
+
+.ti-microphone-duo:before {
+  content: "";
+}
+
+.ti-microphone-duo:after {
+  content: "";
+  margin-left: -1em;
+  opacity: 0.5;
+}
+
+.ti-volume-minus-duo:before {
+  content: "";
+  opacity: 0.5;
+}
+
+.ti-volume-minus-duo:after {
+  content: "";
+  margin-left: -1em;
+}
+
+.ti-volume-minus-filled:before {
+  content: "";
+}
+
+.ti-volume-plus-duo:before {
+  content: "";
+  opacity: 0.5;
+}
+
+.ti-volume-plus-duo:after {
+  content: "";
+  margin-left: -1em;
+}
+
+.ti-volume-plus-filled:before {
+  content: "";
+}
+
+.ti-volume-3-filled:before {
+  content: "";
+}
+
+.ti-volume-cross-duo:before {
+  content: "";
+  opacity: 0.5;
+}
+
+.ti-volume-cross-duo:after {
+  content: "";
+  margin-left: -1em;
+}
+
+.ti-volume-cross-filled:before {
+  content: "";
+}
+
+.ti-volume-off-duo:before {
+  content: "";
+}
+
+.ti-volume-off-duo:after {
+  content: "";
+  margin-left: -1em;
+  opacity: 0.5;
+}
+
+.ti-volume-off-filled:before {
+  content: "";
+}
+
+.ti-volume-1-filled:before {
+  content: "";
+}
+
+.ti-volume-2-duo:before {
+  content: "";
+  opacity: 0.5;
+}
+
+.ti-volume-2-duo:after {
+  content: "";
+  margin-left: -1em;
+}
+
+.ti-volume-2-filled:before {
+  content: "";
+}
+
+.ti-volume-3-duo:before {
+  content: "";
+  opacity: 0.5;
+}
+
+.ti-volume-3-duo:after {
+  content: "";
+  margin-left: -1em;
+}
+
+.ti-volume-0-duo:before {
+  content: "";
+  opacity: 0.5;
+}
+
+.ti-volume-0-duo:after {
+  content: "";
+  margin-left: -1em;
+}
+
+.ti-volume-0-filled:before {
+  content: "";
+}
+
+.ti-volume-1-duo:before {
+  content: "";
+  opacity: 0.5;
+}
+
+.ti-volume-1-duo:after {
+  content: "";
+  margin-left: -1em;
+}
+
+.ti-painting-filled:before {
+  content: "";
+}
+
+.ti-presents-duo:before {
+  content: "";
+}
+
+.ti-presents-duo:after {
+  content: "";
+  margin-left: -1em;
+  opacity: 0.55;
+}
+
+.ti-house-duo:before {
+  content: "";
+  opacity: 0.5;
+}
+
+.ti-house-duo:after {
+  content: "";
+  margin-left: -1em;
+}
+
+.ti-present-duo:before {
+  content: "";
+}
+
+.ti-present-duo:after {
+  content: "";
+  margin-left: -1em;
+  opacity: 0.55;
+}
+
+.ti-trashcan-duo:before {
+  content: "";
+  opacity: 0.33;
+}
+
+.ti-trashcan-duo:after {
+  content: "";
+  margin-left: -1em;
+}
+
+.ti-bank-duo:before {
+  content: "";
+  opacity: 0.5;
+}
+
+.ti-bank-duo:after {
+  content: "";
+  margin-left: -1em;
+}
+
+.ti-bed-duo:before {
+  content: "";
+  opacity: 0.5;
+}
+
+.ti-bed-duo:after {
+  content: "";
+  margin-left: -1em;
+}
+
+.ti-farm-duo:before {
+  content: "";
+}
+
+.ti-farm-duo:after {
+  content: "";
+  margin-left: -1em;
+  opacity: 0.5;
+}
+
+.ti-painting-duo:before {
+  content: "";
+}
+
+.ti-painting-duo:after {
+  content: "";
+  margin-left: -1em;
+  opacity: 0.33;
+}
+
+.ti-warehouse-duo:before {
+  content: "";
+}
+
+.ti-warehouse-duo:after {
+  content: "";
+  margin-left: -1em;
+  opacity: 0.5;
 }
 
 .ti-football:before {
@@ -880,12 +1128,6 @@ i {
 
 .ti-bed:before {
   content: "";
-  opacity: 0.5;
-}
-
-.ti-bed:after {
-  content: "";
-  margin-left: -1em;
 }
 
 .ti-loyalty:before {
@@ -894,12 +1136,6 @@ i {
 
 .ti-bank:before {
   content: "";
-  opacity: 0.5;
-}
-
-.ti-bank:after {
-  content: "";
-  margin-left: -1em;
 }
 
 .ti-bell:before {
@@ -1268,12 +1504,6 @@ i {
   content: "";
 }
 
-.ti-warehouse:after {
-  content: "";
-  margin-left: -1em;
-  opacity: 0.5;
-}
-
 .ti-watch:before {
   content: "";
   opacity: 0.66;
@@ -1308,12 +1538,6 @@ i {
 
 .ti-presents:before {
   content: "";
-}
-
-.ti-presents:after {
-  content: "";
-  margin-left: -1em;
-  opacity: 0.55;
 }
 
 .ti-books:before {
@@ -1779,20 +2003,8 @@ i {
   content: "";
 }
 
-.ti-volume-cross:after {
-  content: "";
-  margin-left: -1em;
-  opacity: 0.5;
-}
-
 .ti-volume-off:before {
   content: "";
-}
-
-.ti-volume-off:after {
-  content: "";
-  margin-left: -1em;
-  opacity: 0.5;
 }
 
 .ti-eye:before {
@@ -1819,50 +2031,20 @@ i {
   content: "";
 }
 
-.ti-volume-1:after {
-  content: "";
-  margin-left: -1em;
-  opacity: 0.5;
-}
-
 .ti-volume-2:before {
   content: "";
-}
-
-.ti-volume-2:after {
-  content: "";
-  margin-left: -1em;
-  opacity: 0.5;
 }
 
 .ti-volume-3:before {
   content: "";
 }
 
-.ti-volume-3:after {
-  content: "";
-  margin-left: -1em;
-  opacity: 0.5;
-}
-
 .ti-volume-minus:before {
   content: "";
 }
 
-.ti-volume-minus:after {
-  content: "";
-  margin-left: -1em;
-  opacity: 0.5;
-}
-
 .ti-volume-plus:before {
   content: "";
-}
-
-.ti-volume-plus:after {
-  content: "";
-  margin-left: -1em;
-  opacity: 0.5;
 }
 
 .ti-biohazard:before {
@@ -2105,12 +2287,6 @@ i {
   content: "";
 }
 
-.ti-present:after {
-  content: "";
-  margin-left: -1em;
-  opacity: 0.55;
-}
-
 .ti-settings:before {
   content: "";
   opacity: 0.5;
@@ -2163,12 +2339,6 @@ i {
 
 .ti-microphone-muted:before {
   content: "";
-}
-
-.ti-microphone-muted:after {
-  content: "";
-  margin-left: -1em;
-  opacity: 0.5;
 }
 
 .ti-movie:before {
@@ -2469,12 +2639,6 @@ i {
   content: "";
 }
 
-.ti-headphone:after {
-  content: "";
-  margin-left: -1em;
-  opacity: 0.5;
-}
-
 .ti-headset:before {
   content: "";
 }
@@ -2531,12 +2695,6 @@ i {
 
 .ti-microphone:before {
   content: "";
-}
-
-.ti-microphone:after {
-  content: "";
-  margin-left: -1em;
-  opacity: 0.5;
 }
 
 .ti-minecraft:before {
@@ -3045,12 +3203,6 @@ i {
   content: "";
 }
 
-.ti-painting:after {
-  content: "";
-  margin-left: -1em;
-  opacity: 0.33;
-}
-
 .ti-table:before {
   content: "";
   opacity: 0.1;
@@ -3140,12 +3292,6 @@ i {
 
 .ti-farm:before {
   content: "";
-}
-
-.ti-farm:after {
-  content: "";
-  margin-left: -1em;
-  opacity: 0.5;
 }
 
 .ti-list:before {
@@ -3264,12 +3410,6 @@ i {
 
 .ti-trashcan:before {
   content: "";
-  opacity: 0.33;
-}
-
-.ti-trashcan:after {
-  content: "";
-  margin-left: -1em;
 }
 
 .ti-user-card:before {
@@ -3308,12 +3448,6 @@ i {
 
 .ti-house:before {
   content: "";
-  opacity: 0.5;
-}
-
-.ti-house:after {
-  content: "";
-  margin-left: -1em;
 }
 
 .ti-save:before {

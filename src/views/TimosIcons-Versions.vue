@@ -12,7 +12,7 @@
           rounded="true"
           :dark="i === 0"
           :title="v"
-          :class="{ major: v === '3.0' }"
+          :class="{ major: v.endsWith('.0') }"
         >
           <div class="latest" v-if="i === 0">latest</div>
           <div>
