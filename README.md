@@ -4,15 +4,15 @@
 
 # Version History
 
-The history can be found either ![here on GitHub]() or on my dedicated ![newsroom](https://newsroom.timos.design/project/Timo's%20Icons)
+The history can be found either [here on GitHub](https://github.com/TimoScheuermann/Timos-Icons/releases) or on my dedicated [newsroom](https://newsroom.timos.design/project/Timo's%20Icons)
 
-# Getting started
+## Getting started
 
-## Variant 1
+### Variant 1
 **Include single icons via svg**
 To use a single icon in your project, click on the "Copy SVG" button of the desired icon and paste it into your project
 
-## Variant 2
+### Variant 2
 **Include the whole library from version X**
 
 To insert all icons from a certain version on, first choose a version and then add the following link to your <head>
