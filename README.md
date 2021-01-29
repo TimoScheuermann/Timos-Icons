@@ -1,24 +1,24 @@
-# timosicons
+![](https://timos.design/assets/projects/timosicons/thumbnail.png)
 
-## Project setup
-```
-yarn install
-```
+# Timo's Icons
 
-### Compiles and hot-reloads for development
-```
-yarn serve
-```
+# Version History
 
-### Compiles and minifies for production
-```
-yarn build
-```
+The history can be found either ![here on GitHub]() or on my dedicated ![newsroom](https://newsroom.timos.design/project/Timo's%20Icons)
 
-### Lints and fixes files
-```
-yarn lint
-```
+# Getting started
 
-### Customize configuration
-See [Configuration Reference](https://cli.vuejs.org/config/).
+## Variant 1
+**Include single icons via svg**
+To use a single icon in your project, click on the "Copy SVG" button of the desired icon and paste it into your project
+
+## Variant 2
+**Include the whole library from version X**
+
+To insert all icons from a certain version on, first choose a version and then add the following link to your <head>
+
+```https://cdn.jsdelivr.net/gh/TimoScheuermann/Timos-Icons@X/public/resources/style.css```
+
+replace the X with your chosen version. Now the icons can be used in your project via a <i class="ti-{icon name}" />. Alternatively you can use the "Copy HTML" button to generate the i-tag.
+
+Example URL: https://cdn.jsdelivr.net/gh/TimoScheuermann/Timos-Icons@2.21/public/resources/style.css
